@@ -205,6 +205,9 @@
         <Class IRI="/astragalus"/>
     </Declaration>
     <Declaration>
+        <Class IRI="/calcaneus"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="/femur"/>
     </Declaration>
     <Declaration>
@@ -230,6 +233,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="/scapula"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/tarsals"/>
     </Declaration>
     <Declaration>
         <Class IRI="/tibia"/>
@@ -432,7 +438,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/GB"/>
+        <Class IRI="/calcaneus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/GB"/>
         <Class IRI="/phalanx-3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/GB"/>
+        <Class IRI="/tarsals"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/GBA"/>
@@ -449,6 +463,10 @@
     <SubClassOf>
         <Class IRI="/GH"/>
         <Class IRI="/astragalus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/GL"/>
+        <Class IRI="/calcaneus"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/GL"/>
@@ -659,6 +677,10 @@
         <Class IRI="/anatomicMeasurement"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/calcaneus"/>
+        <Class IRI="/anatomicMeasurement"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/femur"/>
         <Class IRI="/anatomicMeasurement"/>
     </SubClassOf>
@@ -692,6 +714,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/scapula"/>
+        <Class IRI="/anatomicMeasurement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/tarsals"/>
         <Class IRI="/anatomicMeasurement"/>
     </SubClassOf>
     <SubClassOf>
@@ -1254,6 +1280,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/calcaneus</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">calcaneus measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/femur</IRI>
         <Literal datatypeIRI="&rdfs;Literal">femur measurement</Literal>
     </AnnotationAssertion>
@@ -1306,6 +1337,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/scapula</IRI>
         <Literal datatypeIRI="&rdfs;Literal">scapula measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/tarsals</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">tarsals measurement</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
