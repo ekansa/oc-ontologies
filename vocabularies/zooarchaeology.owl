@@ -1,0 +1,985 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://opencontext.org/vocabularies/open-context-zooarch"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://opencontext.org/vocabularies/open-context-zooarch">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Open Context Zooarchaeology Annotations</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="/B"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/BF"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/BFd"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/BFp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/BG"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/BPC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/BT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/BTr"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Bd"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Bp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/CD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/DC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/DD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/DHA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/DLS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/DPA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Dd"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Dp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/GB"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/GL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/GLC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/GLP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/GLl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/GLpe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/HP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/HS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/LF"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/LG"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/LO"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Ld"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/LeP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Ll"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/MBS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/PL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/SD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/SDO"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/SLC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/anatomicMeasurement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/femur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/humerus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/metapodials"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/phalanx-1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/phalanx-2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/phalanx-3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/radius"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/scapula"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/tibia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ulna"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasAnatomicID"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="/B"/>
+        <Class IRI="/metapodials"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/BF"/>
+        <Class IRI="/phalanx-3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/BFd"/>
+        <Class IRI="/phalanx-1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/BFd"/>
+        <Class IRI="/radius"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/BFp"/>
+        <Class IRI="/phalanx-1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/BFp"/>
+        <Class IRI="/phalanx-2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/BFp"/>
+        <Class IRI="/radius"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/BG"/>
+        <Class IRI="/scapula"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/BPC"/>
+        <Class IRI="/ulna"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/BT"/>
+        <Class IRI="/humerus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/BTr"/>
+        <Class IRI="/femur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Bd"/>
+        <Class IRI="/femur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Bd"/>
+        <Class IRI="/humerus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Bd"/>
+        <Class IRI="/metapodials"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Bd"/>
+        <Class IRI="/phalanx-1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Bd"/>
+        <Class IRI="/phalanx-2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Bd"/>
+        <Class IRI="/radius"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Bd"/>
+        <Class IRI="/tibia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Bp"/>
+        <Class IRI="/femur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Bp"/>
+        <Class IRI="/humerus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Bp"/>
+        <Class IRI="/metapodials"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Bp"/>
+        <Class IRI="/phalanx-1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Bp"/>
+        <Class IRI="/phalanx-2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Bp"/>
+        <Class IRI="/radius"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Bp"/>
+        <Class IRI="/tibia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/CD"/>
+        <Class IRI="/femur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/CD"/>
+        <Class IRI="/metapodials"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/CD"/>
+        <Class IRI="/radius"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/CD"/>
+        <Class IRI="/tibia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/DC"/>
+        <Class IRI="/femur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/DD"/>
+        <Class IRI="/metapodials"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/DHA"/>
+        <Class IRI="/scapula"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/DLS"/>
+        <Class IRI="/phalanx-3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/DPA"/>
+        <Class IRI="/ulna"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Dd"/>
+        <Class IRI="/metapodials"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Dd"/>
+        <Class IRI="/tibia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Dp"/>
+        <Class IRI="/humerus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Dp"/>
+        <Class IRI="/metapodials"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Dp"/>
+        <Class IRI="/phalanx-1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Dp"/>
+        <Class IRI="/phalanx-2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/GB"/>
+        <Class IRI="/phalanx-3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/GL"/>
+        <Class IRI="/femur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/GL"/>
+        <Class IRI="/humerus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/GL"/>
+        <Class IRI="/metapodials"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/GL"/>
+        <Class IRI="/phalanx-1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/GL"/>
+        <Class IRI="/phalanx-2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/GL"/>
+        <Class IRI="/phalanx-3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/GL"/>
+        <Class IRI="/radius"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/GL"/>
+        <Class IRI="/tibia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/GL"/>
+        <Class IRI="/ulna"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/GLC"/>
+        <Class IRI="/femur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/GLC"/>
+        <Class IRI="/humerus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/GLP"/>
+        <Class IRI="/scapula"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/GLl"/>
+        <Class IRI="/humerus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/GLl"/>
+        <Class IRI="/metapodials"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/GLpe"/>
+        <Class IRI="/phalanx-1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/HP"/>
+        <Class IRI="/phalanx-3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/HS"/>
+        <Class IRI="/scapula"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/LF"/>
+        <Class IRI="/phalanx-3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/LG"/>
+        <Class IRI="/scapula"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/LO"/>
+        <Class IRI="/ulna"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Ld"/>
+        <Class IRI="/phalanx-3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Ld"/>
+        <Class IRI="/scapula"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/LeP"/>
+        <Class IRI="/metapodials"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Ll"/>
+        <Class IRI="/metapodials"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Ll"/>
+        <Class IRI="/radius"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Ll"/>
+        <Class IRI="/tibia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/MBS"/>
+        <Class IRI="/phalanx-3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/PL"/>
+        <Class IRI="/radius"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/SD"/>
+        <Class IRI="/femur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/SD"/>
+        <Class IRI="/humerus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/SD"/>
+        <Class IRI="/metapodials"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/SD"/>
+        <Class IRI="/phalanx-1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/SD"/>
+        <Class IRI="/phalanx-2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/SD"/>
+        <Class IRI="/radius"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/SD"/>
+        <Class IRI="/tibia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/SDO"/>
+        <Class IRI="/ulna"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/SLC"/>
+        <Class IRI="/scapula"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/anatomicMeasurement"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PATO_0000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/anatomicMeasurement"/>
+        <Class IRI="http://www.cidoc-crm.org/rdfs/cidoc_crm_v5.0.4_english_label.rdfs#E54.Dimension"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/femur"/>
+        <Class IRI="/anatomicMeasurement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/humerus"/>
+        <Class IRI="/anatomicMeasurement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/metapodials"/>
+        <Class IRI="/anatomicMeasurement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/phalanx-1"/>
+        <Class IRI="/anatomicMeasurement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/phalanx-2"/>
+        <Class IRI="/anatomicMeasurement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/phalanx-3"/>
+        <Class IRI="/anatomicMeasurement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/radius"/>
+        <Class IRI="/anatomicMeasurement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/scapula"/>
+        <Class IRI="/anatomicMeasurement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/tibia"/>
+        <Class IRI="/anatomicMeasurement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ulna"/>
+        <Class IRI="/anatomicMeasurement"/>
+    </SubClassOf>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasAnatomicID"/>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/B</IRI>
+        <Literal datatypeIRI="&xsd;string">Breadth of the middle of the diaphysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/B</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">B</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/BF</IRI>
+        <Literal datatypeIRI="&xsd;string">Breadth of the Facies articularis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/BF</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BF</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/BFd</IRI>
+        <Literal datatypeIRI="&xsd;string">(Greatest) breadth of the Facies articularis distalis. Measured in the same plane as Bd. Only in equids and ruminants.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/BFd</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BFd</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/BFp</IRI>
+        <Literal datatypeIRI="&xsd;string">(Greatest) breadth of the Facies articularis proximalis (humeral articular surface). Measured in the same plane as Bp. Ony in equids and ruminants.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/BFp</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BFp</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/BG</IRI>
+        <Literal datatypeIRI="&xsd;string">Breadth of the glenoid cavity - Greatest breadth of the glenoid angle.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/BG</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BG</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/BPC</IRI>
+        <Literal datatypeIRI="&xsd;string">(Greatest) breadth across the coronoid process = greatest breadth of the proximal articular surface</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/BPC</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BPC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/BT</IRI>
+        <Literal datatypeIRI="&xsd;string">(Greatest) breadth of the trochlea, only in equids and ruminants. The trochlea is measured in the middle from the cranial side including the outer borders of both the lateral and the medial condyle. (See: von den Driesch 1976: 76-77)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/BT</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/BTr</IRI>
+        <Literal datatypeIRI="&xsd;string">(Greatest) breadth of the region of the Trochanter tertius. Only in lagomorphs to be measred in parallel to the Bp!</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/BTr</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BTr</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Bd</IRI>
+        <Literal datatypeIRI="&xsd;string">(Greatest) breadth of the distal end (See: von den Driesch 1976: 76-77).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Bd</IRI>
+        <Literal datatypeIRI="&xsd;string">Bd</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Bp</IRI>
+        <Literal datatypeIRI="&xsd;string">(Greatest) breadth of the proximal end. Not in canids or lago-morphs (See: von den Driesch 1976: 76-77).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Bp</IRI>
+        <Literal datatypeIRI="&xsd;string">Bp</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/CD</IRI>
+        <Literal datatypeIRI="&xsd;string">(Smallest) circumference of the diaphysis. In general only in horses, where this measurement serves well to denote proportions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/CD</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">CD</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/DC</IRI>
+        <Literal datatypeIRI="&xsd;string">(Greatest) depth of the Caput femoris</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/DC</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">DC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/DD</IRI>
+        <Literal datatypeIRI="&xsd;string">(Smallest) depth of the diaphysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/DD</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">DD</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/DHA</IRI>
+        <Literal datatypeIRI="&xsd;string">Diagonal height (see defintions for linear measurements in von den Driesch 1976:14) from the most distal point of the scapula to the thoracic angle.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/DHA</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">DHA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/DLS</IRI>
+        <Literal datatypeIRI="&xsd;string">Greatest diagonal length of the sole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/DLS</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">DLS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/DPA</IRI>
+        <Literal datatypeIRI="&xsd;string">Depth across the Processus anconaeus. One measures the shortest distance from the Procesus anonaeus to the caudal border of the ulna.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/DPA</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">DPA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Dd</IRI>
+        <Literal datatypeIRI="&xsd;string">(Greatest) depth of the distal end. Ususually measured only in equids and lagomorphs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Dd</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Dd</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Dp</IRI>
+        <Literal datatypeIRI="&xsd;string">Depth of the proximal end</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Dp</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Dp</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/GB</IRI>
+        <Literal datatypeIRI="&xsd;string">Greatest breadth</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/GB</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">GB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/GL</IRI>
+        <Literal datatypeIRI="&xsd;string">Greatest Length (GL) as defined by von den Driesch (1976). This measure should not be used for all bone elements, since it can be ambiguous depending on the specifics of a given bone element&apos;s morphology.
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/GL</IRI>
+        <Literal datatypeIRI="&xsd;string">Greatest Length (GL)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/GLC</IRI>
+        <Literal datatypeIRI="&xsd;string">Greatest Length from caput (head) (See: von den Driesch 1976: 76-77)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/GLC</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">GLC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/GLP</IRI>
+        <Literal datatypeIRI="&xsd;string">Greatest length of the Processus articularis (glenoid process)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/GLP</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">GLP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/GLl</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Greatest length of the ateral part (See: von den Driesch 1976: 76-77)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/GLl</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">GLl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/GLpe</IRI>
+        <Literal datatypeIRI="&xsd;string">Greatest length of the peripheral (abaxial) half. Most of the anterior first phalanges of Bos re formed in such a manner that the proximodorsal and the proximovolar prominent parts of the perupheral section of the proximal rticular surface can serve s fixed points for one of the callipers.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/GLpe</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">GLpe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/HP</IRI>
+        <Literal datatypeIRI="&xsd;string">Height in the region of the extensor process (measuring box!)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/HP</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">HP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/HS</IRI>
+        <Literal datatypeIRI="&xsd;string">Height (see definitions of linear measurements von den Driesch 1976:14) along the spine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/HS</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">HS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/LF</IRI>
+        <Literal datatypeIRI="&xsd;string">Length of the Facies articularis (articular surface)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/LF</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">LF</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/LG</IRI>
+        <Literal datatypeIRI="&xsd;string">Length of the glenoid cavity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/LG</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">LG</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/LO</IRI>
+        <Literal datatypeIRI="&xsd;string">Length of the olecranon. Only in ruminants</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/LO</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">LO</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Ld</IRI>
+        <Literal datatypeIRI="&xsd;string">Length of the dorsal surface</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Ld</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Ld</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/LeP</IRI>
+        <Literal datatypeIRI="&xsd;string">Length, excepting the plantar projection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/LeP</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">LeP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Ll</IRI>
+        <Literal datatypeIRI="&xsd;string">Length of the lateral part</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Ll</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Ll</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/MBS</IRI>
+        <Literal datatypeIRI="&xsd;string">Middle breadth of the sole = breadth in the middle of the sole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/MBS</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">MBS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/PL</IRI>
+        <Literal datatypeIRI="&xsd;string">Physiological length. Applies to horses, where one measures in the longitudinal axis of the bone from the proximal articular surface to the distal articular surfac.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/PL</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">PL</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/SD</IRI>
+        <Literal datatypeIRI="&xsd;string">Smallest breadth of the diaphysis (See: von den Driesch 1976: 76-77)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/SD</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">SD</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/SDO</IRI>
+        <Literal datatypeIRI="&xsd;string">Smallest depth of the olecranon. Cannot be accurately measured in bears.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/SDO</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">SDO</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/SLC</IRI>
+        <Literal datatypeIRI="&xsd;string">Smallest length of the Collum scapulae (neck of the scapula).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/SLC</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">SLC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/anatomicMeasurement</IRI>
+        <Literal datatypeIRI="&xsd;string">A well defined length distance measure for an anatomic element, usuallly defined as the distance between two clearly identified anatomic structures.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/anatomicMeasurement</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Bone Measurements from von den Driesch (1976) </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/femur</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">femur measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/hasAnatomicID</IRI>
+        <Literal datatypeIRI="&xsd;string">Has an identification (with some degree of certainty and confidence) to a specific anatomical structure. For zooarchaeology, this usually means an identification to a bone element</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/hasAnatomicID</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Has anatomical identification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/humerus</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">humerus measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/metapodials</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">metapodial measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/phalanx-1</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">phalanx 1 measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/phalanx-2</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">phalanx 2 measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/phalanx-3</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">phalanx 3 measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/radius</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">radius measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/scapula</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">scapula measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/tibia</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">tibia measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/ulna</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">ulna measurement</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.3.1957) http://owlapi.sourceforge.net -->
+
