@@ -17,13 +17,23 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      ontologyIRI="http://opencontext.org/vocabularies/open-context-zooarch">
     <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="cc" IRI="http://creativecommons.org/ns#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xhv" IRI="http://www.w3.org/1999/xhtml/vocab#"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <Literal datatypeIRI="&rdf;PlainLiteral">Open Context Zooarchaeology Annotations</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="xhv:license"/>
+        <Literal datatypeIRI="&xsd;anyURI">http://creativecommons.org/licenses/by/3.0/</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="cc:attributionName"/>
+        <Literal datatypeIRI="&xsd;string">Eric C. Kansa, Sarah W. Kansa (Open Context)</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -175,6 +185,12 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="/hasAnatomicID"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="cc:attributionName"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="xhv:license"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="/B"/>
