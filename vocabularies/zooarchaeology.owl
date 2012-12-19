@@ -820,7 +820,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/Bd</IRI>
-        <Literal datatypeIRI="&xsd;string">Bd</Literal>
+        <Literal datatypeIRI="&rdfs;Literal">Bd</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -830,7 +830,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/Bp</IRI>
-        <Literal datatypeIRI="&xsd;string">Bp</Literal>
+        <Literal datatypeIRI="&rdfs;Literal">Bp</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -991,7 +991,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/GL</IRI>
-        <Literal datatypeIRI="&xsd;string">Greatest Length (GL)</Literal>
+        <Literal datatypeIRI="&rdfs;Literal">GL</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1271,7 +1271,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/anatomicMeasurement</IRI>
-        <Literal datatypeIRI="&rdfs;Literal">Bone Measurements from von den Driesch (1976) </Literal>
+        <Literal datatypeIRI="&rdfs;Literal">Bone Measurement from von den Driesch (1976) </Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1311,7 +1311,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/pelvis</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">pelvis measurement</Literal>
+        <Literal datatypeIRI="&rdfs;Literal">pelvis measurement</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
