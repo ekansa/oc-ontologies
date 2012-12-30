@@ -199,7 +199,7 @@
         <Class IRI="/SLC"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/anatomicMeasurement"/>
+        <Class IRI="/anatomicalMeasurement"/>
     </Declaration>
     <Declaration>
         <Class IRI="/astragalus"/>
@@ -212,6 +212,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="/humerus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/measurement-von-den-driesch-1976"/>
     </Declaration>
     <Declaration>
         <Class IRI="/metapodials"/>
@@ -665,68 +668,72 @@
         <Class IRI="/scapula"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/anatomicMeasurement"/>
+        <Class IRI="/anatomicalMeasurement"/>
         <Class IRI="http://purl.obolibrary.org/obo/PATO_0000040"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/anatomicMeasurement"/>
+        <Class IRI="/anatomicalMeasurement"/>
         <Class IRI="http://www.cidoc-crm.org/rdfs/cidoc_crm_v5.0.4_english_label.rdfs#E54.Dimension"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/astragalus"/>
-        <Class IRI="/anatomicMeasurement"/>
+        <Class IRI="/measurement-von-den-driesch-1976"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/calcaneus"/>
-        <Class IRI="/anatomicMeasurement"/>
+        <Class IRI="/measurement-von-den-driesch-1976"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/femur"/>
-        <Class IRI="/anatomicMeasurement"/>
+        <Class IRI="/measurement-von-den-driesch-1976"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/humerus"/>
-        <Class IRI="/anatomicMeasurement"/>
+        <Class IRI="/measurement-von-den-driesch-1976"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/measurement-von-den-driesch-1976"/>
+        <Class IRI="/anatomicalMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/metapodials"/>
-        <Class IRI="/anatomicMeasurement"/>
+        <Class IRI="/measurement-von-den-driesch-1976"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/pelvis"/>
-        <Class IRI="/anatomicMeasurement"/>
+        <Class IRI="/measurement-von-den-driesch-1976"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/phalanx-1"/>
-        <Class IRI="/anatomicMeasurement"/>
+        <Class IRI="/measurement-von-den-driesch-1976"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/phalanx-2"/>
-        <Class IRI="/anatomicMeasurement"/>
+        <Class IRI="/measurement-von-den-driesch-1976"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/phalanx-3"/>
-        <Class IRI="/anatomicMeasurement"/>
+        <Class IRI="/measurement-von-den-driesch-1976"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/radius"/>
-        <Class IRI="/anatomicMeasurement"/>
+        <Class IRI="/measurement-von-den-driesch-1976"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/scapula"/>
-        <Class IRI="/anatomicMeasurement"/>
+        <Class IRI="/measurement-von-den-driesch-1976"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/tarsals"/>
-        <Class IRI="/anatomicMeasurement"/>
+        <Class IRI="/measurement-von-den-driesch-1976"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/tibia"/>
-        <Class IRI="/anatomicMeasurement"/>
+        <Class IRI="/measurement-von-den-driesch-1976"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/ulna"/>
-        <Class IRI="/anatomicMeasurement"/>
+        <Class IRI="/measurement-von-den-driesch-1976"/>
     </SubClassOf>
     <ObjectPropertyRange>
         <ObjectProperty IRI="/hasAnatomicID"/>
@@ -1264,16 +1271,6 @@
         <Literal datatypeIRI="&rdfs;Literal">SLC</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/anatomicMeasurement</IRI>
-        <Literal datatypeIRI="&xsd;string">A well defined length distance measure for an anatomic element, usuallly defined as the distance between two clearly identified anatomic structures.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/anatomicMeasurement</IRI>
-        <Literal datatypeIRI="&rdfs;Literal">Bone Measurement from von den Driesch (1976) </Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/astragalus</IRI>
         <Literal datatypeIRI="&rdfs;Literal">astragalus (talus) measurement</Literal>
@@ -1302,6 +1299,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/humerus</IRI>
         <Literal datatypeIRI="&rdfs;Literal">humerus measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/measurement-von-den-driesch-1976</IRI>
+        <Literal datatypeIRI="&xsd;string">A length distance measure for an anatomic element, usuallly defined as the distance between two clearly identified anatomic structures. These measurements were defined by Von den Driesch (1976).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/measurement-von-den-driesch-1976</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Von den Driesch (1976) Bone Measurement</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1352,6 +1359,36 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/ulna</IRI>
         <Literal datatypeIRI="&rdfs;Literal">ulna measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/PATO_0000040</IRI>
+        <Literal datatypeIRI="&xsd;string">Concept from the &quot;Phenotypic quality&quot; ontology (PATO) </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/PATO_0000040</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">distance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/UBERON_0001062</IRI>
+        <Literal datatypeIRI="&xsd;string">Concept from the &quot;Uber anatomy ontology&quot; (UBERON)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/UBERON_0001062</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">anatomical entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.cidoc-crm.org/rdfs/cidoc_crm_v5.0.4_english_label.rdfs#E54.Dimension</IRI>
+        <Literal datatypeIRI="&xsd;string">Concept from the CIDOC-CRM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/rdfs/cidoc_crm_v5.0.4_english_label.rdfs#E54.Dimension</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Dimension (E54)</Literal>
     </AnnotationAssertion>
 </Ontology>
 
