@@ -18,6 +18,7 @@
      ontologyIRI="http://opencontext.org/vocabularies/open-context-zooarch">
     <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="cc" IRI="http://creativecommons.org/ns#"/>
+    <Prefix name="bibo" IRI="http://purl.org/ontology/bibo/"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xhv" IRI="http://www.w3.org/1999/xhtml/vocab#"/>
@@ -38,6 +39,10 @@
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <Literal datatypeIRI="&xsd;string">A simple vocabulary mainly for organizing zooarchaeological measurement data. The measurement concepts are mainly defined by von den Driesch 1976, since her guide to measurements are so widely used in zooarchaeology.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="bibo:status"/>
+        <Literal datatypeIRI="&xsd;anyURI">http://opencontext.org/about/publishing/#edit-stars-3</Literal>
     </Annotation>
     <Declaration>
         <Class IRI="/B"/>
@@ -254,6 +259,9 @@
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="xhv:license"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="bibo:status"/>
     </Declaration>
     <EquivalentClasses>
         <Class IRI="/GH"/>
