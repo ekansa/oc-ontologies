@@ -18,11 +18,11 @@
      ontologyIRI="http://opencontext.org/vocabularies/open-context-zooarch">
     <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="cc" IRI="http://creativecommons.org/ns#"/>
-    <Prefix name="bibo" IRI="http://purl.org/ontology/bibo/"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xhv" IRI="http://www.w3.org/1999/xhtml/vocab#"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="bibo" IRI="http://purl.org/ontology/bibo/"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -258,10 +258,10 @@
         <AnnotationProperty abbreviatedIRI="cc:attributionName"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty abbreviatedIRI="xhv:license"/>
+        <AnnotationProperty abbreviatedIRI="bibo:status"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty abbreviatedIRI="bibo:status"/>
+        <AnnotationProperty abbreviatedIRI="xhv:license"/>
     </Declaration>
     <EquivalentClasses>
         <Class IRI="/GH"/>
@@ -1279,6 +1279,16 @@
         <Literal datatypeIRI="&rdfs;Literal">SLC</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/anatomicalMeasurement</IRI>
+        <Literal datatypeIRI="&xsd;string">A measurement of an anamical entity. In zooarchaeology, these are usually bone elements.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/anatomicalMeasurement</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Anatomical measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/astragalus</IRI>
         <Literal datatypeIRI="&rdfs;Literal">astragalus (talus) measurement</Literal>
@@ -1376,7 +1386,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/PATO_0000040</IRI>
-        <Literal datatypeIRI="&rdfs;Literal">distance</Literal>
+        <Literal datatypeIRI="&rdfs;Literal">Distance</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
