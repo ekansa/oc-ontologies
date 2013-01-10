@@ -252,6 +252,9 @@
         <Class IRI="/ulna"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="/HasSexID"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="/hasAnatomicID"/>
     </Declaration>
     <Declaration>
@@ -1077,6 +1080,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/HS</IRI>
         <Literal datatypeIRI="&rdfs;Literal">HS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/HasSexID</IRI>
+        <Literal datatypeIRI="&xsd;string">Has an identication, with some degree of certainty, as to the physiological sex of an organism.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/HasSexID</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Has physiological sex determination</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
