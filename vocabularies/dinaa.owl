@@ -31,16 +31,16 @@
 It was developed through support from the National Science Foundation (Grants: NSF #1216810 and #1217240).</Literal>
     </Annotation>
     <Declaration>
-        <ObjectProperty IRI="/hasPeriod"/>
+        <ObjectProperty IRI="/p-00001"/>
     </Declaration>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/hasPeriod</IRI>
+        <IRI>/p-00001</IRI>
         <Literal datatypeIRI="&xsd;string">Has an assignment or identification with a given chronological / cultural period.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/hasPeriod</IRI>
+        <IRI>/p-00001</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Has period</Literal>
     </AnnotationAssertion>
 </Ontology>
