@@ -213,7 +213,19 @@
         <Class IRI="/calcaneus"/>
     </Declaration>
     <Declaration>
+        <Class IRI="/dist-f"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/dist-u"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/dist-uf"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="/femur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/fusion-chars"/>
     </Declaration>
     <Declaration>
         <Class IRI="/humerus"/>
@@ -237,6 +249,15 @@
         <Class IRI="/phalanx-3"/>
     </Declaration>
     <Declaration>
+        <Class IRI="/prox-f"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/prox-u"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/prox-uf"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="/radius"/>
     </Declaration>
     <Declaration>
@@ -250,6 +271,12 @@
     </Declaration>
     <Declaration>
         <Class IRI="/ulna"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/PATO_0000051"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/HasFusionChar"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="/HasSexID"/>
@@ -695,8 +722,24 @@
         <Class IRI="/measurement-von-den-driesch-1976"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/dist-f"/>
+        <Class IRI="/fusion-chars"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/dist-u"/>
+        <Class IRI="/fusion-chars"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/dist-uf"/>
+        <Class IRI="/fusion-chars"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/femur"/>
         <Class IRI="/measurement-von-den-driesch-1976"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/fusion-chars"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PATO_0000051"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/humerus"/>
@@ -727,6 +770,18 @@
         <Class IRI="/measurement-von-den-driesch-1976"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/prox-f"/>
+        <Class IRI="/fusion-chars"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/prox-u"/>
+        <Class IRI="/fusion-chars"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/prox-uf"/>
+        <Class IRI="/fusion-chars"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/radius"/>
         <Class IRI="/measurement-von-den-driesch-1976"/>
     </SubClassOf>
@@ -746,6 +801,10 @@
         <Class IRI="/ulna"/>
         <Class IRI="/measurement-von-den-driesch-1976"/>
     </SubClassOf>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/HasFusionChar"/>
+        <Class IRI="/fusion-chars"/>
+    </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="/hasAnatomicID"/>
         <Class IRI="http://purl.obolibrary.org/obo/UBERON_0001062"/>
@@ -1083,6 +1142,16 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/HasFusionChar</IRI>
+        <Literal datatypeIRI="&xsd;string">Has bone fusion characterization. Describes a bone fusion stage.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/HasFusionChar</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Has fusion character</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>/HasSexID</IRI>
         <Literal datatypeIRI="&xsd;string">Has an identication, with some degree of certainty, as to the physiological sex of an organism.</Literal>
     </AnnotationAssertion>
@@ -1312,9 +1381,66 @@
         <Literal datatypeIRI="&rdfs;Literal">calcaneus measurement</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/dist-f</IRI>
+        <Literal datatypeIRI="&xsd;string">The distal epiphysis is fully fused to the shaft, with no fusion line visible at the metaphysis.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/dist-f</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Distal epiphysis fused</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>/dist-f</IRI>
+        <Literal datatypeIRI="&xsd;anyURI"> http://purl.obolibrary.org/obo/UBERON_0004379</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/dist-u</IRI>
+        <Literal datatypeIRI="&xsd;string">The distal epiphysis is not fused to the shaft. The epiphysis and the shaft are completely separated. The specimen is either the unfused distal epiphysis, the unfused shaft, or portions of both that are not attached to each other.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/dist-u</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Distal epiphysis unfused</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>/dist-u</IRI>
+        <Literal datatypeIRI="&xsd;anyURI"> http://purl.obolibrary.org/obo/UBERON_0004379</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/dist-uf</IRI>
+        <Literal datatypeIRI="&xsd;string">The distal epiphysis is in the process of fusing. A fusion
+line is still visible at the metaphysis, but the epiphysis and the shaft
+cannot be separated manually.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/dist-uf</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Distal epiphysis fusing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>/dist-uf</IRI>
+        <Literal datatypeIRI="&xsd;anyURI"> http://purl.obolibrary.org/obo/UBERON_0004379</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/femur</IRI>
         <Literal datatypeIRI="&rdfs;Literal">femur measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/fusion-chars</IRI>
+        <Literal datatypeIRI="&xsd;string">These classes are used to describe the epiphyseal charateristics of bone elements.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/fusion-chars</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Fusion characterization</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1367,6 +1493,51 @@
         <Literal datatypeIRI="&rdfs;Literal">phalanx 3 measurement</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/prox-f</IRI>
+        <Literal datatypeIRI="&xsd;string">The proximal epiphysis is fully fused to the shaft, with no fusion line visible at the metaphysis.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/prox-f</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Proximal epiphysis fused</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>/prox-f</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0004380</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/prox-u</IRI>
+        <Literal datatypeIRI="&xsd;string">The proximal epiphysis is not fused to the shaft. The epiphysis and the shaft are completely separated. The specimen is either the unfused distal epiphysis, the unfused shaft, or portions of both that are not attached to each other.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/prox-u</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Proximal epiphysis unfused</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>/prox-u</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0004380</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/prox-uf</IRI>
+        <Literal datatypeIRI="&xsd;string">The proximal epiphysis is in the process of fusing. A fusion line is still visible at the metaphysis, but the epiphysis and the shaft cannot be separated manually.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/prox-uf</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Proximal epiphysis fusing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>/prox-uf</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0004380</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/radius</IRI>
         <Literal datatypeIRI="&rdfs;Literal">radius measurement</Literal>
@@ -1400,6 +1571,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/PATO_0000040</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Distance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/PATO_0000051</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">morphology</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
