@@ -252,10 +252,37 @@
         <Class IRI="/zoo-0076"/>
     </Declaration>
     <Declaration>
+        <Class IRI="/zoo-0080"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/zoo-0057"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/zoo-0058"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/zoo-0059"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/zoo-0069"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/zoo-0070"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/zoo-0071"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/PATO_0000051"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="/zoo-0078"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="/zoo-0079"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/zoo-0077"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="cc:attributionName"/>
@@ -746,9 +773,41 @@
         <Class IRI="/zoo-0076"/>
         <Class IRI="/zoo-0063"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/zoo-0080"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PATO_0000051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/zoo-0057"/>
+        <Class IRI="/zoo-0080"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/zoo-0058"/>
+        <Class IRI="/zoo-0080"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/zoo-0059"/>
+        <Class IRI="/zoo-0080"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/zoo-0069"/>
+        <Class IRI="/zoo-0080"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/zoo-0070"/>
+        <Class IRI="/zoo-0080"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/zoo-0071"/>
+        <Class IRI="/zoo-0080"/>
+    </SubClassOf>
     <ObjectPropertyRange>
         <ObjectProperty IRI="/zoo-0079"/>
         <Class IRI="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/zoo-0077"/>
+        <Class IRI="/zoo-0080"/>
     </ObjectPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1083,16 +1142,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/zoo-0078</IRI>
-        <Literal datatypeIRI="&xsd;string">Has an identication, with some degree of certainty, as to the physiological sex of an organism.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/zoo-0078</IRI>
-        <Literal datatypeIRI="&rdfs;Literal">Has physiological sex determination</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>/zoo-0034</IRI>
         <Literal datatypeIRI="&xsd;string">Length of the acetabulum including the lip.</Literal>
     </AnnotationAssertion>
@@ -1317,16 +1366,6 @@
         <Literal datatypeIRI="&rdfs;Literal">femur measurement</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/zoo-0079</IRI>
-        <Literal datatypeIRI="&xsd;string">Has an identification (with some degree of certainty and confidence) to a specific anatomical structure. For zooarchaeology, this usually means an identification to a bone element</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/zoo-0079</IRI>
-        <Literal datatypeIRI="&rdfs;Literal">Has anatomical identification</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/zoo-0062</IRI>
         <Literal datatypeIRI="&rdfs;Literal">humerus measurement</Literal>
@@ -1393,6 +1432,138 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/zoo-0078</IRI>
+        <Literal datatypeIRI="&xsd;string">Has an identication, with some degree of certainty, as to the physiological sex of an organism.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/zoo-0078</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Has physiological sex determination</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/zoo-0079</IRI>
+        <Literal datatypeIRI="&xsd;string">Has an identification (with some degree of certainty and confidence) to a specific anatomical structure. For zooarchaeology, this usually means an identification to a bone element</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/zoo-0079</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Has anatomical identification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/zoo-0080</IRI>
+        <Literal datatypeIRI="&xsd;string">These classes are used to describe the epiphyseal charateristics of bone elements.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/zoo-0080</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Fusion characterization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/zoo-0077</IRI>
+        <Literal datatypeIRI="&xsd;string">Has bone fusion characterization. Describes a bone fusion stage.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/zoo-0077</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Has fusion character</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/zoo-0057</IRI>
+        <Literal datatypeIRI="&xsd;string">The distal epiphysis is fully fused to the shaft, with no fusion line visible at the metaphysis.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/zoo-0057</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Distal epiphysis fused</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>/zoo-0057</IRI>
+        <Literal datatypeIRI="&xsd;anyURI"> http://purl.obolibrary.org/obo/UBERON_0004379</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/zoo-0058</IRI>
+        <Literal datatypeIRI="&xsd;string">The distal epiphysis is not fused to the shaft. The epiphysis and the shaft are completely separated. The specimen is either the unfused distal epiphysis, the unfused shaft, or portions of both that are not attached to each other.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/zoo-0058</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Distal epiphysis unfused</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>/zoo-0058</IRI>
+        <Literal datatypeIRI="&xsd;anyURI"> http://purl.obolibrary.org/obo/UBERON_0004379</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/zoo-0059</IRI>
+        <Literal datatypeIRI="&xsd;string">The distal epiphysis is in the process of fusing. A fusion
+line is still visible at the metaphysis, but the epiphysis and the shaft
+cannot be separated manually.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/zoo-0059</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Distal epiphysis fusing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>/zoo-0059</IRI>
+        <Literal datatypeIRI="&xsd;anyURI"> http://purl.obolibrary.org/obo/UBERON_0004379</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/zoo-0069</IRI>
+        <Literal datatypeIRI="&xsd;string">The proximal epiphysis is fully fused to the shaft, with no fusion line visible at the metaphysis.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/zoo-0069</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Proximal epiphysis fused</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>/zoo-0069</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0004380</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/zoo-0070</IRI>
+        <Literal datatypeIRI="&xsd;string">The proximal epiphysis is not fused to the shaft. The epiphysis and the shaft are completely separated. The specimen is either the unfused distal epiphysis, the unfused shaft, or portions of both that are not attached to each other.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/zoo-0070</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Proximal epiphysis unfused</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>/zoo-0070</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0004380</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/zoo-0071</IRI>
+        <Literal datatypeIRI="&xsd;string">The proximal epiphysis is in the process of fusing. A fusion line is still visible at the metaphysis, but the epiphysis and the shaft cannot be separated manually.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/zoo-0071</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Proximal epiphysis fusing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>/zoo-0071</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0004380</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://purl.obolibrary.org/obo/PATO_0000040</IRI>
         <Literal datatypeIRI="&xsd;string">Concept from the &quot;Phenotypic quality&quot; ontology (PATO) </Literal>
     </AnnotationAssertion>
@@ -1400,6 +1571,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/PATO_0000040</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Distance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/PATO_0000051</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">morphology</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
