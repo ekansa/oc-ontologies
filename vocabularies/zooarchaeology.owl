@@ -45,244 +45,217 @@
         <Literal datatypeIRI="&xsd;anyURI">http://opencontext.org/about/publishing/#edit-stars-3</Literal>
     </Annotation>
     <Declaration>
-        <Class IRI="/B"/>
+        <Class IRI="/zoo-0001"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/BF"/>
+        <Class IRI="/zoo-0002"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/BFd"/>
+        <Class IRI="/zoo-0003"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/BFp"/>
+        <Class IRI="/zoo-0004"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/BG"/>
+        <Class IRI="/zoo-0005"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/BPC"/>
+        <Class IRI="/zoo-0006"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/BT"/>
+        <Class IRI="/zoo-0007"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/BTr"/>
+        <Class IRI="/zoo-0008"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Bd"/>
+        <Class IRI="/zoo-0009"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Bp"/>
+        <Class IRI="/zoo-0010"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/CD"/>
+        <Class IRI="/zoo-0011"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/DC"/>
+        <Class IRI="/zoo-0012"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/DD"/>
+        <Class IRI="/zoo-0013"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/DHA"/>
+        <Class IRI="/zoo-0014"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/DLS"/>
+        <Class IRI="/zoo-0015"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/DPA"/>
+        <Class IRI="/zoo-0016"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Dd"/>
+        <Class IRI="/zoo-0017"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Dl"/>
+        <Class IRI="/zoo-0018"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Dm"/>
+        <Class IRI="/zoo-0019"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Dp"/>
+        <Class IRI="/zoo-0020"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/GB"/>
+        <Class IRI="/zoo-0021"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/GBA"/>
+        <Class IRI="/zoo-0022"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/GBTc"/>
+        <Class IRI="/zoo-0023"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/GBTi"/>
+        <Class IRI="/zoo-0024"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/GH"/>
+        <Class IRI="/zoo-0025"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/GL"/>
+        <Class IRI="/zoo-0026"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/GLC"/>
+        <Class IRI="/zoo-0027"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/GLP"/>
+        <Class IRI="/zoo-0028"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/GLl"/>
+        <Class IRI="/zoo-0029"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/GLm"/>
+        <Class IRI="/zoo-0030"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/GLpe"/>
+        <Class IRI="/zoo-0031"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/HP"/>
+        <Class IRI="/zoo-0032"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/HS"/>
+        <Class IRI="/zoo-0033"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/LA"/>
+        <Class IRI="/zoo-0034"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/LAR"/>
+        <Class IRI="/zoo-0035"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/LF"/>
+        <Class IRI="/zoo-0036"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/LFo"/>
+        <Class IRI="/zoo-0037"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/LG"/>
+        <Class IRI="/zoo-0038"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/LO"/>
+        <Class IRI="/zoo-0039"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/LS"/>
+        <Class IRI="/zoo-0040"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Ld"/>
+        <Class IRI="/zoo-0041"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/LeP"/>
+        <Class IRI="/zoo-0042"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Ll"/>
+        <Class IRI="/zoo-0043"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/LmT"/>
+        <Class IRI="/zoo-0044"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/MBS"/>
+        <Class IRI="/zoo-0045"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/PL"/>
+        <Class IRI="/zoo-0046"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/SB"/>
+        <Class IRI="/zoo-0047"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/SBI"/>
+        <Class IRI="/zoo-0048"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/SC"/>
+        <Class IRI="/zoo-0049"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/SD"/>
+        <Class IRI="/zoo-0050"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/SDO"/>
+        <Class IRI="/zoo-0051"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/SH"/>
+        <Class IRI="/zoo-0052"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/SLC"/>
+        <Class IRI="/zoo-0053"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/anatomicalMeasurement"/>
+        <Class IRI="/zoo-0054"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/astragalus"/>
+        <Class IRI="/zoo-0055"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/calcaneus"/>
+        <Class IRI="/zoo-0056"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/dist-f"/>
+        <Class IRI="/zoo-0060"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/dist-u"/>
+        <Class IRI="/zoo-0062"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/dist-uf"/>
+        <Class IRI="/zoo-0063"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/femur"/>
+        <Class IRI="/zoo-0064"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/fusion-chars"/>
+        <Class IRI="/zoo-0065"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/humerus"/>
+        <Class IRI="/zoo-0066"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/measurement-von-den-driesch-1976"/>
+        <Class IRI="/zoo-0067"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/metapodials"/>
+        <Class IRI="/zoo-0068"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/pelvis"/>
+        <Class IRI="/zoo-0072"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/phalanx-1"/>
+        <Class IRI="/zoo-0073"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/phalanx-2"/>
+        <Class IRI="/zoo-0074"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/phalanx-3"/>
+        <Class IRI="/zoo-0075"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/prox-f"/>
+        <Class IRI="/zoo-0076"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/prox-u"/>
+        <ObjectProperty IRI="/zoo-0078"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/prox-uf"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/radius"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/scapula"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/tarsals"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/tibia"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/ulna"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/PATO_0000051"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="/HasFusionChar"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="/HasSexID"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="/hasAnatomicID"/>
+        <ObjectProperty IRI="/zoo-0079"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="cc:attributionName"/>
@@ -294,1272 +267,1128 @@
         <AnnotationProperty abbreviatedIRI="xhv:license"/>
     </Declaration>
     <EquivalentClasses>
-        <Class IRI="/GH"/>
-        <Class IRI="/GL"/>
+        <Class IRI="/zoo-0025"/>
+        <Class IRI="/zoo-0026"/>
     </EquivalentClasses>
     <SubClassOf>
-        <Class IRI="/B"/>
-        <Class IRI="/metapodials"/>
+        <Class IRI="/zoo-0001"/>
+        <Class IRI="/zoo-0064"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/BF"/>
-        <Class IRI="/phalanx-3"/>
+        <Class IRI="/zoo-0002"/>
+        <Class IRI="/zoo-0068"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/BFd"/>
-        <Class IRI="/astragalus"/>
+        <Class IRI="/zoo-0003"/>
+        <Class IRI="/zoo-0055"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/BFd"/>
-        <Class IRI="/phalanx-1"/>
+        <Class IRI="/zoo-0003"/>
+        <Class IRI="/zoo-0066"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/BFd"/>
-        <Class IRI="/radius"/>
+        <Class IRI="/zoo-0003"/>
+        <Class IRI="/zoo-0072"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/BFp"/>
-        <Class IRI="/phalanx-1"/>
+        <Class IRI="/zoo-0004"/>
+        <Class IRI="/zoo-0066"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/BFp"/>
-        <Class IRI="/phalanx-2"/>
+        <Class IRI="/zoo-0004"/>
+        <Class IRI="/zoo-0067"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/BFp"/>
-        <Class IRI="/radius"/>
+        <Class IRI="/zoo-0004"/>
+        <Class IRI="/zoo-0072"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/BG"/>
-        <Class IRI="/scapula"/>
+        <Class IRI="/zoo-0005"/>
+        <Class IRI="/zoo-0073"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/BPC"/>
-        <Class IRI="/ulna"/>
+        <Class IRI="/zoo-0006"/>
+        <Class IRI="/zoo-0076"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/BT"/>
-        <Class IRI="/humerus"/>
+        <Class IRI="/zoo-0007"/>
+        <Class IRI="/zoo-0062"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/BTr"/>
-        <Class IRI="/femur"/>
+        <Class IRI="/zoo-0008"/>
+        <Class IRI="/zoo-0060"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/Bd"/>
-        <Class IRI="/astragalus"/>
+        <Class IRI="/zoo-0009"/>
+        <Class IRI="/zoo-0055"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/Bd"/>
-        <Class IRI="/femur"/>
+        <Class IRI="/zoo-0009"/>
+        <Class IRI="/zoo-0060"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/Bd"/>
-        <Class IRI="/humerus"/>
+        <Class IRI="/zoo-0009"/>
+        <Class IRI="/zoo-0062"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/Bd"/>
-        <Class IRI="/metapodials"/>
+        <Class IRI="/zoo-0009"/>
+        <Class IRI="/zoo-0064"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/Bd"/>
-        <Class IRI="/phalanx-1"/>
+        <Class IRI="/zoo-0009"/>
+        <Class IRI="/zoo-0066"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/Bd"/>
-        <Class IRI="/phalanx-2"/>
+        <Class IRI="/zoo-0009"/>
+        <Class IRI="/zoo-0067"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/Bd"/>
-        <Class IRI="/radius"/>
+        <Class IRI="/zoo-0009"/>
+        <Class IRI="/zoo-0072"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/Bd"/>
-        <Class IRI="/tibia"/>
+        <Class IRI="/zoo-0009"/>
+        <Class IRI="/zoo-0075"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/Bp"/>
-        <Class IRI="/femur"/>
+        <Class IRI="/zoo-0010"/>
+        <Class IRI="/zoo-0060"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/Bp"/>
-        <Class IRI="/humerus"/>
+        <Class IRI="/zoo-0010"/>
+        <Class IRI="/zoo-0062"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/Bp"/>
-        <Class IRI="/metapodials"/>
+        <Class IRI="/zoo-0010"/>
+        <Class IRI="/zoo-0064"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/Bp"/>
-        <Class IRI="/phalanx-1"/>
+        <Class IRI="/zoo-0010"/>
+        <Class IRI="/zoo-0066"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/Bp"/>
-        <Class IRI="/phalanx-2"/>
+        <Class IRI="/zoo-0010"/>
+        <Class IRI="/zoo-0067"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/Bp"/>
-        <Class IRI="/radius"/>
+        <Class IRI="/zoo-0010"/>
+        <Class IRI="/zoo-0072"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/Bp"/>
-        <Class IRI="/tibia"/>
+        <Class IRI="/zoo-0010"/>
+        <Class IRI="/zoo-0075"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/CD"/>
-        <Class IRI="/femur"/>
+        <Class IRI="/zoo-0011"/>
+        <Class IRI="/zoo-0060"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/CD"/>
-        <Class IRI="/metapodials"/>
+        <Class IRI="/zoo-0011"/>
+        <Class IRI="/zoo-0064"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/CD"/>
-        <Class IRI="/radius"/>
+        <Class IRI="/zoo-0011"/>
+        <Class IRI="/zoo-0072"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/CD"/>
-        <Class IRI="/tibia"/>
+        <Class IRI="/zoo-0011"/>
+        <Class IRI="/zoo-0075"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/DC"/>
-        <Class IRI="/femur"/>
+        <Class IRI="/zoo-0012"/>
+        <Class IRI="/zoo-0060"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/DD"/>
-        <Class IRI="/metapodials"/>
+        <Class IRI="/zoo-0013"/>
+        <Class IRI="/zoo-0064"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/DHA"/>
-        <Class IRI="/scapula"/>
+        <Class IRI="/zoo-0014"/>
+        <Class IRI="/zoo-0073"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/DLS"/>
-        <Class IRI="/phalanx-3"/>
+        <Class IRI="/zoo-0015"/>
+        <Class IRI="/zoo-0068"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/DPA"/>
-        <Class IRI="/ulna"/>
+        <Class IRI="/zoo-0016"/>
+        <Class IRI="/zoo-0076"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/Dd"/>
-        <Class IRI="/metapodials"/>
+        <Class IRI="/zoo-0017"/>
+        <Class IRI="/zoo-0064"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/Dd"/>
-        <Class IRI="/tibia"/>
+        <Class IRI="/zoo-0017"/>
+        <Class IRI="/zoo-0075"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/Dl"/>
-        <Class IRI="/astragalus"/>
+        <Class IRI="/zoo-0018"/>
+        <Class IRI="/zoo-0055"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/Dm"/>
-        <Class IRI="/astragalus"/>
+        <Class IRI="/zoo-0019"/>
+        <Class IRI="/zoo-0055"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/Dp"/>
-        <Class IRI="/humerus"/>
+        <Class IRI="/zoo-0020"/>
+        <Class IRI="/zoo-0062"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/Dp"/>
-        <Class IRI="/metapodials"/>
+        <Class IRI="/zoo-0020"/>
+        <Class IRI="/zoo-0064"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/Dp"/>
-        <Class IRI="/phalanx-1"/>
+        <Class IRI="/zoo-0020"/>
+        <Class IRI="/zoo-0066"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/Dp"/>
-        <Class IRI="/phalanx-2"/>
+        <Class IRI="/zoo-0020"/>
+        <Class IRI="/zoo-0067"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/GB"/>
-        <Class IRI="/astragalus"/>
+        <Class IRI="/zoo-0021"/>
+        <Class IRI="/zoo-0055"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/GB"/>
-        <Class IRI="/calcaneus"/>
+        <Class IRI="/zoo-0021"/>
+        <Class IRI="/zoo-0056"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/GB"/>
-        <Class IRI="/phalanx-3"/>
+        <Class IRI="/zoo-0021"/>
+        <Class IRI="/zoo-0068"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/GB"/>
-        <Class IRI="/tarsals"/>
+        <Class IRI="/zoo-0021"/>
+        <Class IRI="/zoo-0074"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/GBA"/>
-        <Class IRI="/pelvis"/>
+        <Class IRI="/zoo-0022"/>
+        <Class IRI="/zoo-0065"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/GBTc"/>
-        <Class IRI="/pelvis"/>
+        <Class IRI="/zoo-0023"/>
+        <Class IRI="/zoo-0065"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/GBTi"/>
-        <Class IRI="/pelvis"/>
+        <Class IRI="/zoo-0024"/>
+        <Class IRI="/zoo-0065"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/GH"/>
-        <Class IRI="/astragalus"/>
+        <Class IRI="/zoo-0025"/>
+        <Class IRI="/zoo-0055"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/GL"/>
-        <Class IRI="/calcaneus"/>
+        <Class IRI="/zoo-0026"/>
+        <Class IRI="/zoo-0056"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/GL"/>
-        <Class IRI="/femur"/>
+        <Class IRI="/zoo-0026"/>
+        <Class IRI="/zoo-0060"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/GL"/>
-        <Class IRI="/humerus"/>
+        <Class IRI="/zoo-0026"/>
+        <Class IRI="/zoo-0062"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/GL"/>
-        <Class IRI="/metapodials"/>
+        <Class IRI="/zoo-0026"/>
+        <Class IRI="/zoo-0064"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/GL"/>
-        <Class IRI="/pelvis"/>
+        <Class IRI="/zoo-0026"/>
+        <Class IRI="/zoo-0065"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/GL"/>
-        <Class IRI="/phalanx-1"/>
+        <Class IRI="/zoo-0026"/>
+        <Class IRI="/zoo-0066"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/GL"/>
-        <Class IRI="/phalanx-2"/>
+        <Class IRI="/zoo-0026"/>
+        <Class IRI="/zoo-0067"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/GL"/>
-        <Class IRI="/phalanx-3"/>
+        <Class IRI="/zoo-0026"/>
+        <Class IRI="/zoo-0068"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/GL"/>
-        <Class IRI="/radius"/>
+        <Class IRI="/zoo-0026"/>
+        <Class IRI="/zoo-0072"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/GL"/>
-        <Class IRI="/tibia"/>
+        <Class IRI="/zoo-0026"/>
+        <Class IRI="/zoo-0075"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/GL"/>
-        <Class IRI="/ulna"/>
+        <Class IRI="/zoo-0026"/>
+        <Class IRI="/zoo-0076"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/GLC"/>
-        <Class IRI="/femur"/>
+        <Class IRI="/zoo-0027"/>
+        <Class IRI="/zoo-0060"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/GLC"/>
-        <Class IRI="/humerus"/>
+        <Class IRI="/zoo-0027"/>
+        <Class IRI="/zoo-0062"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/GLP"/>
-        <Class IRI="/scapula"/>
+        <Class IRI="/zoo-0028"/>
+        <Class IRI="/zoo-0073"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/GLl"/>
-        <Class IRI="/astragalus"/>
+        <Class IRI="/zoo-0029"/>
+        <Class IRI="/zoo-0055"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/GLl"/>
-        <Class IRI="/humerus"/>
+        <Class IRI="/zoo-0029"/>
+        <Class IRI="/zoo-0062"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/GLl"/>
-        <Class IRI="/metapodials"/>
+        <Class IRI="/zoo-0029"/>
+        <Class IRI="/zoo-0064"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/GLm"/>
-        <Class IRI="/astragalus"/>
+        <Class IRI="/zoo-0030"/>
+        <Class IRI="/zoo-0055"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/GLpe"/>
-        <Class IRI="/phalanx-1"/>
+        <Class IRI="/zoo-0031"/>
+        <Class IRI="/zoo-0066"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/HP"/>
-        <Class IRI="/phalanx-3"/>
+        <Class IRI="/zoo-0032"/>
+        <Class IRI="/zoo-0068"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/HS"/>
-        <Class IRI="/scapula"/>
+        <Class IRI="/zoo-0033"/>
+        <Class IRI="/zoo-0073"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/LA"/>
-        <Class IRI="/pelvis"/>
+        <Class IRI="/zoo-0034"/>
+        <Class IRI="/zoo-0065"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/LAR"/>
-        <Class IRI="/pelvis"/>
+        <Class IRI="/zoo-0035"/>
+        <Class IRI="/zoo-0065"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/LF"/>
-        <Class IRI="/phalanx-3"/>
+        <Class IRI="/zoo-0036"/>
+        <Class IRI="/zoo-0068"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/LFo"/>
-        <Class IRI="/pelvis"/>
+        <Class IRI="/zoo-0037"/>
+        <Class IRI="/zoo-0065"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/LG"/>
-        <Class IRI="/scapula"/>
+        <Class IRI="/zoo-0038"/>
+        <Class IRI="/zoo-0073"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/LO"/>
-        <Class IRI="/ulna"/>
+        <Class IRI="/zoo-0039"/>
+        <Class IRI="/zoo-0076"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/LS"/>
-        <Class IRI="/pelvis"/>
+        <Class IRI="/zoo-0040"/>
+        <Class IRI="/zoo-0065"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/Ld"/>
-        <Class IRI="/phalanx-3"/>
+        <Class IRI="/zoo-0041"/>
+        <Class IRI="/zoo-0068"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/Ld"/>
-        <Class IRI="/scapula"/>
+        <Class IRI="/zoo-0041"/>
+        <Class IRI="/zoo-0073"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/LeP"/>
-        <Class IRI="/metapodials"/>
+        <Class IRI="/zoo-0042"/>
+        <Class IRI="/zoo-0064"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/Ll"/>
-        <Class IRI="/metapodials"/>
+        <Class IRI="/zoo-0043"/>
+        <Class IRI="/zoo-0064"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/Ll"/>
-        <Class IRI="/radius"/>
+        <Class IRI="/zoo-0043"/>
+        <Class IRI="/zoo-0072"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/Ll"/>
-        <Class IRI="/tibia"/>
+        <Class IRI="/zoo-0043"/>
+        <Class IRI="/zoo-0075"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/LmT"/>
-        <Class IRI="/astragalus"/>
+        <Class IRI="/zoo-0044"/>
+        <Class IRI="/zoo-0055"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/MBS"/>
-        <Class IRI="/phalanx-3"/>
+        <Class IRI="/zoo-0045"/>
+        <Class IRI="/zoo-0068"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/PL"/>
-        <Class IRI="/radius"/>
+        <Class IRI="/zoo-0046"/>
+        <Class IRI="/zoo-0072"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/SB"/>
-        <Class IRI="/pelvis"/>
+        <Class IRI="/zoo-0047"/>
+        <Class IRI="/zoo-0065"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/SBI"/>
-        <Class IRI="/pelvis"/>
+        <Class IRI="/zoo-0048"/>
+        <Class IRI="/zoo-0065"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/SC"/>
-        <Class IRI="/pelvis"/>
+        <Class IRI="/zoo-0049"/>
+        <Class IRI="/zoo-0065"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/SD"/>
-        <Class IRI="/femur"/>
+        <Class IRI="/zoo-0050"/>
+        <Class IRI="/zoo-0060"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/SD"/>
-        <Class IRI="/humerus"/>
+        <Class IRI="/zoo-0050"/>
+        <Class IRI="/zoo-0062"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/SD"/>
-        <Class IRI="/metapodials"/>
+        <Class IRI="/zoo-0050"/>
+        <Class IRI="/zoo-0064"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/SD"/>
-        <Class IRI="/phalanx-1"/>
+        <Class IRI="/zoo-0050"/>
+        <Class IRI="/zoo-0066"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/SD"/>
-        <Class IRI="/phalanx-2"/>
+        <Class IRI="/zoo-0050"/>
+        <Class IRI="/zoo-0067"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/SD"/>
-        <Class IRI="/radius"/>
+        <Class IRI="/zoo-0050"/>
+        <Class IRI="/zoo-0072"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/SD"/>
-        <Class IRI="/tibia"/>
+        <Class IRI="/zoo-0050"/>
+        <Class IRI="/zoo-0075"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/SDO"/>
-        <Class IRI="/ulna"/>
+        <Class IRI="/zoo-0051"/>
+        <Class IRI="/zoo-0076"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/SH"/>
-        <Class IRI="/pelvis"/>
+        <Class IRI="/zoo-0052"/>
+        <Class IRI="/zoo-0065"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/SLC"/>
-        <Class IRI="/scapula"/>
+        <Class IRI="/zoo-0053"/>
+        <Class IRI="/zoo-0073"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/anatomicalMeasurement"/>
+        <Class IRI="/zoo-0054"/>
         <Class IRI="http://purl.obolibrary.org/obo/PATO_0000040"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/anatomicalMeasurement"/>
+        <Class IRI="/zoo-0054"/>
         <Class IRI="http://www.cidoc-crm.org/rdfs/cidoc_crm_v5.0.4_english_label.rdfs#E54.Dimension"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/astragalus"/>
-        <Class IRI="/measurement-von-den-driesch-1976"/>
+        <Class IRI="/zoo-0055"/>
+        <Class IRI="/zoo-0063"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/calcaneus"/>
-        <Class IRI="/measurement-von-den-driesch-1976"/>
+        <Class IRI="/zoo-0056"/>
+        <Class IRI="/zoo-0063"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/dist-f"/>
-        <Class IRI="/fusion-chars"/>
+        <Class IRI="/zoo-0060"/>
+        <Class IRI="/zoo-0063"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/dist-u"/>
-        <Class IRI="/fusion-chars"/>
+        <Class IRI="/zoo-0062"/>
+        <Class IRI="/zoo-0063"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/dist-uf"/>
-        <Class IRI="/fusion-chars"/>
+        <Class IRI="/zoo-0063"/>
+        <Class IRI="/zoo-0054"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/femur"/>
-        <Class IRI="/measurement-von-den-driesch-1976"/>
+        <Class IRI="/zoo-0064"/>
+        <Class IRI="/zoo-0063"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/fusion-chars"/>
-        <Class IRI="http://purl.obolibrary.org/obo/PATO_0000051"/>
+        <Class IRI="/zoo-0065"/>
+        <Class IRI="/zoo-0063"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/humerus"/>
-        <Class IRI="/measurement-von-den-driesch-1976"/>
+        <Class IRI="/zoo-0066"/>
+        <Class IRI="/zoo-0063"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/measurement-von-den-driesch-1976"/>
-        <Class IRI="/anatomicalMeasurement"/>
+        <Class IRI="/zoo-0067"/>
+        <Class IRI="/zoo-0063"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/metapodials"/>
-        <Class IRI="/measurement-von-den-driesch-1976"/>
+        <Class IRI="/zoo-0068"/>
+        <Class IRI="/zoo-0063"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/pelvis"/>
-        <Class IRI="/measurement-von-den-driesch-1976"/>
+        <Class IRI="/zoo-0072"/>
+        <Class IRI="/zoo-0063"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/phalanx-1"/>
-        <Class IRI="/measurement-von-den-driesch-1976"/>
+        <Class IRI="/zoo-0073"/>
+        <Class IRI="/zoo-0063"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/phalanx-2"/>
-        <Class IRI="/measurement-von-den-driesch-1976"/>
+        <Class IRI="/zoo-0074"/>
+        <Class IRI="/zoo-0063"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/phalanx-3"/>
-        <Class IRI="/measurement-von-den-driesch-1976"/>
+        <Class IRI="/zoo-0075"/>
+        <Class IRI="/zoo-0063"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/prox-f"/>
-        <Class IRI="/fusion-chars"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="/prox-u"/>
-        <Class IRI="/fusion-chars"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="/prox-uf"/>
-        <Class IRI="/fusion-chars"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="/radius"/>
-        <Class IRI="/measurement-von-den-driesch-1976"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="/scapula"/>
-        <Class IRI="/measurement-von-den-driesch-1976"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="/tarsals"/>
-        <Class IRI="/measurement-von-den-driesch-1976"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="/tibia"/>
-        <Class IRI="/measurement-von-den-driesch-1976"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="/ulna"/>
-        <Class IRI="/measurement-von-den-driesch-1976"/>
+        <Class IRI="/zoo-0076"/>
+        <Class IRI="/zoo-0063"/>
     </SubClassOf>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="/HasFusionChar"/>
-        <Class IRI="/fusion-chars"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="/hasAnatomicID"/>
+        <ObjectProperty IRI="/zoo-0079"/>
         <Class IRI="http://purl.obolibrary.org/obo/UBERON_0001062"/>
     </ObjectPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/B</IRI>
+        <IRI>/zoo-0001</IRI>
         <Literal datatypeIRI="&xsd;string">Breadth of the middle of the diaphysis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/B</IRI>
+        <IRI>/zoo-0001</IRI>
         <Literal datatypeIRI="&rdfs;Literal">B</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/BF</IRI>
+        <IRI>/zoo-0002</IRI>
         <Literal datatypeIRI="&xsd;string">Breadth of the Facies articularis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/BF</IRI>
+        <IRI>/zoo-0002</IRI>
         <Literal datatypeIRI="&rdfs;Literal">BF</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/BFd</IRI>
+        <IRI>/zoo-0003</IRI>
         <Literal datatypeIRI="&xsd;string">(Greatest) breadth of the Facies articularis distalis. Measured in the same plane as Bd. Only in equids and ruminants.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/BFd</IRI>
+        <IRI>/zoo-0003</IRI>
         <Literal datatypeIRI="&rdfs;Literal">BFd</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/BFp</IRI>
+        <IRI>/zoo-0004</IRI>
         <Literal datatypeIRI="&xsd;string">(Greatest) breadth of the Facies articularis proximalis (humeral articular surface). Measured in the same plane as Bp. Ony in equids and ruminants.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/BFp</IRI>
+        <IRI>/zoo-0004</IRI>
         <Literal datatypeIRI="&rdfs;Literal">BFp</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/BG</IRI>
+        <IRI>/zoo-0005</IRI>
         <Literal datatypeIRI="&xsd;string">Breadth of the glenoid cavity - Greatest breadth of the glenoid angle.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/BG</IRI>
+        <IRI>/zoo-0005</IRI>
         <Literal datatypeIRI="&rdfs;Literal">BG</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/BPC</IRI>
+        <IRI>/zoo-0006</IRI>
         <Literal datatypeIRI="&xsd;string">(Greatest) breadth across the coronoid process = greatest breadth of the proximal articular surface</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/BPC</IRI>
+        <IRI>/zoo-0006</IRI>
         <Literal datatypeIRI="&rdfs;Literal">BPC</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/BT</IRI>
+        <IRI>/zoo-0007</IRI>
         <Literal datatypeIRI="&xsd;string">(Greatest) breadth of the trochlea, only in equids and ruminants. The trochlea is measured in the middle from the cranial side including the outer borders of both the lateral and the medial condyle. (See: von den Driesch 1976: 76-77)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/BT</IRI>
+        <IRI>/zoo-0007</IRI>
         <Literal datatypeIRI="&rdfs;Literal">BT</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/BTr</IRI>
+        <IRI>/zoo-0008</IRI>
         <Literal datatypeIRI="&xsd;string">(Greatest) breadth of the region of the Trochanter tertius. Only in lagomorphs to be measred in parallel to the Bp!</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/BTr</IRI>
+        <IRI>/zoo-0008</IRI>
         <Literal datatypeIRI="&rdfs;Literal">BTr</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/Bd</IRI>
+        <IRI>/zoo-0009</IRI>
         <Literal datatypeIRI="&xsd;string">(Greatest) breadth of the distal end (See: von den Driesch 1976: 76-77).</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/Bd</IRI>
+        <IRI>/zoo-0009</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Bd</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/Bp</IRI>
+        <IRI>/zoo-0010</IRI>
         <Literal datatypeIRI="&xsd;string">(Greatest) breadth of the proximal end. Not in canids or lago-morphs (See: von den Driesch 1976: 76-77).</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/Bp</IRI>
+        <IRI>/zoo-0010</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Bp</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/CD</IRI>
+        <IRI>/zoo-0011</IRI>
         <Literal datatypeIRI="&xsd;string">(Smallest) circumference of the diaphysis. In general only in horses, where this measurement serves well to denote proportions</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/CD</IRI>
+        <IRI>/zoo-0011</IRI>
         <Literal datatypeIRI="&rdfs;Literal">CD</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/DC</IRI>
+        <IRI>/zoo-0012</IRI>
         <Literal datatypeIRI="&xsd;string">(Greatest) depth of the Caput femoris</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/DC</IRI>
+        <IRI>/zoo-0012</IRI>
         <Literal datatypeIRI="&rdfs;Literal">DC</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/DD</IRI>
+        <IRI>/zoo-0013</IRI>
         <Literal datatypeIRI="&xsd;string">(Smallest) depth of the diaphysis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/DD</IRI>
+        <IRI>/zoo-0013</IRI>
         <Literal datatypeIRI="&rdfs;Literal">DD</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/DHA</IRI>
+        <IRI>/zoo-0014</IRI>
         <Literal datatypeIRI="&xsd;string">Diagonal height (see defintions for linear measurements in von den Driesch 1976:14) from the most distal point of the scapula to the thoracic angle.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/DHA</IRI>
+        <IRI>/zoo-0014</IRI>
         <Literal datatypeIRI="&rdfs;Literal">DHA</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/DLS</IRI>
+        <IRI>/zoo-0015</IRI>
         <Literal datatypeIRI="&xsd;string">Greatest diagonal length of the sole</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/DLS</IRI>
+        <IRI>/zoo-0015</IRI>
         <Literal datatypeIRI="&rdfs;Literal">DLS</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/DPA</IRI>
+        <IRI>/zoo-0016</IRI>
         <Literal datatypeIRI="&xsd;string">Depth across the Processus anconaeus. One measures the shortest distance from the Procesus anonaeus to the caudal border of the ulna.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/DPA</IRI>
+        <IRI>/zoo-0016</IRI>
         <Literal datatypeIRI="&rdfs;Literal">DPA</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/Dd</IRI>
+        <IRI>/zoo-0017</IRI>
         <Literal datatypeIRI="&xsd;string">(Greatest) depth of the distal end. Ususually measured only in equids and lagomorphs</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/Dd</IRI>
+        <IRI>/zoo-0017</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Dd</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/Dl</IRI>
+        <IRI>/zoo-0018</IRI>
         <Literal datatypeIRI="&xsd;string">Greatest depth of the lateral half</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/Dl</IRI>
+        <IRI>/zoo-0018</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Dl</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/Dm</IRI>
+        <IRI>/zoo-0019</IRI>
         <Literal datatypeIRI="&xsd;string">Greatest depth of the medial half</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/Dm</IRI>
+        <IRI>/zoo-0019</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Dm</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/Dp</IRI>
+        <IRI>/zoo-0020</IRI>
         <Literal datatypeIRI="&xsd;string">Depth of the proximal end</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/Dp</IRI>
+        <IRI>/zoo-0020</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Dp</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/GB</IRI>
+        <IRI>/zoo-0021</IRI>
         <Literal datatypeIRI="&xsd;string">Greatest breadth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/GB</IRI>
+        <IRI>/zoo-0021</IRI>
         <Literal datatypeIRI="&rdfs;Literal">GB</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/GBA</IRI>
+        <IRI>/zoo-0022</IRI>
         <Literal datatypeIRI="&xsd;string">Greatest breadth across the acetabula</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/GBA</IRI>
+        <IRI>/zoo-0022</IRI>
         <Literal datatypeIRI="&rdfs;Literal">GBA</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/GBTc</IRI>
+        <IRI>/zoo-0023</IRI>
         <Literal datatypeIRI="&xsd;string">Greatest breadth across the Tubera coxarum = greatest breadth across the lateral angle</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/GBTc</IRI>
+        <IRI>/zoo-0023</IRI>
         <Literal datatypeIRI="&rdfs;Literal">GBTc</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/GBTi</IRI>
+        <IRI>/zoo-0024</IRI>
         <Literal datatypeIRI="&xsd;string">Greatest breadth across the Tubera ischiadica</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/GBTi</IRI>
+        <IRI>/zoo-0024</IRI>
         <Literal datatypeIRI="&rdfs;Literal">GBTi</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/GH</IRI>
+        <IRI>/zoo-0025</IRI>
         <Literal datatypeIRI="&xsd;string">Greatest height (= length).</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/GH</IRI>
+        <IRI>/zoo-0025</IRI>
         <Literal datatypeIRI="&rdfs;Literal">GH</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/GL</IRI>
+        <IRI>/zoo-0026</IRI>
         <Literal datatypeIRI="&xsd;string">Greatest Length (GL) as defined by von den Driesch (1976). This measure should not be used for all bone elements, since it can be ambiguous depending on the specifics of a given bone element&apos;s morphology.
 </Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/GL</IRI>
+        <IRI>/zoo-0026</IRI>
         <Literal datatypeIRI="&rdfs;Literal">GL</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/GLC</IRI>
+        <IRI>/zoo-0027</IRI>
         <Literal datatypeIRI="&xsd;string">Greatest Length from caput (head) (See: von den Driesch 1976: 76-77)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/GLC</IRI>
+        <IRI>/zoo-0027</IRI>
         <Literal datatypeIRI="&rdfs;Literal">GLC</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/GLP</IRI>
+        <IRI>/zoo-0028</IRI>
         <Literal datatypeIRI="&xsd;string">Greatest length of the Processus articularis (glenoid process)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/GLP</IRI>
+        <IRI>/zoo-0028</IRI>
         <Literal datatypeIRI="&rdfs;Literal">GLP</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/GLl</IRI>
+        <IRI>/zoo-0029</IRI>
         <Literal datatypeIRI="&xsd;string">Greatest length of the lateral part (See: von den Driesch 1976: 76-77)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/GLl</IRI>
+        <IRI>/zoo-0029</IRI>
         <Literal datatypeIRI="&rdfs;Literal">GLl</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/GLm</IRI>
+        <IRI>/zoo-0030</IRI>
         <Literal datatypeIRI="&xsd;string">Greatest length of the medial half</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/GLm</IRI>
+        <IRI>/zoo-0030</IRI>
         <Literal datatypeIRI="&rdfs;Literal">GLm</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/GLpe</IRI>
+        <IRI>/zoo-0031</IRI>
         <Literal datatypeIRI="&xsd;string">Greatest length of the peripheral (abaxial) half. Most of the anterior first phalanges of Bos re formed in such a manner that the proximodorsal and the proximovolar prominent parts of the perupheral section of the proximal rticular surface can serve s fixed points for one of the callipers.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/GLpe</IRI>
+        <IRI>/zoo-0031</IRI>
         <Literal datatypeIRI="&rdfs;Literal">GLpe</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/HP</IRI>
+        <IRI>/zoo-0032</IRI>
         <Literal datatypeIRI="&xsd;string">Height in the region of the extensor process (measuring box!)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/HP</IRI>
+        <IRI>/zoo-0032</IRI>
         <Literal datatypeIRI="&rdfs;Literal">HP</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/HS</IRI>
+        <IRI>/zoo-0033</IRI>
         <Literal datatypeIRI="&xsd;string">Height (see definitions of linear measurements von den Driesch 1976:14) along the spine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/HS</IRI>
+        <IRI>/zoo-0033</IRI>
         <Literal datatypeIRI="&rdfs;Literal">HS</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/HasFusionChar</IRI>
-        <Literal datatypeIRI="&xsd;string">Has bone fusion characterization. Describes a bone fusion stage.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/HasFusionChar</IRI>
-        <Literal datatypeIRI="&rdfs;Literal">Has fusion character</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/HasSexID</IRI>
+        <IRI>/zoo-0078</IRI>
         <Literal datatypeIRI="&xsd;string">Has an identication, with some degree of certainty, as to the physiological sex of an organism.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/HasSexID</IRI>
+        <IRI>/zoo-0078</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Has physiological sex determination</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/LA</IRI>
+        <IRI>/zoo-0034</IRI>
         <Literal datatypeIRI="&xsd;string">Length of the acetabulum including the lip.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/LA</IRI>
+        <IRI>/zoo-0034</IRI>
         <Literal datatypeIRI="&rdfs;Literal">LA</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/LAR</IRI>
+        <IRI>/zoo-0035</IRI>
         <Literal datatypeIRI="&xsd;string">Length of the acetabulum on the rim</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/LAR</IRI>
+        <IRI>/zoo-0035</IRI>
         <Literal datatypeIRI="&rdfs;Literal">LAR</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/LF</IRI>
+        <IRI>/zoo-0036</IRI>
         <Literal datatypeIRI="&xsd;string">Length of the Facies articularis (articular surface)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/LF</IRI>
+        <IRI>/zoo-0036</IRI>
         <Literal datatypeIRI="&rdfs;Literal">LF</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/LFo</IRI>
+        <IRI>/zoo-0037</IRI>
         <Literal datatypeIRI="&xsd;string">Inner length of the foramen obturatum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/LFo</IRI>
+        <IRI>/zoo-0037</IRI>
         <Literal datatypeIRI="&rdfs;Literal">LFo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/LG</IRI>
+        <IRI>/zoo-0038</IRI>
         <Literal datatypeIRI="&xsd;string">Length of the glenoid cavity.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/LG</IRI>
+        <IRI>/zoo-0038</IRI>
         <Literal datatypeIRI="&rdfs;Literal">LG</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/LO</IRI>
+        <IRI>/zoo-0039</IRI>
         <Literal datatypeIRI="&xsd;string">Length of the olecranon. Only in ruminants</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/LO</IRI>
+        <IRI>/zoo-0039</IRI>
         <Literal datatypeIRI="&rdfs;Literal">LO</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/LS</IRI>
+        <IRI>/zoo-0040</IRI>
         <Literal datatypeIRI="&xsd;string">Length of the symphysis. Only measured when the two halves have fused.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/LS</IRI>
+        <IRI>/zoo-0040</IRI>
         <Literal datatypeIRI="&rdfs;Literal">LS</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/Ld</IRI>
+        <IRI>/zoo-0041</IRI>
         <Literal datatypeIRI="&xsd;string">Length of the dorsal surface</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/Ld</IRI>
+        <IRI>/zoo-0041</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Ld</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/LeP</IRI>
+        <IRI>/zoo-0042</IRI>
         <Literal datatypeIRI="&xsd;string">Length, excepting the plantar projection</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/LeP</IRI>
+        <IRI>/zoo-0042</IRI>
         <Literal datatypeIRI="&rdfs;Literal">LeP</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/Ll</IRI>
+        <IRI>/zoo-0043</IRI>
         <Literal datatypeIRI="&xsd;string">Length of the lateral part</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/Ll</IRI>
+        <IRI>/zoo-0043</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Ll</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/LmT</IRI>
+        <IRI>/zoo-0044</IRI>
         <Literal datatypeIRI="&xsd;string">Length of the medial part of the Trochlea tali</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/LmT</IRI>
+        <IRI>/zoo-0044</IRI>
         <Literal datatypeIRI="&rdfs;Literal">LmT</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/MBS</IRI>
+        <IRI>/zoo-0045</IRI>
         <Literal datatypeIRI="&xsd;string">Middle breadth of the sole = breadth in the middle of the sole</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/MBS</IRI>
+        <IRI>/zoo-0045</IRI>
         <Literal datatypeIRI="&rdfs;Literal">MBS</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/PL</IRI>
+        <IRI>/zoo-0046</IRI>
         <Literal datatypeIRI="&xsd;string">Physiological length. Applies to horses, where one measures in the longitudinal axis of the bone from the proximal articular surface to the distal articular surfac.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/PL</IRI>
+        <IRI>/zoo-0046</IRI>
         <Literal datatypeIRI="&rdfs;Literal">PL</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/SB</IRI>
+        <IRI>/zoo-0047</IRI>
         <Literal datatypeIRI="&xsd;string">Smallest breadth of the shaft of ilium</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/SB</IRI>
+        <IRI>/zoo-0047</IRI>
         <Literal datatypeIRI="&rdfs;Literal">SB</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/SBI</IRI>
+        <IRI>/zoo-0048</IRI>
         <Literal datatypeIRI="&xsd;string">Smallest breadth across the bodies of the ischia</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/SBI</IRI>
+        <IRI>/zoo-0048</IRI>
         <Literal datatypeIRI="&rdfs;Literal">SBI</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/SC</IRI>
+        <IRI>/zoo-0049</IRI>
         <Literal datatypeIRI="&xsd;string">Smallest circumference of the shaft of ilium</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/SC</IRI>
+        <IRI>/zoo-0049</IRI>
         <Literal datatypeIRI="&rdfs;Literal">SC</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/SD</IRI>
+        <IRI>/zoo-0050</IRI>
         <Literal datatypeIRI="&xsd;string">Smallest breadth of the diaphysis (See: von den Driesch 1976: 76-77)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/SD</IRI>
+        <IRI>/zoo-0050</IRI>
         <Literal datatypeIRI="&rdfs;Literal">SD</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/SDO</IRI>
+        <IRI>/zoo-0051</IRI>
         <Literal datatypeIRI="&xsd;string">Smallest depth of the olecranon. Cannot be accurately measured in bears.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/SDO</IRI>
+        <IRI>/zoo-0051</IRI>
         <Literal datatypeIRI="&rdfs;Literal">SDO</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/SH</IRI>
+        <IRI>/zoo-0052</IRI>
         <Literal datatypeIRI="&xsd;string">Smallest height of the haft of ilium</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/SH</IRI>
+        <IRI>/zoo-0052</IRI>
         <Literal datatypeIRI="&rdfs;Literal">SH</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/SLC</IRI>
+        <IRI>/zoo-0053</IRI>
         <Literal datatypeIRI="&xsd;string">Smallest length of the Collum scapulae (neck of the scapula).</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/SLC</IRI>
+        <IRI>/zoo-0053</IRI>
         <Literal datatypeIRI="&rdfs;Literal">SLC</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/anatomicalMeasurement</IRI>
+        <IRI>/zoo-0054</IRI>
         <Literal datatypeIRI="&xsd;string">A measurement of an anamical entity. In zooarchaeology, these are usually bone elements.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/anatomicalMeasurement</IRI>
+        <IRI>/zoo-0054</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Anatomical measurement</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/astragalus</IRI>
+        <IRI>/zoo-0055</IRI>
         <Literal datatypeIRI="&rdfs;Literal">astragalus (talus) measurement</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/calcaneus</IRI>
+        <IRI>/zoo-0056</IRI>
         <Literal datatypeIRI="&rdfs;Literal">calcaneus measurement</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/dist-f</IRI>
-        <Literal datatypeIRI="&xsd;string">The distal epiphysis is fully fused to the shaft, with no fusion line visible at the metaphysis.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/dist-f</IRI>
-        <Literal datatypeIRI="&rdfs;Literal">Distal epiphysis fused</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>/dist-f</IRI>
-        <Literal datatypeIRI="&xsd;anyURI"> http://purl.obolibrary.org/obo/UBERON_0004379</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/dist-u</IRI>
-        <Literal datatypeIRI="&xsd;string">The distal epiphysis is not fused to the shaft. The epiphysis and the shaft are completely separated. The specimen is either the unfused distal epiphysis, the unfused shaft, or portions of both that are not attached to each other.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/dist-u</IRI>
-        <Literal datatypeIRI="&rdfs;Literal">Distal epiphysis unfused</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>/dist-u</IRI>
-        <Literal datatypeIRI="&xsd;anyURI"> http://purl.obolibrary.org/obo/UBERON_0004379</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/dist-uf</IRI>
-        <Literal datatypeIRI="&xsd;string">The distal epiphysis is in the process of fusing. A fusion
-line is still visible at the metaphysis, but the epiphysis and the shaft
-cannot be separated manually.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/dist-uf</IRI>
-        <Literal datatypeIRI="&rdfs;Literal">Distal epiphysis fusing</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>/dist-uf</IRI>
-        <Literal datatypeIRI="&xsd;anyURI"> http://purl.obolibrary.org/obo/UBERON_0004379</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/femur</IRI>
+        <IRI>/zoo-0060</IRI>
         <Literal datatypeIRI="&rdfs;Literal">femur measurement</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/fusion-chars</IRI>
-        <Literal datatypeIRI="&xsd;string">These classes are used to describe the epiphyseal charateristics of bone elements.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/fusion-chars</IRI>
-        <Literal datatypeIRI="&rdfs;Literal">Fusion characterization</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/hasAnatomicID</IRI>
+        <IRI>/zoo-0079</IRI>
         <Literal datatypeIRI="&xsd;string">Has an identification (with some degree of certainty and confidence) to a specific anatomical structure. For zooarchaeology, this usually means an identification to a bone element</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/hasAnatomicID</IRI>
+        <IRI>/zoo-0079</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Has anatomical identification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/humerus</IRI>
+        <IRI>/zoo-0062</IRI>
         <Literal datatypeIRI="&rdfs;Literal">humerus measurement</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/measurement-von-den-driesch-1976</IRI>
+        <IRI>/zoo-0063</IRI>
         <Literal datatypeIRI="&xsd;string">A length distance measure for an anatomic element, usuallly defined as the distance between two clearly identified anatomic structures. These measurements were defined by Von den Driesch (1976).</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/measurement-von-den-driesch-1976</IRI>
+        <IRI>/zoo-0063</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Von den Driesch (1976) Bone Measurement</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/metapodials</IRI>
+        <IRI>/zoo-0064</IRI>
         <Literal datatypeIRI="&rdfs;Literal">metapodial measurement</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/pelvis</IRI>
+        <IRI>/zoo-0065</IRI>
         <Literal datatypeIRI="&rdfs;Literal">pelvis measurement</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/phalanx-1</IRI>
+        <IRI>/zoo-0066</IRI>
         <Literal datatypeIRI="&rdfs;Literal">phalanx 1 measurement</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/phalanx-2</IRI>
+        <IRI>/zoo-0067</IRI>
         <Literal datatypeIRI="&rdfs;Literal">phalanx 2 measurement</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/phalanx-3</IRI>
+        <IRI>/zoo-0068</IRI>
         <Literal datatypeIRI="&rdfs;Literal">phalanx 3 measurement</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/prox-f</IRI>
-        <Literal datatypeIRI="&xsd;string">The proximal epiphysis is fully fused to the shaft, with no fusion line visible at the metaphysis.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/prox-f</IRI>
-        <Literal datatypeIRI="&rdfs;Literal">Proximal epiphysis fused</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>/prox-f</IRI>
-        <Literal datatypeIRI="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0004380</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/prox-u</IRI>
-        <Literal datatypeIRI="&xsd;string">The proximal epiphysis is not fused to the shaft. The epiphysis and the shaft are completely separated. The specimen is either the unfused distal epiphysis, the unfused shaft, or portions of both that are not attached to each other.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/prox-u</IRI>
-        <Literal datatypeIRI="&rdfs;Literal">Proximal epiphysis unfused</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>/prox-u</IRI>
-        <Literal datatypeIRI="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0004380</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/prox-uf</IRI>
-        <Literal datatypeIRI="&xsd;string">The proximal epiphysis is in the process of fusing. A fusion line is still visible at the metaphysis, but the epiphysis and the shaft cannot be separated manually.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/prox-uf</IRI>
-        <Literal datatypeIRI="&rdfs;Literal">Proximal epiphysis fusing</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>/prox-uf</IRI>
-        <Literal datatypeIRI="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0004380</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/radius</IRI>
+        <IRI>/zoo-0072</IRI>
         <Literal datatypeIRI="&rdfs;Literal">radius measurement</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/scapula</IRI>
+        <IRI>/zoo-0073</IRI>
         <Literal datatypeIRI="&rdfs;Literal">scapula measurement</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/tarsals</IRI>
+        <IRI>/zoo-0074</IRI>
         <Literal datatypeIRI="&rdfs;Literal">tarsals measurement</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/tibia</IRI>
+        <IRI>/zoo-0075</IRI>
         <Literal datatypeIRI="&rdfs;Literal">tibia measurement</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/ulna</IRI>
+        <IRI>/zoo-0076</IRI>
         <Literal datatypeIRI="&rdfs;Literal">ulna measurement</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -1571,11 +1400,6 @@ cannot be separated manually.</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/PATO_0000040</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Distance</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/PATO_0000051</IRI>
-        <Literal datatypeIRI="&rdfs;Literal">morphology</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
