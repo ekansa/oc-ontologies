@@ -252,7 +252,7 @@
         <Class IRI="/zoo-0076"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/zoo-0080"/>
+        <Class IRI="/zoo-0061"/>
     </Declaration>
     <Declaration>
         <Class IRI="/zoo-0057"/>
@@ -774,32 +774,32 @@
         <Class IRI="/zoo-0063"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/zoo-0080"/>
+        <Class IRI="/zoo-0061"/>
         <Class IRI="http://purl.obolibrary.org/obo/PATO_0000051"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/zoo-0057"/>
-        <Class IRI="/zoo-0080"/>
+        <Class IRI="/zoo-0061"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/zoo-0058"/>
-        <Class IRI="/zoo-0080"/>
+        <Class IRI="/zoo-0061"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/zoo-0059"/>
-        <Class IRI="/zoo-0080"/>
+        <Class IRI="/zoo-0061"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/zoo-0069"/>
-        <Class IRI="/zoo-0080"/>
+        <Class IRI="/zoo-0061"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/zoo-0070"/>
-        <Class IRI="/zoo-0080"/>
+        <Class IRI="/zoo-0061"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/zoo-0071"/>
-        <Class IRI="/zoo-0080"/>
+        <Class IRI="/zoo-0061"/>
     </SubClassOf>
     <ObjectPropertyRange>
         <ObjectProperty IRI="/zoo-0079"/>
@@ -807,7 +807,7 @@
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="/zoo-0077"/>
-        <Class IRI="/zoo-0080"/>
+        <Class IRI="/zoo-0061"/>
     </ObjectPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1452,12 +1452,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/zoo-0080</IRI>
+        <IRI>/zoo-0061</IRI>
         <Literal datatypeIRI="&xsd;string">These classes are used to describe the epiphyseal charateristics of bone elements.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/zoo-0080</IRI>
+        <IRI>/zoo-0061</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Fusion characterization</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
