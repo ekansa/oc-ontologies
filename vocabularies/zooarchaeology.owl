@@ -213,7 +213,19 @@
         <Class IRI="/zoo-0056"/>
     </Declaration>
     <Declaration>
+        <Class IRI="/zoo-0057"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/zoo-0058"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/zoo-0059"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="/zoo-0060"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/zoo-0061"/>
     </Declaration>
     <Declaration>
         <Class IRI="/zoo-0062"/>
@@ -237,6 +249,15 @@
         <Class IRI="/zoo-0068"/>
     </Declaration>
     <Declaration>
+        <Class IRI="/zoo-0069"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/zoo-0070"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/zoo-0071"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="/zoo-0072"/>
     </Declaration>
     <Declaration>
@@ -252,37 +273,25 @@
         <Class IRI="/zoo-0076"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/zoo-0061"/>
+        <Class IRI="/zoo-0080"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/zoo-0057"/>
+        <Class IRI="/zoo-0081"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/zoo-0058"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/zoo-0059"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/zoo-0069"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/zoo-0070"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/zoo-0071"/>
+        <Class IRI="/zoo-0082"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/PATO_0000051"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/zoo-0077"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="/zoo-0078"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="/zoo-0079"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="/zoo-0077"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="cc:attributionName"/>
@@ -722,8 +731,24 @@
         <Class IRI="/zoo-0063"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/zoo-0057"/>
+        <Class IRI="/zoo-0061"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/zoo-0058"/>
+        <Class IRI="/zoo-0061"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/zoo-0059"/>
+        <Class IRI="/zoo-0061"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/zoo-0060"/>
         <Class IRI="/zoo-0063"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/zoo-0061"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PATO_0000051"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/zoo-0062"/>
@@ -754,6 +779,18 @@
         <Class IRI="/zoo-0063"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/zoo-0069"/>
+        <Class IRI="/zoo-0061"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/zoo-0070"/>
+        <Class IRI="/zoo-0061"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/zoo-0071"/>
+        <Class IRI="/zoo-0061"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/zoo-0072"/>
         <Class IRI="/zoo-0063"/>
     </SubClassOf>
@@ -774,40 +811,24 @@
         <Class IRI="/zoo-0063"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/zoo-0061"/>
-        <Class IRI="http://purl.obolibrary.org/obo/PATO_0000051"/>
+        <Class IRI="/zoo-0080"/>
+        <Class IRI="/zoo-0063"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/zoo-0057"/>
-        <Class IRI="/zoo-0061"/>
+        <Class IRI="/zoo-0081"/>
+        <Class IRI="/zoo-0080"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/zoo-0058"/>
-        <Class IRI="/zoo-0061"/>
+        <Class IRI="/zoo-0082"/>
+        <Class IRI="/zoo-0073"/>
     </SubClassOf>
-    <SubClassOf>
-        <Class IRI="/zoo-0059"/>
-        <Class IRI="/zoo-0061"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="/zoo-0069"/>
-        <Class IRI="/zoo-0061"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="/zoo-0070"/>
-        <Class IRI="/zoo-0061"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="/zoo-0071"/>
-        <Class IRI="/zoo-0061"/>
-    </SubClassOf>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="/zoo-0079"/>
-        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0001062"/>
-    </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="/zoo-0077"/>
         <Class IRI="/zoo-0061"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/zoo-0079"/>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0001062"/>
     </ObjectPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1361,116 +1382,6 @@
         <Literal datatypeIRI="&rdfs;Literal">calcaneus measurement</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/zoo-0060</IRI>
-        <Literal datatypeIRI="&rdfs;Literal">femur measurement</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/zoo-0062</IRI>
-        <Literal datatypeIRI="&rdfs;Literal">humerus measurement</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/zoo-0063</IRI>
-        <Literal datatypeIRI="&xsd;string">A length distance measure for an anatomic element, usuallly defined as the distance between two clearly identified anatomic structures. These measurements were defined by Von den Driesch (1976).</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/zoo-0063</IRI>
-        <Literal datatypeIRI="&rdfs;Literal">Von den Driesch (1976) Bone Measurement</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/zoo-0064</IRI>
-        <Literal datatypeIRI="&rdfs;Literal">metapodial measurement</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/zoo-0065</IRI>
-        <Literal datatypeIRI="&rdfs;Literal">pelvis measurement</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/zoo-0066</IRI>
-        <Literal datatypeIRI="&rdfs;Literal">phalanx 1 measurement</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/zoo-0067</IRI>
-        <Literal datatypeIRI="&rdfs;Literal">phalanx 2 measurement</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/zoo-0068</IRI>
-        <Literal datatypeIRI="&rdfs;Literal">phalanx 3 measurement</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/zoo-0072</IRI>
-        <Literal datatypeIRI="&rdfs;Literal">radius measurement</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/zoo-0073</IRI>
-        <Literal datatypeIRI="&rdfs;Literal">scapula measurement</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/zoo-0074</IRI>
-        <Literal datatypeIRI="&rdfs;Literal">tarsals measurement</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/zoo-0075</IRI>
-        <Literal datatypeIRI="&rdfs;Literal">tibia measurement</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/zoo-0076</IRI>
-        <Literal datatypeIRI="&rdfs;Literal">ulna measurement</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/zoo-0078</IRI>
-        <Literal datatypeIRI="&xsd;string">Has an identication, with some degree of certainty, as to the physiological sex of an organism.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/zoo-0078</IRI>
-        <Literal datatypeIRI="&rdfs;Literal">Has physiological sex determination</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/zoo-0079</IRI>
-        <Literal datatypeIRI="&xsd;string">Has an identification (with some degree of certainty and confidence) to a specific anatomical structure. For zooarchaeology, this usually means an identification to a bone element</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/zoo-0079</IRI>
-        <Literal datatypeIRI="&rdfs;Literal">Has anatomical identification</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/zoo-0061</IRI>
-        <Literal datatypeIRI="&xsd;string">These classes are used to describe the epiphyseal charateristics of bone elements.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/zoo-0061</IRI>
-        <Literal datatypeIRI="&rdfs;Literal">Fusion characterization</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/zoo-0077</IRI>
-        <Literal datatypeIRI="&xsd;string">Has bone fusion characterization. Describes a bone fusion stage.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/zoo-0077</IRI>
-        <Literal datatypeIRI="&rdfs;Literal">Has fusion character</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>/zoo-0057</IRI>
         <Literal datatypeIRI="&xsd;string">The distal epiphysis is fully fused to the shaft, with no fusion line visible at the metaphysis.</Literal>
@@ -1518,6 +1429,61 @@ cannot be separated manually.</Literal>
         <Literal datatypeIRI="&xsd;anyURI"> http://purl.obolibrary.org/obo/UBERON_0004379</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/zoo-0060</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">femur measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/zoo-0061</IRI>
+        <Literal datatypeIRI="&xsd;string">These classes are used to describe the epiphyseal charateristics of bone elements.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/zoo-0061</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Fusion characterization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/zoo-0062</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">humerus measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/zoo-0063</IRI>
+        <Literal datatypeIRI="&xsd;string">A length distance measure for an anatomic element, usuallly defined as the distance between two clearly identified anatomic structures. These measurements were defined by Von den Driesch (1976).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/zoo-0063</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Von den Driesch (1976) Bone Measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/zoo-0064</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">metapodial measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/zoo-0065</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">pelvis measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/zoo-0066</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">phalanx 1 measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/zoo-0067</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">phalanx 2 measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/zoo-0068</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">phalanx 3 measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>/zoo-0069</IRI>
         <Literal datatypeIRI="&xsd;string">The proximal epiphysis is fully fused to the shaft, with no fusion line visible at the metaphysis.</Literal>
@@ -1561,6 +1527,86 @@ cannot be separated manually.</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>/zoo-0071</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0004380</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/zoo-0072</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">radius measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/zoo-0073</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">scapula measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/zoo-0074</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">tarsals measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/zoo-0075</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">tibia measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/zoo-0076</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">ulna measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/zoo-0077</IRI>
+        <Literal datatypeIRI="&xsd;string">Has bone fusion characterization. Describes a bone fusion stage.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/zoo-0077</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Has fusion character</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/zoo-0078</IRI>
+        <Literal datatypeIRI="&xsd;string">Has an identication, with some degree of certainty, as to the physiological sex of an organism.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/zoo-0078</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Has physiological sex determination</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/zoo-0079</IRI>
+        <Literal datatypeIRI="&xsd;string">Has an identification (with some degree of certainty and confidence) to a specific anatomical structure. For zooarchaeology, this usually means an identification to a bone element</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/zoo-0079</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Has anatomical identification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/zoo-0080</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">tibiotarsus measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/zoo-0081</IRI>
+        <Literal datatypeIRI="&xsd;string">Greatest diagonal of the proximal end: from the Condylus medialis femoralis to the Crista lateralis, even though in some species the distance from the Condylus medialis femoralis to the Crista tibia is greater. See pages 126-127.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/zoo-0081</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Dip</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/zoo-0082</IRI>
+        <Literal datatypeIRI="&xsd;string">Greatest cranial diagonal (for birds, see page: 115)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/zoo-0082</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Dic</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
