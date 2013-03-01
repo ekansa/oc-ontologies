@@ -282,6 +282,12 @@
         <Class IRI="/zoo-0082"/>
     </Declaration>
     <Declaration>
+        <Class IRI="/zoo-0083"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/zoo-0084"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/PATO_0000051"/>
     </Declaration>
     <Declaration>
@@ -821,6 +827,14 @@
     <SubClassOf>
         <Class IRI="/zoo-0082"/>
         <Class IRI="/zoo-0073"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/zoo-0083"/>
+        <Class IRI="/zoo-0063"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/zoo-0084"/>
+        <Class IRI="/zoo-0083"/>
     </SubClassOf>
     <ObjectPropertyRange>
         <ObjectProperty IRI="/zoo-0077"/>
@@ -1607,6 +1621,21 @@ cannot be separated manually.</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/zoo-0082</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Dic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/zoo-0083</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">malleolus measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/zoo-0084</IRI>
+        <Literal datatypeIRI="&xsd;string">Greatest Depth</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/zoo-0084</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">GD</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
