@@ -288,6 +288,51 @@
         <Class IRI="/zoo-0084"/>
     </Declaration>
     <Declaration>
+        <Class IRI="/zoo-0085"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/zoo-0086"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/zoo-0087"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/zoo-0088"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/zoo-0089"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/zoo-0090"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/zoo-0092"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/zoo-0093"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/zoo-0094"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/zoo-0095"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/zoo-0096"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/zoo-0097"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/zoo-0098"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/zoo-0099"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/zoo-0100"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/PATO_0000051"/>
     </Declaration>
     <Declaration>
@@ -505,6 +550,10 @@
         <Class IRI="/zoo-0074"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/zoo-0021"/>
+        <Class IRI="/zoo-0095"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/zoo-0022"/>
         <Class IRI="/zoo-0065"/>
     </SubClassOf>
@@ -563,6 +612,10 @@
     <SubClassOf>
         <Class IRI="/zoo-0026"/>
         <Class IRI="/zoo-0076"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/zoo-0026"/>
+        <Class IRI="/zoo-0095"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/zoo-0027"/>
@@ -835,6 +888,78 @@
     <SubClassOf>
         <Class IRI="/zoo-0084"/>
         <Class IRI="/zoo-0083"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/zoo-0085"/>
+        <Class IRI="/zoo-0063"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/zoo-0086"/>
+        <Class IRI="/zoo-0085"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/zoo-0087"/>
+        <Class IRI="/zoo-0054"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/zoo-0088"/>
+        <Class IRI="/zoo-0062"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/zoo-0089"/>
+        <Class IRI="/zoo-0087"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/zoo-0090"/>
+        <Class IRI="/zoo-0089"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/zoo-0092"/>
+        <Class IRI="/zoo-0085"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/zoo-0092"/>
+        <Class IRI="/zoo-0095"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/zoo-0093"/>
+        <Class IRI="/zoo-0085"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/zoo-0094"/>
+        <Class IRI="/zoo-0085"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/zoo-0095"/>
+        <Class IRI="/zoo-0063"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/zoo-0096"/>
+        <Class IRI="/zoo-0085"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/zoo-0096"/>
+        <Class IRI="/zoo-0095"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/zoo-0097"/>
+        <Class IRI="/zoo-0085"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/zoo-0097"/>
+        <Class IRI="/zoo-0095"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/zoo-0098"/>
+        <Class IRI="/zoo-0095"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/zoo-0099"/>
+        <Class IRI="/zoo-0085"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/zoo-0100"/>
+        <Class IRI="/zoo-0085"/>
     </SubClassOf>
     <ObjectPropertyRange>
         <ObjectProperty IRI="/zoo-0077"/>
@@ -1636,6 +1761,136 @@ cannot be separated manually.</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/zoo-0084</IRI>
         <Literal datatypeIRI="&rdfs;Literal">GD</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/zoo-0085</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">axis measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/zoo-0086</IRI>
+        <Literal datatypeIRI="&xsd;string">Smallest breadth of the vertebra</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/zoo-0086</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">SBV</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/zoo-0087</IRI>
+        <Literal datatypeIRI="&xsd;string">This is currently a &quot;catch-all&quot; class for standard measurements not originally defined by Von den Driesch (1976).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/zoo-0087</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Other measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/zoo-0088</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">HT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/zoo-0089</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">humerus measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/zoo-0090</IRI>
+        <Literal datatypeIRI="&xsd;string">(Greatest) Height of the trochlea</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/zoo-0090</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">HT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/zoo-0092</IRI>
+        <Literal datatypeIRI="&xsd;string">(Greatest) Height</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/zoo-0092</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">H</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/zoo-0093</IRI>
+        <Literal datatypeIRI="&xsd;string">Greatest length in the region of the corpus (body) including the dens</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/zoo-0093</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">LCDe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/zoo-0094</IRI>
+        <Literal datatypeIRI="&xsd;string">Greatest length of the arch including the Processus articulares caudales</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/zoo-0094</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">LAPa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/zoo-0095</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">atlas measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/zoo-0096</IRI>
+        <Literal datatypeIRI="&xsd;string">(Greatest) breadth of the Facies articularis cranialis (cranial articular surface)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/zoo-0096</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BFcr</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/zoo-0097</IRI>
+        <Literal datatypeIRI="&xsd;string">(Greatest) breadth of the Facies articularis caudalis (caudal articular surface)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/zoo-0097</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BFcd</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/zoo-0098</IRI>
+        <Literal datatypeIRI="&xsd;string">Length of the Arcus dorsalis (dorsal arch), median. [Note: measured only in carnivores. Von den Driesch (1976): 67]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/zoo-0098</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">LAd</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/zoo-0099</IRI>
+        <Literal datatypeIRI="&xsd;string">(Greatest) breadth of the Processus articulares caudales</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/zoo-0099</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BPacd</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/zoo-0100</IRI>
+        <Literal datatypeIRI="&xsd;string">(Greatest) breadth across the Processus transversi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/zoo-0100</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BPtr</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
