@@ -969,6 +969,18 @@
         <ObjectProperty IRI="/zoo-0079"/>
         <Class IRI="http://purl.obolibrary.org/obo/UBERON_0001062"/>
     </ObjectPropertyRange>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/zoo-0077"/>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P2_has_type"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/zoo-0078"/>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P2_has_type"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/zoo-0079"/>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P2_has_type"/>
+    </SubObjectPropertyOf>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>/zoo-0001</IRI>
