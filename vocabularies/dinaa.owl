@@ -51,6 +51,9 @@ It was developed through support from the National Science Foundation (Grants: N
         <Class IRI="/00007"/>
     </Declaration>
     <Declaration>
+        <Class IRI="/zoo-0004"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="/00001"/>
     </Declaration>
     <EquivalentClasses>
@@ -71,6 +74,10 @@ It was developed through support from the National Science Foundation (Grants: N
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/00007"/>
+        <Class IRI="/00002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/zoo-0004"/>
         <Class IRI="/00002"/>
     </SubClassOf>
     <AnnotationAssertion>
@@ -104,14 +111,14 @@ It was developed through support from the National Science Foundation (Grants: N
         <Literal datatypeIRI="&rdfs;Literal">Investigation level</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P10_falls_within"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>/00004</IRI>
         <Literal datatypeIRI="&xsd;string">Period which contains American archaeological cultures of the Pleistocene.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/00004</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Paleoindian</Literal>
+        <Literal datatypeIRI="&rdfs;Literal">Paleoindian</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -137,6 +144,16 @@ It was developed through support from the National Science Foundation (Grants: N
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/00007</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Archaic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/zoo-0004</IRI>
+        <Literal datatypeIRI="&xsd;string">Widespread appearance of ceramics, from the Great Plains to the Atlantic seaboad. (3200 - 1000 BP)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/zoo-0004</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Woodland</Literal>
     </AnnotationAssertion>
 </Ontology>
 
