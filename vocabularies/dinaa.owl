@@ -76,10 +76,6 @@ It was developed through support from the National Science Foundation (Grants: N
         <Class IRI="/00007"/>
         <Class IRI="/00002"/>
     </SubClassOf>
-    <SubClassOf>
-        <Class IRI="/00004"/>
-        <Class IRI="/00002"/>
-    </SubClassOf>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>/00001</IRI>
