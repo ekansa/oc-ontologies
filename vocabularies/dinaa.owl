@@ -51,7 +51,7 @@ It was developed through support from the National Science Foundation (Grants: N
         <Class IRI="/00007"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/00004"/>
+        <Class IRI="/00008"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="/00001"/>
