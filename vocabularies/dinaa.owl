@@ -21,6 +21,9 @@
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xhv" IRI="http://www.w3.org/1999/xhtml/vocab#"/>
+    <Prefix name="cc" IRI="http://creativecommons.org/ns#"/>
+    <Prefix name="bibo" IRI="http://purl.org/ontology/bibo/"/>
     <Import>http://www.cidoc-crm.org/rdfs/cidoc_crm_v5.0.4_official_release.rdfs</Import>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -31,6 +34,14 @@
         <Literal datatypeIRI="&xsd;string">This ontology supports integration of data compiled by different State Historical Preservation Offices (SHPOs) for the Digital Index of North American Archaeology (DINAA) project (see: http://ux.opencontext.org/blog/archaeology-site-data/)
 
 It was developed through support from the National Science Foundation (Grants: NSF #1216810 and #1217240).</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="xhv:license"/>
+        <Literal datatypeIRI="&xsd;anyURI">http://creativecommons.org/licenses/by/3.0/</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="cc:attributionName"/>
+        <Literal datatypeIRI="&xsd;string">Joshua Wells, David G. Anderson, Stephen Yerka, Sarah Whitcher Kansa, Eric C. Kansa</Literal>
     </Annotation>
     <Declaration>
         <Class IRI="/00002"/>
