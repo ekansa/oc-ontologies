@@ -1,0 +1,4 @@
+$ cat .gitignore
+
+vocabularies/catalog-v001.xml
+
