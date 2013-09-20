@@ -44,7 +44,7 @@ It was developed through support from the National Science Foundation (Grants: N
         <Literal datatypeIRI="&xsd;anyURI">http://creativecommons.org/licenses/by/3.0/</Literal>
     </Annotation>
     <Declaration>
-        <Class IRI="#Early_Archaic_Generic"/>
+        <Class IRI="/00009"/>
     </Declaration>
     <Declaration>
         <Class IRI="/00002"/>
@@ -75,7 +75,7 @@ It was developed through support from the National Science Foundation (Grants: N
         <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E4_Period"/>
     </EquivalentClasses>
     <SubClassOf>
-        <Class IRI="#Early_Archaic_Generic"/>
+        <Class IRI="/00009"/>
         <Class IRI="/00007"/>
     </SubClassOf>
     <SubClassOf>
@@ -100,7 +100,7 @@ It was developed through support from the National Science Foundation (Grants: N
     </SubClassOf>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Early_Archaic_Generic</IRI>
+        <IRI>/00009</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Generic culture history abstract class used for archaeological sites defined by investigators as relating to a particular period, but without naming any specific cultures.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
