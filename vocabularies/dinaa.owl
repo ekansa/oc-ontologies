@@ -104,6 +104,11 @@ It was developed through support from the National Science Foundation (Grants: N
         <Literal datatypeIRI="&rdf;PlainLiteral">Generic culture history abstract class used for archaeological sites defined by investigators as relating to a particular period, but without naming any specific cultures.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00009</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Early Archaic (Generic)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>/00001</IRI>
         <Literal datatypeIRI="&xsd;string">Has an assignment or identification with a given chronological / cultural period.</Literal>
