@@ -24,6 +24,7 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="bibo" IRI="http://purl.org/ontology/bibo/"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="skos" IRI="http://www.w3.org/2004/02/skos/core#"/>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <Literal datatypeIRI="&rdf;PlainLiteral">Open Context Zooarchaeology Annotations</Literal>
@@ -961,14 +962,6 @@
         <Class IRI="/zoo-0100"/>
         <Class IRI="/zoo-0085"/>
     </SubClassOf>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="/zoo-0077"/>
-        <Class IRI="/zoo-0061"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="/zoo-0079"/>
-        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0001062"/>
-    </ObjectPropertyRange>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="/zoo-0077"/>
         <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P2_has_type"/>
@@ -981,6 +974,14 @@
         <ObjectProperty IRI="/zoo-0079"/>
         <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P2_has_type"/>
     </SubObjectPropertyOf>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/zoo-0077"/>
+        <Class IRI="/zoo-0061"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/zoo-0079"/>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+    </ObjectPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>/zoo-0001</IRI>
@@ -1528,9 +1529,19 @@
         <Literal datatypeIRI="&rdfs;Literal">astragalus (talus) measurement</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:related"/>
+        <IRI>/zoo-0055</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0002395</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/zoo-0056</IRI>
         <Literal datatypeIRI="&rdfs;Literal">calcaneus measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:related"/>
+        <IRI>/zoo-0056</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0001450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1585,6 +1596,11 @@ cannot be separated manually.</Literal>
         <Literal datatypeIRI="&rdfs;Literal">femur measurement</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:related"/>
+        <IRI>/zoo-0060</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0000981</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>/zoo-0061</IRI>
         <Literal datatypeIRI="&xsd;string">These classes are used to describe the epiphyseal charateristics of bone elements.</Literal>
@@ -1598,6 +1614,11 @@ cannot be separated manually.</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/zoo-0062</IRI>
         <Literal datatypeIRI="&rdfs;Literal">humerus measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:related"/>
+        <IRI>/zoo-0062</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0000976</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1615,9 +1636,19 @@ cannot be separated manually.</Literal>
         <Literal datatypeIRI="&rdfs;Literal">metapodial measurement</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:related"/>
+        <IRI>/zoo-0064</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0003821</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/zoo-0065</IRI>
         <Literal datatypeIRI="&rdfs;Literal">pelvis measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:related"/>
+        <IRI>/zoo-0065</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0012179</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1625,14 +1656,29 @@ cannot be separated manually.</Literal>
         <Literal datatypeIRI="&rdfs;Literal">phalanx 1 measurement</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:related"/>
+        <IRI>/zoo-0066</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0004302</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/zoo-0067</IRI>
         <Literal datatypeIRI="&rdfs;Literal">phalanx 2 measurement</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:related"/>
+        <IRI>/zoo-0067</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0004301</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/zoo-0068</IRI>
         <Literal datatypeIRI="&rdfs;Literal">phalanx 3 measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:related"/>
+        <IRI>/zoo-0068</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0004300</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1685,14 +1731,29 @@ cannot be separated manually.</Literal>
         <Literal datatypeIRI="&rdfs;Literal">radius measurement</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:related"/>
+        <IRI>/zoo-0072</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0001423</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/zoo-0073</IRI>
         <Literal datatypeIRI="&rdfs;Literal">scapula measurement</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:related"/>
+        <IRI>/zoo-0073</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0006849</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/zoo-0074</IRI>
-        <Literal datatypeIRI="&rdfs;Literal">tarsals measurement</Literal>
+        <Literal datatypeIRI="&rdfs;Literal">tarsal measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:related"/>
+        <IRI>/zoo-0074</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0001447</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1700,9 +1761,19 @@ cannot be separated manually.</Literal>
         <Literal datatypeIRI="&rdfs;Literal">tibia measurement</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:related"/>
+        <IRI>/zoo-0075</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0000979</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/zoo-0076</IRI>
         <Literal datatypeIRI="&rdfs;Literal">ulna measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:related"/>
+        <IRI>/zoo-0076</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0001424</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1740,6 +1811,11 @@ cannot be separated manually.</Literal>
         <Literal datatypeIRI="&rdfs;Literal">tibiotarsus measurement</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:related"/>
+        <IRI>/zoo-0080</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0008194</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>/zoo-0081</IRI>
         <Literal datatypeIRI="&xsd;string">Greatest diagonal of the proximal end: from the Condylus medialis femoralis to the Crista lateralis, even though in some species the distance from the Condylus medialis femoralis to the Crista tibia is greater. See pages 126-127.</Literal>
@@ -1765,6 +1841,11 @@ cannot be separated manually.</Literal>
         <Literal datatypeIRI="&rdfs;Literal">malleolus measurement</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:related"/>
+        <IRI>/zoo-0083</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0012291</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>/zoo-0084</IRI>
         <Literal datatypeIRI="&xsd;string">Greatest Depth</Literal>
@@ -1778,6 +1859,11 @@ cannot be separated manually.</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/zoo-0085</IRI>
         <Literal datatypeIRI="&rdfs;Literal">axis measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:related"/>
+        <IRI>/zoo-0085</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0001093</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1853,6 +1939,11 @@ cannot be separated manually.</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/zoo-0095</IRI>
         <Literal datatypeIRI="&rdfs;Literal">atlas measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:related"/>
+        <IRI>/zoo-0095</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0001092</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
