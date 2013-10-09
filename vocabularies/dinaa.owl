@@ -71,6 +71,123 @@ It was developed through support from the National Science Foundation (Grants: N
         <Class IRI="/00010"/>
     </Declaration>
     <Declaration>
+        <Class IRI="/00011"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00012"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00013"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00014"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00015"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00016"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00017"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00018"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00019"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00020"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00021"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00022"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00023"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00024"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00025"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00026"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00027"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00028"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00029"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00030"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00031"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00032"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00033"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00034"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00035"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00036"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00037"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00038"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00039"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00040"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00041"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00042"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00043"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00044"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00045"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00046"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00047"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00048"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00049"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="/00001"/>
     </Declaration>
     <EquivalentClasses>
@@ -104,6 +221,162 @@ It was developed through support from the National Science Foundation (Grants: N
     <SubClassOf>
         <Class IRI="/00010"/>
         <Class IRI="/00007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00011"/>
+        <Class IRI="/00004"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00012"/>
+        <Class IRI="/00004"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00013"/>
+        <Class IRI="/00004"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00014"/>
+        <Class IRI="/00007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00015"/>
+        <Class IRI="/00007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00016"/>
+        <Class IRI="/00007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00017"/>
+        <Class IRI="/00007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00018"/>
+        <Class IRI="/00008"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00019"/>
+        <Class IRI="/00008"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00020"/>
+        <Class IRI="/00008"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00021"/>
+        <Class IRI="/00008"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00022"/>
+        <Class IRI="/00008"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00023"/>
+        <Class IRI="/00024"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00024"/>
+        <Class IRI="/00002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00025"/>
+        <Class IRI="/00002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00026"/>
+        <Class IRI="/00002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00027"/>
+        <Class IRI="/00002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00028"/>
+        <Class IRI="/00002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00029"/>
+        <Class IRI="/00023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00030"/>
+        <Class IRI="/00023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00031"/>
+        <Class IRI="/00027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00032"/>
+        <Class IRI="/00027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00033"/>
+        <Class IRI="/00027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00034"/>
+        <Class IRI="/00018"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00035"/>
+        <Class IRI="/00027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00036"/>
+        <Class IRI="/00020"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00037"/>
+        <Class IRI="/00020"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00038"/>
+        <Class IRI="/00029"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00039"/>
+        <Class IRI="/00007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00040"/>
+        <Class IRI="/00039"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00041"/>
+        <Class IRI="/00007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00042"/>
+        <Class IRI="/00014"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00043"/>
+        <Class IRI="/00020"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00044"/>
+        <Class IRI="/00029"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00045"/>
+        <Class IRI="/00019"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00046"/>
+        <Class IRI="/00004"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00047"/>
+        <Class IRI="/00012"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00048"/>
+        <Class IRI="/00027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00049"/>
+        <Class IRI="/00048"/>
     </SubClassOf>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -148,7 +421,7 @@ It was developed through support from the National Science Foundation (Grants: N
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>/00005</IRI>
-        <Literal datatypeIRI="&xsd;string">Clovis is a Paleoindian culture starting approximately 11,500 BCE and ending around 9,500 BCE.</Literal>
+        <Literal datatypeIRI="&xsd;string">Clovis is a Paleoindian culture starting about 11,500 BCE and ending about 9,500 BCE.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -158,7 +431,7 @@ It was developed through support from the National Science Foundation (Grants: N
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>/00006</IRI>
-        <Literal datatypeIRI="&xsd;string">A Paleoindian culture that we need to define later. Circa 9,000 - 8,000 BCE.</Literal>
+        <Literal datatypeIRI="&xsd;string">Folsom is a Paleoindian culture starting about 9,000 BCE and ending about 8,000 BCE.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -199,6 +472,363 @@ It was developed through support from the National Science Foundation (Grants: N
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/00010</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Middle Archaic (Generic)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/00011</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Subdivision value definitely used in the following DINAA partner states: Indiana</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00011</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Early Paleoindian</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/00012</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Subdivision value definitely used in the following DINAA partner states: Indiana</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00012</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Late Paleoindian</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/00013</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Subdivision value definitely used in the following DINAA partner states: Indiana</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00013</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Late Paleoindian / Early Archaic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/00014</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Subdivision value definitely used in the following DINAA partner states: Indiana</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00014</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Late Archaic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/00015</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Subdivision value definitely used in the following DINAA partner states: Indiana</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00015</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Middle / Late Archaic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/00016</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Subdivision value definitely used in the following DINAA partner states: Indiana</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00016</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Terminal Late Archaic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/00017</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Subdivision value definitely used in the following DINAA partner states: Indiana</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00017</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Late Archaic / Early Woodland</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/00018</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Subdivision value definitely used in the following DINAA partner states: Indiana</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00018</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Early Woodland</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/00019</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Subdivision value definitely used in the following DINAA partner states: Indiana</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00019</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Middle Woodland</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/00020</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Subdivision value definitely used in the following DINAA partner states: Indiana</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00020</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Late Woodland</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/00021</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Subdivision value definitely used in the following DINAA partner states: Indiana</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00021</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Terminal Middle Woodland</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/00022</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Subdivision value definitely used in the following DINAA partner states: Indiana</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00022</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Late Woodland / Mississippian</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00023</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Mississippian</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00024</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Late Prehistoric</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00025</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Protohistoric</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00026</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Contact Period</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00027</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Historic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00028</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Unidentified Prehistoric</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/00029</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Subdivision value definitely used in the following DINAA partner states: Indiana</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00029</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Middle Mississippian</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/00030</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Subdivision value definitely used in the following DINAA partner states: Indiana</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00030</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Upper Mississippian</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/00031</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Subdivision value definitely used in the following DINAA partner states: Indiana</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00031</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">19th Century</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/00032</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Subdivision value definitely used in the following DINAA partner states: Indiana</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00032</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">20th Century</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/00033</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Subdivision value definitely used in the following DINAA partner states: Indiana</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00033</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">21st Century</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/00034</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Adena is an Early Woodland culture. Subdivision value definitely used in the following DINAA partner states: Indiana</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00034</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Adena</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/00035</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">African American is a Historic cultural definiton. Subdivision value definitely used in the following DINAA partner states: Indiana</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00035</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">African American</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/00036</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Albee is a Late Woodland Culture. Subdivision value definitely used in the following DINAA partner states: Indiana</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00036</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Albee</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/00037</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Allison LaMotte is a Late Woodland culture. Subdivision value definitely used in the following DINAA partner states: Indiana</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00037</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Allson LaMotte</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/00038</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Angel is a Middle Mississippian culture. Subdivision value definitely used in the following DINAA partner states: Indiana</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00038</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Angel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00039</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Early Archaic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/00040</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Big Sandy is an Early Archaic culture. Subdivision value definitely used in the following DINAA partner states: Indiana</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00040</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Big Sandy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/00041</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral"></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00041</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Middle Archaic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/00042</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Bluegrass is a site with Middle Archaic to Late Archaic cultures. Subdivision value definitely used in the following DINAA partner states: Indiana</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00042</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Bluegrass</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/00043</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Brems is a Late Woodland culture. Subdivision value definitely used in the following DINAA partner states: Indiana</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00043</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Brems</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/00044</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Caborn Welborn is a Middle Mississippian culture. Subdivision value definitely used in the following DINAA partner states: Indiana</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00044</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Caborn Welborn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/00045</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Crab Orchard is a Middle Woodland culture. Subdivision value definitely used in the following DINAA partner states: Indiana</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00045</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Crab Orchard</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/00046</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Cumberland is a Paleoindian culture. Subdivision value definitely used in the following DINAA partner states: Indiana
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00046</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Cumberland</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/00047</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Dalton is a Late Paleoindian culture. Subdivision value definitely used in the following DINAA partner states: Indiana</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00047</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Dalton</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/00048</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Delaware is a Historic culture. Subdivision value definitely used in the following DINAA partner states: Indiana</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00048</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Delaware</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/00049</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Euroamerican is a Historic cultural description. Subdivision value definitely used in the following DINAA partner states: Indiana
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00049</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Euroamerican</Literal>
     </AnnotationAssertion>
 </Ontology>
 
