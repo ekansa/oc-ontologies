@@ -188,6 +188,57 @@ It was developed through support from the National Science Foundation (Grants: N
         <Class IRI="/00049"/>
     </Declaration>
     <Declaration>
+        <Class IRI="/00051"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00052"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00053"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00054"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00055"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00056"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00057"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00058"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00059"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00060"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00061"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00062"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00063"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00064"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00065"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00066"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00067"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="/00001"/>
     </Declaration>
     <EquivalentClasses>
@@ -376,7 +427,75 @@ It was developed through support from the National Science Foundation (Grants: N
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/00049"/>
-        <Class IRI="/00048"/>
+        <Class IRI="/00027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00051"/>
+        <Class IRI="/00007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00052"/>
+        <Class IRI="/00007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00053"/>
+        <Class IRI="/00023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00054"/>
+        <Class IRI="/00004"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00055"/>
+        <Class IRI="/00027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00056"/>
+        <Class IRI="/00027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00057"/>
+        <Class IRI="/00027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00058"/>
+        <Class IRI="/00027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00059"/>
+        <Class IRI="/00023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00060"/>
+        <Class IRI="/00024"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00061"/>
+        <Class IRI="/00023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00062"/>
+        <Class IRI="/00063"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00063"/>
+        <Class IRI="/00002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00064"/>
+        <Class IRI="/00063"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00065"/>
+        <Class IRI="/00063"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00066"/>
+        <Class IRI="/00004"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00067"/>
+        <Class IRI="/00008"/>
     </SubClassOf>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -461,7 +580,7 @@ It was developed through support from the National Science Foundation (Grants: N
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/00009</IRI>
-        <Literal datatypeIRI="&rdfs;Literal">Early Archaic (Generic)</Literal>
+        <Literal datatypeIRI="&rdfs;Literal">Early Archaic Undifferentiated</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -471,7 +590,7 @@ It was developed through support from the National Science Foundation (Grants: N
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/00010</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Middle Archaic (Generic)</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Middle Archaic Undifferentiated</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -599,6 +718,11 @@ It was developed through support from the National Science Foundation (Grants: N
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Mississippian</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/00024</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">This Late Prehistoric period is a container class for more specific cultural categories. This instance of Late Prehistoric should not be assigned to an archaeological site. Instead use the Late Prehistoric subclass of this entry.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/00024</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Late Prehistoric</Literal>
@@ -619,9 +743,14 @@ It was developed through support from the National Science Foundation (Grants: N
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Historic</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/00028</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Generic culture history abstract class used for archaeological sites defined by investigators as relating to a particular period, but without naming any specific cultures.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/00028</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Unidentified Prehistoric</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Prehistoric Undifferentiated</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -829,6 +958,146 @@ It was developed through support from the National Science Foundation (Grants: N
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/00049</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Euroamerican</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/00051</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Generic culture history abstract class used for archaeological sites defined by investigators as relating to a particular period, but without naming any specific cultures.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00051</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Late Archaic Undifferentiated</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/00052</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Generic culture history abstract class used for archaeological sites defined by investigators as relating to a particular period, but without naming any specific cultures.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00052</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Archaic Undifferentiated</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00053</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Early Mississippian</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00054</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Early Paleoindian</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00055</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Historic Indian</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00056</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Historic Non-Indian</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/00057</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Generic culture history abstract class used for archaeological sites defined by investigators as relating to a particular period, but without naming any specific cultures.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00057</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Historic Indian Undifferentiated</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/00058</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Generic culture history abstract class used for archaeological sites defined by investigators as relating to a particular period, but without naming any specific cultures.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00058</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Historic Undifferentiated</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00059</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Late Mississippian</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/00060</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Late Prehistoric general culture category to include cultures generally after 950 BP that are not readily categorized as belonging to a more specific cultural type.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00060</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Late Prehistoric</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/00061</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Generic culture history abstract class used for archaeological sites defined by investigators as relating to a particular period, but without naming any specific cultures.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00061</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Mississippian Undifferentiated</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/00062</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Uncategorized entries that indicate a lack of available data to make a period determination.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00062</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">No Data</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00063</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Uncategorized</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/00064</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Uncategorized entries that are defined as &apos;Other&apos; in the original source data and for which continuation of the &apos;Other&apos; category is the most salient.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00064</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Other</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/00065</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Uncategorized entries that are defined in the source data as having data which are not entirely suitable to support an attribution of period.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00065</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Unknown</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/00066</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Generic culture history abstract class used for archaeological sites defined by investigators as relating to a particular period, but without naming any specific cultures.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00066</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Paleoindian Undifferentiated</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/00067</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Generic culture history abstract class used for archaeological sites defined by investigators as relating to a particular period, but without naming any specific cultures.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00067</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Woodland Undifferentiated</Literal>
     </AnnotationAssertion>
 </Ontology>
 
