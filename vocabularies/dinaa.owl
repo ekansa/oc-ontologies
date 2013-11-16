@@ -62,9 +62,6 @@ It was developed through support from the National Science Foundation (Grants: N
         <Class IRI="/00007"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/00070"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="/00008"/>
     </Declaration>
     <Declaration>
@@ -188,9 +185,6 @@ It was developed through support from the National Science Foundation (Grants: N
         <Class IRI="/00053"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/00054"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="/00055"/>
     </Declaration>
     <Declaration>
@@ -210,6 +204,9 @@ It was developed through support from the National Science Foundation (Grants: N
     </Declaration>
     <Declaration>
         <Class IRI="/00065"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/00070"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="/00001"/>
@@ -235,10 +232,6 @@ It was developed through support from the National Science Foundation (Grants: N
         <Class IRI="/00002"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/00070"/>
-        <Class IRI="/00063"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="/00008"/>
         <Class IRI="/00002"/>
     </SubClassOf>
@@ -403,10 +396,6 @@ It was developed through support from the National Science Foundation (Grants: N
         <Class IRI="/00023"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/00054"/>
-        <Class IRI="/00004"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="/00055"/>
         <Class IRI="/00027"/>
     </SubClassOf>
@@ -432,6 +421,10 @@ It was developed through support from the National Science Foundation (Grants: N
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/00065"/>
+        <Class IRI="/00063"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00070"/>
         <Class IRI="/00063"/>
     </SubClassOf>
     <AnnotationAssertion>
@@ -498,16 +491,6 @@ It was developed through support from the National Science Foundation (Grants: N
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/00007</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Archaic</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/00070</IRI>
-        <Literal datatypeIRI="&xsd;string">Unknown if prehistoric or historic. </Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/00070</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Unknown Native American</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -893,11 +876,6 @@ It was developed through support from the National Science Foundation (Grants: N
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/00054</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Early Paleoindian</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/00055</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Historic Indian</Literal>
     </AnnotationAssertion>
@@ -945,6 +923,16 @@ It was developed through support from the National Science Foundation (Grants: N
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/00065</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Unknown</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/00070</IRI>
+        <Literal datatypeIRI="&xsd;string">Unknown if prehistoric or historic. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00070</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Unknown Native American</Literal>
     </AnnotationAssertion>
 </Ontology>
 
