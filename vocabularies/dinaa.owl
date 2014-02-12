@@ -209,6 +209,9 @@ It was developed through support from the National Science Foundation (Grants: N
         <Class IRI="/00070"/>
     </Declaration>
     <Declaration>
+        <Class IRI="/00071"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="/00001"/>
     </Declaration>
     <EquivalentClasses>
@@ -426,6 +429,10 @@ It was developed through support from the National Science Foundation (Grants: N
     <SubClassOf>
         <Class IRI="/00070"/>
         <Class IRI="/00063"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/00071"/>
+        <Class IRI="/00004"/>
     </SubClassOf>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -933,6 +940,16 @@ It was developed through support from the National Science Foundation (Grants: N
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/00070</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Unknown Native American</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/00071</IRI>
+        <Literal datatypeIRI="&xsd;string">Paleoindian cultures or periods asserted to be prior to the Clovis period.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/00071</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Pre-Clovis</Literal>
     </AnnotationAssertion>
 </Ontology>
 
