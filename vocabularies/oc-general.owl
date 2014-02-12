@@ -1,0 +1,486 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://opencontext.org/vocabularies/oc-general#"
+     xml:base="http://opencontext.org/vocabularies/oc-general"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://opencontext.org/vocabularies/oc-general">
+        <rdfs:label>Open Context Concepts</rdfs:label>
+        <rdfs:comment>General concepts applied to all data published by Open Context</rdfs:comment>
+        <owl:imports rdf:resource="http://www.cidoc-crm.org/cidoc-crm/"/>
+        <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/subject -->
+
+    <owl:Class rdf:about="http://opencontext.org/vocabularies/oc-general/subject">
+        <rdfs:label xml:lang="en">Subject</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The primary &quot;subjects&quot; of observations in Open Context. These are the primary entities of phenomena described by researchers.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/media -->
+
+    <owl:Class rdf:about="http://opencontext.org/vocabularies/oc-general/media">
+        <rdfs:label xml:lang="en">Media</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">These are media files that help make up a body of documentation for a given project or collection. They typically relate to and help describe subjects, people, or a project. Examples include: image files, PDF documents, videos, 3-D scans, etc.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/document -->
+
+    <owl:Class rdf:about="http://opencontext.org/vocabularies/oc-general/document">
+        <rdfs:label xml:lang="en">Document</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">These are textual documents that help make up a body of documentation for a given project or collection. They typically relate to and help describe subjects, people, or a project. They differ from media items in that they are not stored as outside binary files, but are simply plain or HTML text documents.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/project -->
+
+    <owl:Class rdf:about="http://opencontext.org/vocabularies/oc-general/project">
+        <rdfs:label xml:lang="en">Project or Collection</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Projects represent a specific study or research effort to collect a body of documentation. They can be an archaeological excavation or survey, an ecological survey, a description of a museum collection, or even a public health study of disease incidences. All projects and collections must identify an institution or person responsible for collecting and publishing data.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/person -->
+
+    <owl:Class rdf:about="http://opencontext.org/vocabularies/oc-general/person">
+        <rdfs:label xml:lang="en">Person or Organization</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#closeMatch"/>
+                <owl:someValuesFrom rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:comment rdf:datatype="&xsd;string">Persons and organizations represent the people and institutions that participated in a project. They are responsible for creating, editing, curating, analyzing, and reporting data published in Open Context.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/property -->
+
+    <owl:Class rdf:about="http://opencontext.org/vocabularies/oc-general/property">
+        <rdfs:label xml:lang="en">Descriptive Property</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Properties describe subjects, people, media, etc. A property represents a unique combination of a variable (like a field in a database) and a value (the values of records in a given database field). Each descriptive property is unique within the context of a given project. So, even if two different projects have a common property like &quot;Taxon: Canis familiaris&quot;, this property will have different addresses for each project. This guards against falsely assuming that just because two different research projects may share common terminologies, those terminologies are used in the same, semantically equivalent way. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-0008 -->
+
+    <owl:Class rdf:about="http://opencontext.org/vocabularies/oc-general/cat-0008">
+        <rdfs:label xml:lang="en">Object</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#closeMatch"/>
+                <owl:someValuesFrom rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Man-Made_Thing"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/oc-general/subject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-0009 -->
+
+    <owl:Class rdf:about="http://opencontext.org/vocabularies/oc-general/cat-0009">
+        <rdfs:label xml:lang="en">Coin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/oc-general/cat-0008"/>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-0010 -->
+
+    <owl:Class rdf:about="http://opencontext.org/vocabularies/oc-general/cat-0010">
+        <rdfs:label xml:lang="en">Pottery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/oc-general/cat-0008"/>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-0011 -->
+
+    <owl:Class rdf:about="http://opencontext.org/vocabularies/oc-general/cat-0011">
+        <rdfs:label xml:lang="en">Glass</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/oc-general/cat-0008"/>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-0012 -->
+
+    <owl:Class rdf:about="http://opencontext.org/vocabularies/oc-general/cat-0012">
+        <rdfs:label xml:lang="en">Groundstone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/oc-general/cat-0008"/>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-0013 -->
+
+    <owl:Class rdf:about="http://opencontext.org/vocabularies/oc-general/cat-0013">
+        <rdfs:label xml:lang="en">Architectural Element</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/oc-general/cat-0008"/>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-0014 -->
+
+    <owl:Class rdf:about="http://opencontext.org/vocabularies/oc-general/cat-0014">
+        <rdfs:label xml:lang="en">Biological Subject</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/oc-general/subject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-0015 -->
+
+    <owl:Class rdf:about="http://opencontext.org/vocabularies/oc-general/cat-0015">
+        <rdfs:label xml:lang="en">Animal Bone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/oc-general/cat-0014"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Animal bones, usually of the type described by zooarchaeologists. These may or may not have evidence for human modification.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-0016 -->
+
+    <owl:Class rdf:about="http://opencontext.org/vocabularies/oc-general/cat-0016">
+        <rdfs:label xml:lang="en">Shell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/oc-general/cat-0014"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Mineral shell, usually from molluscs.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-0017 -->
+
+    <owl:Class rdf:about="http://opencontext.org/vocabularies/oc-general/cat-0017">
+        <rdfs:label xml:lang="en">Non Diagnostic Bone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/oc-general/cat-0014"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Bone fragments that do not have detailed description or identification.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-0018 -->
+
+    <owl:Class rdf:about="http://opencontext.org/vocabularies/oc-general/cat-0018">
+        <rdfs:label xml:lang="en">Human Bone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/oc-general/cat-0014"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Bone remains of human beings.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-0019 -->
+
+    <owl:Class rdf:about="http://opencontext.org/vocabularies/oc-general/cat-0019">
+        <rdfs:label xml:lang="en">Plant remains</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/oc-general/cat-0014"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Any sort of botanical remain</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-0020 -->
+
+    <owl:Class rdf:about="http://opencontext.org/vocabularies/oc-general/cat-0020">
+        <rdfs:label xml:lang="en">Location or Context</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/oc-general/subject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-0021 -->
+
+    <owl:Class rdf:about="http://opencontext.org/vocabularies/oc-general/cat-0021">
+        <rdfs:label xml:lang="en">Survey Unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/oc-general/cat-0020"/>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-0022 -->
+
+    <owl:Class rdf:about="http://opencontext.org/vocabularies/oc-general/cat-0022">
+        <rdfs:label xml:lang="en">Site</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/oc-general/cat-0020"/>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-0023 -->
+
+    <owl:Class rdf:about="http://opencontext.org/vocabularies/oc-general/cat-0023">
+        <rdfs:label xml:lang="en">Site Area</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/oc-general/cat-0020"/>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-0024 -->
+
+    <owl:Class rdf:about="http://opencontext.org/vocabularies/oc-general/cat-0024">
+        <rdfs:label xml:lang="en">Context</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/oc-general/cat-0020"/>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-0025 -->
+
+    <owl:Class rdf:about="http://opencontext.org/vocabularies/oc-general/cat-0025">
+        <rdfs:label xml:lang="en">Feature</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/oc-general/cat-0020"/>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-0026 -->
+
+    <owl:Class rdf:about="http://opencontext.org/vocabularies/oc-general/cat-0026">
+        <rdfs:label xml:lang="en">Excavation Unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/oc-general/cat-0024"/>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-0027 -->
+
+    <owl:Class rdf:about="http://opencontext.org/vocabularies/oc-general/cat-0027">
+        <rdfs:label xml:lang="en">Locus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/oc-general/cat-0024"/>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-0028 -->
+
+    <owl:Class rdf:about="http://opencontext.org/vocabularies/oc-general/cat-0028">
+        <rdfs:label xml:lang="en">Lot</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/oc-general/cat-0024"/>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-0029 -->
+
+    <owl:Class rdf:about="http://opencontext.org/vocabularies/oc-general/cat-0029">
+        <rdfs:label xml:lang="en">Basket</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/oc-general/cat-0024"/>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-0030 -->
+
+    <owl:Class rdf:about="http://opencontext.org/vocabularies/oc-general/cat-0030">
+        <rdfs:label xml:lang="en">Area</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/oc-general/cat-0023"/>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-0031 -->
+
+    <owl:Class rdf:about="http://opencontext.org/vocabularies/oc-general/cat-0031">
+        <rdfs:label xml:lang="en">Trench</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/oc-general/cat-0023"/>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-0032 -->
+
+    <owl:Class rdf:about="http://opencontext.org/vocabularies/oc-general/cat-0032">
+        <rdfs:label xml:lang="en">Operation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/oc-general/cat-0023"/>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-0033 -->
+
+    <owl:Class rdf:about="http://opencontext.org/vocabularies/oc-general/cat-0033">
+        <rdfs:label xml:lang="en">Field Project</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/oc-general/cat-0023"/>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-0034 -->
+
+    <owl:Class rdf:about="http://opencontext.org/vocabularies/oc-general/cat-0034">
+        <rdfs:label xml:lang="en">Square</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/oc-general/cat-0023"/>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-0035 -->
+
+    <owl:Class rdf:about="http://opencontext.org/vocabularies/oc-general/cat-0035">
+        <rdfs:label xml:lang="en">Unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/oc-general/cat-0023"/>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-0036 -->
+
+    <owl:Class rdf:about="http://opencontext.org/vocabularies/oc-general/cat-0036">
+        <rdfs:label xml:lang="en">Sequence</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/oc-general/cat-0024"/>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-0037 -->
+
+    <owl:Class rdf:about="http://opencontext.org/vocabularies/oc-general/cat-0037">
+        <rdfs:label xml:lang="en">Human Subject</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/oc-general/cat-0014"/>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-0038 -->
+
+    <owl:Class rdf:about="http://opencontext.org/vocabularies/oc-general/cat-0038">
+        <rdfs:label xml:lang="en">Stratum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/oc-general/cat-0024"/>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-0039 -->
+
+    <owl:Class rdf:about="http://opencontext.org/vocabularies/oc-general/cat-0039">
+        <rdfs:label xml:lang="en">Phase</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/oc-general/cat-0024"/>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-0040 -->
+
+    <owl:Class rdf:about="http://opencontext.org/vocabularies/oc-general/cat-0040">
+        <rdfs:label xml:lang="en">Hospital</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/oc-general/cat-0020"/>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-0041 -->
+
+    <owl:Class rdf:about="http://opencontext.org/vocabularies/oc-general/cat-0041">
+        <rdfs:label xml:lang="en">Mound</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/oc-general/cat-0023"/>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-0042 -->
+
+    <owl:Class rdf:about="http://opencontext.org/vocabularies/oc-general/cat-0042">
+        <rdfs:label xml:lang="en">Sculpture</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/oc-general/cat-0008"/>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-0043 -->
+
+    <owl:Class rdf:about="http://opencontext.org/vocabularies/oc-general/cat-0043">
+        <rdfs:label xml:lang="en">Sample</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/oc-general/cat-0044"/>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-0044 -->
+
+    <owl:Class rdf:about="http://opencontext.org/vocabularies/oc-general/cat-0044">
+        <rdfs:label xml:lang="en">Sample, Collection, or Aggregation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/oc-general/subject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-0045 -->
+
+    <owl:Class rdf:about="http://opencontext.org/vocabularies/oc-general/cat-0045">
+        <rdfs:label xml:lang="en">Reference Collection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/oc-general/cat-0044"/>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-0046 -->
+
+    <owl:Class rdf:about="http://opencontext.org/vocabularies/oc-general/cat-0046">
+        <rdfs:label xml:lang="en">Region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/oc-general/cat-0020"/>
+    </owl:Class>
+    
+
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.3.1957) http://owlapi.sourceforge.net -->
+
