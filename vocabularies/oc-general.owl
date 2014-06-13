@@ -39,13 +39,15 @@
     // Annotation properties
     //
     ///////////////////////////////////////////////////////////////////////////////////////
+    
+    <owl:AnnotationProperty rdf:about="&skos;closeMatch"/>
+    
      -->
 
     <owl:AnnotationProperty rdf:about="&oc-general;hasIcon">
         <rdfs:label xml:lang="en">Has Icon</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="&foaf;depiction"/>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="&skos;closeMatch"/>
     <owl:AnnotationProperty rdf:about="&foaf;depiction"/>
     
 
@@ -82,15 +84,6 @@
     </owl:ObjectProperty>
     
 
-
-    <!-- http://opencontext.org/vocabularies/oc-general/predicate -->
-
-    <owl:ObjectProperty rdf:about="&oc-general;predicate">
-        <rdfs:label xml:lang="en">Predicate or property</rdfs:label>
-        <rdfs:comment rdf:datatype="&xsd;string">Predicates / properteries describe subjects, people, media, etc. according to a (sometimes loosely, and informally defined) descriptive schemes created by data contributors / authors. Each predicate or property is unique within the context of a given project. Occationally, predicates will be organized into hierarchies using the SKOS or RDFS vocabularies.</rdfs:comment>
-        <rdfs:domain rdf:resource="&oc-general;item"/>
-        <rdfs:subPropertyOf rdf:resource="&rdf;Property"/>
-    </owl:ObjectProperty>
     
 
 
