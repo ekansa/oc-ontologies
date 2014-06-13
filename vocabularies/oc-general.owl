@@ -41,15 +41,12 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <owl:AnnotationProperty rdf:about="&skos;narrower"/>
-    <owl:AnnotationProperty rdf:about="&skos;closeMatch"/>
-    <owl:AnnotationProperty rdf:about="&skos;relatedMatch"/>
     <owl:AnnotationProperty rdf:about="&oc-general;hasIcon">
         <rdfs:label xml:lang="en">Has Icon</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="&foaf;depiction"/>
     </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="&skos;closeMatch"/>
     <owl:AnnotationProperty rdf:about="&foaf;depiction"/>
-    <owl:AnnotationProperty rdf:about="&skos;broader"/>
     
 
 
@@ -126,6 +123,14 @@
 
     <owl:Class rdf:about="&cidoc-crm;E22_Man-Made_Object">
         <owl:equivalentClass rdf:resource="&oc-general;cat-0008"/>
+    </owl:Class>
+    
+
+
+    <!-- http://erlangen-crm.org/current/E27_Site -->
+
+    <owl:Class rdf:about="&cidoc-crm;E27_Site">
+        <owl:equivalentClass rdf:resource="&oc-general;cat-0022"/>
     </owl:Class>
     
 
@@ -266,7 +271,7 @@
     <owl:Class rdf:about="&oc-general;cat-0021">
         <rdfs:label xml:lang="en">Survey Unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;cat-0020"/>
-        <rdfs:subClassOf rdf:resource="http://purl.org/crmeh#EHE0003_AreaOfInvestigation"/>
+        <rdfs:subClassOf rdf:resource="&crm-eh;EHE0003_AreaOfInvestigation"/>
     </owl:Class>
     
 
@@ -276,7 +281,6 @@
     <owl:Class rdf:about="&oc-general;cat-0022">
         <rdfs:label xml:lang="en">Site</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;cat-0020"/>
-        <owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E27_Site"/>
     </owl:Class>
     
 
@@ -560,6 +564,17 @@
     
 
 
+    <!-- http://opencontext.org/vocabularies/oc-general/predicate -->
+
+    <owl:Class rdf:about="&oc-general;predicate">
+        <rdfs:label xml:lang="en">Predicate or property</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&oc-general;item"/>
+        <owl:equivalentClass rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Predicates / properteries describe subjects, people, media, etc. according to a (sometimes loosely, and informally defined) descriptive schemes created by data contributors / authors. Each predicate or property is unique within the context of a given project. Occationally, predicates will be organized into hierarchies using the SKOS or RDFS vocabularies.</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://opencontext.org/vocabularies/oc-general/project -->
 
     <owl:Class rdf:about="&oc-general;project">
@@ -585,8 +600,15 @@
     <owl:Class rdf:about="&oc-general;type">
         <rdfs:label xml:lang="en">Descriptive type</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;item"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <rdfs:comment rdf:datatype="&xsd;string">Types describe subjects, people, media, etc. according to a (sometimes loosely, and informally defined) controlled vocabulary created by data contributors / authors. Each descriptive type is unique within the context of a given project. Occationally, types will be organized into hierarchies using the SKOS or RDFS vocabularies.</rdfs:comment>
     </owl:Class>
+    
+
+
+    <!-- http://purl.org/crmeh#EHE0003_AreaOfInvestigation -->
+
+    <owl:Class rdf:about="&crm-eh;EHE0003_AreaOfInvestigation"/>
     
 
 
