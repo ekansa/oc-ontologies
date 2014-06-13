@@ -77,8 +77,8 @@
     <owl:ObjectProperty rdf:about="&oc-general;contains">
         <rdfs:comment rdf:datatype="&xsd;string">This property describes very general spatial or contextual &quot;containment&quot; relationships that describe how entities published by Open Context relate. In the sense defined here, containment relationships help organize entities into contextual relationships as they were observed during the process of discovery and description.</rdfs:comment>
         <rdfs:comment>Contains</rdfs:comment>
-        <rdfs:domain rdf:resource="&oc-general;subject"/>
-        <rdfs:range rdf:resource="&oc-general;subject"/>
+        <rdfs:domain rdf:resource="&oc-general;subjects"/>
+        <rdfs:range rdf:resource="&oc-general;subjects"/>
     </owl:ObjectProperty>
     
 
@@ -147,7 +147,7 @@
 
     <owl:Class rdf:about="&oc-general;cat-0008">
         <rdfs:label>Object</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&oc-general;subject"/>
+        <rdfs:subClassOf rdf:resource="&oc-general;subjects"/>
     </owl:Class>
     
 
@@ -201,7 +201,7 @@
 
     <owl:Class rdf:about="&oc-general;cat-0014">
         <rdfs:label xml:lang="en">Biological subject, Ecofact</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&oc-general;subject"/>
+        <rdfs:subClassOf rdf:resource="&oc-general;subjects"/>
     </owl:Class>
     
 
@@ -260,7 +260,7 @@
 
     <owl:Class rdf:about="&oc-general;cat-0020">
         <rdfs:label xml:lang="en">Location or Context</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&oc-general;subject"/>
+        <rdfs:subClassOf rdf:resource="&oc-general;subjects"/>
         <skos:closeMatch rdf:datatype="&xsd;anyURI">http://erlangen-crm.org/110404/E53_Place</skos:closeMatch>
     </owl:Class>
     
@@ -481,7 +481,7 @@
 
     <owl:Class rdf:about="&oc-general;cat-0044">
         <rdfs:label xml:lang="en">Sample, Collection, or Aggregation</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&oc-general;subject"/>
+        <rdfs:subClassOf rdf:resource="&oc-general;subjects"/>
     </owl:Class>
     
 
@@ -504,11 +504,11 @@
     
 
 
-    <!-- http://opencontext.org/vocabularies/oc-general/document -->
+    <!-- http://opencontext.org/vocabularies/oc-general/documents -->
 
-    <owl:Class rdf:about="&oc-general;document">
+    <owl:Class rdf:about="&oc-general;documents">
         <rdfs:label xml:lang="en">Document</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&oc-general;item"/>
+        <rdfs:subClassOf rdf:resource="&oc-general;items"/>
         <rdfs:comment rdf:datatype="&xsd;string">These are textual documents that help make up a body of documentation for a given project or collection. They typically relate to and help describe subjects, people, or a project. They differ from media items in that they are not stored as outside binary files, but are simply plain or HTML text documents.</rdfs:comment>
     </owl:Class>
     
@@ -524,10 +524,10 @@
     
 
 
-    <!-- http://opencontext.org/vocabularies/oc-general/item -->
+    <!-- http://opencontext.org/vocabularies/oc-general/items -->
 
     <owl:Class rdf:about="&oc-general;item">
-        <rdfs:label rdf:datatype="&rdfs;Literal">Open Context Item</rdfs:label>
+        <rdfs:label rdf:datatype="&rdfs;Literal">Open Context Items</rdfs:label>
         <rdfs:comment rdf:datatype="&xsd;string">An information resource published by Open Context and assigned a URI for identification and retrieval.</rdfs:comment>
     </owl:Class>
     
@@ -543,9 +543,9 @@
     
 
 
-    <!-- http://opencontext.org/vocabularies/oc-general/observation -->
+    <!-- http://opencontext.org/vocabularies/oc-general/observations -->
 
-    <owl:Class rdf:about="&oc-general;observation">
+    <owl:Class rdf:about="&oc-general;observations">
         <rdfs:label rdf:datatype="&xsd;string">Observation</rdfs:label>
         <rdfs:comment rdf:datatype="&xsd;string">An observation is a bundle of descriptive assertions made about an entity published by Open Context. The bundle of observations should be made by some agent, but sometimes this is not going to be known. </rdfs:comment>
         <skos:closeMatch rdf:datatype="&xsd;anyURI">http://erlangen-crm.org/current/E13_Attribute_Assignment</skos:closeMatch>
@@ -553,10 +553,10 @@
     
 
 
-    <!-- http://opencontext.org/vocabularies/oc-general/person -->
+    <!-- http://opencontext.org/vocabularies/oc-general/persons -->
 
-    <owl:Class rdf:about="&oc-general;person">
-        <rdfs:label xml:lang="en">Person or Organization</rdfs:label>
+    <owl:Class rdf:about="&oc-general;persons">
+        <rdfs:label xml:lang="en">Persons or Organizations</rdfs:label>
         <owl:equivalentClass rdf:resource="&foaf;Agent"/>
         <rdfs:subClassOf rdf:resource="&oc-general;item"/>
         <rdfs:comment rdf:datatype="&xsd;string">Persons and organizations represent the people and institutions that participated in a project. They are responsible for creating, editing, curating, analyzing, and reporting data published in Open Context.</rdfs:comment>
@@ -564,10 +564,10 @@
     
 
 
-    <!-- http://opencontext.org/vocabularies/oc-general/predicate -->
+    <!-- http://opencontext.org/vocabularies/oc-general/predicates -->
 
-    <owl:Class rdf:about="&oc-general;predicate">
-        <rdfs:label xml:lang="en">Predicate or property</rdfs:label>
+    <owl:Class rdf:about="&oc-general;predicates">
+        <rdfs:label xml:lang="en">Predicates or properties</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;item"/>
         <owl:equivalentClass rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
         <rdfs:comment rdf:datatype="&xsd;string">Predicates / properteries describe subjects, people, media, etc. according to a (sometimes loosely, and informally defined) descriptive schemes created by data contributors / authors. Each predicate or property is unique within the context of a given project. Occationally, predicates will be organized into hierarchies using the SKOS or RDFS vocabularies.</rdfs:comment>
@@ -575,30 +575,30 @@
     
 
 
-    <!-- http://opencontext.org/vocabularies/oc-general/project -->
+    <!-- http://opencontext.org/vocabularies/oc-general/projects -->
 
-    <owl:Class rdf:about="&oc-general;project">
-        <rdfs:label xml:lang="en">Project or Collection</rdfs:label>
+    <owl:Class rdf:about="&oc-general;projects">
+        <rdfs:label xml:lang="en">Projects or Collections</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;item"/>
         <rdfs:comment rdf:datatype="&xsd;string">Projects represent a specific study or research effort to collect a body of documentation. They can be an archaeological excavation or survey, an ecological survey, a description of a museum collection, or even a public health study of disease incidences. All projects and collections must identify an institution or person responsible for collecting and publishing data.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/oc-general/subject -->
+    <!-- http://opencontext.org/vocabularies/oc-general/subjects -->
 
-    <owl:Class rdf:about="&oc-general;subject">
-        <rdfs:label xml:lang="en">Subject</rdfs:label>
+    <owl:Class rdf:about="&oc-general;subjects">
+        <rdfs:label xml:lang="en">Subjects</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;item"/>
         <rdfs:comment rdf:datatype="&xsd;string">The primary &quot;subjects&quot; of observations in Open Context. These are the primary entities of phenomena described by researchers.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/oc-general/type -->
+    <!-- http://opencontext.org/vocabularies/oc-general/types -->
 
-    <owl:Class rdf:about="&oc-general;type">
-        <rdfs:label xml:lang="en">Descriptive type</rdfs:label>
+    <owl:Class rdf:about="&oc-general;types">
+        <rdfs:label xml:lang="en">Descriptive types</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;item"/>
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <rdfs:comment rdf:datatype="&xsd;string">Types describe subjects, people, media, etc. according to a (sometimes loosely, and informally defined) controlled vocabulary created by data contributors / authors. Each descriptive type is unique within the context of a given project. Occationally, types will be organized into hierarchies using the SKOS or RDFS vocabularies.</rdfs:comment>
