@@ -150,6 +150,7 @@
     <owl:Class rdf:about="&oc-general;cat-0009">
         <rdfs:label xml:lang="en">Coin</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;cat-0008"/>
+        <oc-general:hasIcon rdf:resource="http://artiraq.org/static/oc/icons/coin.jpg"/>
     </owl:Class>
     
 
@@ -159,6 +160,7 @@
     <owl:Class rdf:about="&oc-general;cat-0010">
         <rdfs:label xml:lang="en">Pottery</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;cat-0008"/>
+        <oc-general:hasIcon rdf:resource="http://artiraq.org/static/oc/icons/ceramic.jpg"/>
     </owl:Class>
     
 
@@ -168,6 +170,7 @@
     <owl:Class rdf:about="&oc-general;cat-0011">
         <rdfs:label xml:lang="en">Glass</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;cat-0008"/>
+        <oc-general:hasIcon rdf:resource="http://artiraq.org/static/oc/icons/glass.jpg"/>
     </owl:Class>
     
 
@@ -177,6 +180,7 @@
     <owl:Class rdf:about="&oc-general;cat-0012">
         <rdfs:label xml:lang="en">Groundstone</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;cat-0008"/>
+        <oc-general:hasIcon rdf:resource="http://artiraq.org/static/oc/icons/groundstone.png"/>
     </owl:Class>
     
 
@@ -186,6 +190,7 @@
     <owl:Class rdf:about="&oc-general;cat-0013">
         <rdfs:label xml:lang="en">Architectural Element</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;cat-0008"/>
+        <oc-general:hasIcon rdf:resource="http://artiraq.org/static/oc/icons/arch-element-gen.jpg"/>
     </owl:Class>
     
 
@@ -195,6 +200,7 @@
     <owl:Class rdf:about="&oc-general;cat-0014">
         <rdfs:label xml:lang="en">Biological subject, Ecofact</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;subjects"/>
+        <oc-general:hasIcon rdf:resource="http://artiraq.org/static/oc/icons/population.jpg"/>
     </owl:Class>
     
 
@@ -204,6 +210,7 @@
     <owl:Class rdf:about="&oc-general;cat-0015">
         <rdfs:label xml:lang="en">Animal Bone</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;cat-0014"/>
+        <oc-general:hasIcon rdf:resource="http://artiraq.org/static/oc/icons/animal-bone.jpg"/>
         <rdfs:comment rdf:datatype="&xsd;string">Animal bones, usually of the type described by zooarchaeologists. These may or may not have evidence for human modification.</rdfs:comment>
     </owl:Class>
     
@@ -214,6 +221,7 @@
     <owl:Class rdf:about="&oc-general;cat-0016">
         <rdfs:label xml:lang="en">Shell</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;cat-0014"/>
+        <oc-general:hasIcon rdf:resource="http://artiraq.org/static/oc/icons/shell.png"/>
         <rdfs:comment rdf:datatype="&xsd;string">Mineral shell, usually from molluscs.</rdfs:comment>
     </owl:Class>
     
@@ -224,6 +232,7 @@
     <owl:Class rdf:about="&oc-general;cat-0017">
         <rdfs:label xml:lang="en">Non Diagnostic Bone</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;cat-0014"/>
+        <oc-general:hasIcon rdf:resource="http://artiraq.org/static/oc/icons/animal-bone.jpg"/>
         <rdfs:comment rdf:datatype="&xsd;string">Bone fragments that do not have detailed description or identification.</rdfs:comment>
     </owl:Class>
     
@@ -234,6 +243,7 @@
     <owl:Class rdf:about="&oc-general;cat-0018">
         <rdfs:label xml:lang="en">Human Bone</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;cat-0014"/>
+        <oc-general:hasIcon rdf:resource="http://artiraq.org/static/oc/icons/animal-bone.jpg"/>
         <rdfs:comment rdf:datatype="&xsd;string">Bone remains of human beings.</rdfs:comment>
     </owl:Class>
     
@@ -244,6 +254,7 @@
     <owl:Class rdf:about="&oc-general;cat-0019">
         <rdfs:label xml:lang="en">Plant remains</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;cat-0014"/>
+        <oc-general:hasIcon rdf:resource="http://artiraq.org/static/oc/icons/plant.jpg"/>
         <rdfs:comment rdf:datatype="&xsd;string">Any sort of botanical remain</rdfs:comment>
     </owl:Class>
     
@@ -254,6 +265,7 @@
     <owl:Class rdf:about="&oc-general;cat-0020">
         <rdfs:label xml:lang="en">Location or Context</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;subjects"/>
+        <oc-general:hasIcon rdf:resource="http://artiraq.org/static/oc/icons/operation-area.jpg"/>
         <skos:closeMatch rdf:datatype="&xsd;anyURI">http://erlangen-crm.org/110404/E53_Place</skos:closeMatch>
     </owl:Class>
     
@@ -264,6 +276,7 @@
     <owl:Class rdf:about="&oc-general;cat-0021">
         <rdfs:label xml:lang="en">Survey Unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;cat-0020"/>
+        <oc-general:hasIcon rdf:resource="http://artiraq.org/static/oc/icons/operation-area.jpg"/>
         <rdfs:subClassOf rdf:resource="&crm-eh;EHE0003_AreaOfInvestigation"/>
     </owl:Class>
     
@@ -273,6 +286,7 @@
 
     <owl:Class rdf:about="&oc-general;cat-0022">
         <rdfs:label xml:lang="en">Site</rdfs:label>
+        <oc-general:hasIcon rdf:resource="http://artiraq.org/static/oc/icons/site.jpg"/>
         <rdfs:subClassOf rdf:resource="&oc-general;cat-0020"/>
     </owl:Class>
     
@@ -283,6 +297,7 @@
     <owl:Class rdf:about="&oc-general;cat-0023">
         <rdfs:label xml:lang="en">Site Area</rdfs:label>
         <owl:equivalentClass rdf:resource="&crm-eh;EHE0004_SiteSubDivision"/>
+        <oc-general:hasIcon rdf:resource="http://artiraq.org/static/oc/icons/operation-area.jpg"/>
         <rdfs:subClassOf rdf:resource="&oc-general;cat-0020"/>
     </owl:Class>
     
@@ -293,6 +308,7 @@
     <owl:Class rdf:about="&oc-general;cat-0024">
         <rdfs:label xml:lang="en">Context</rdfs:label>
         <owl:equivalentClass rdf:resource="&crm-eh;EHE0007_Context"/>
+        <oc-general:hasIcon rdf:resource="http://artiraq.org/static/oc/icons/locus-lot.jpg"/>
         <rdfs:subClassOf rdf:resource="&oc-general;cat-0020"/>
     </owl:Class>
     
@@ -304,6 +320,7 @@
         <rdfs:label xml:lang="en">Feature</rdfs:label>
         <owl:equivalentClass rdf:resource="&crm-eh;EHE0074_IdentifiedFeature"/>
         <rdfs:subClassOf rdf:resource="&oc-general;cat-0020"/>
+        <oc-general:hasIcon rdf:resource="http://artiraq.org/static/oc/icons/feature.jpg"/>
     </owl:Class>
     
 
@@ -313,6 +330,7 @@
     <owl:Class rdf:about="&oc-general;cat-0026">
         <rdfs:label xml:lang="en">Excavation Unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;cat-0024"/>
+        <oc-general:hasIcon rdf:resource="http://artiraq.org/static/oc/icons/ex-square.jpg"/>
     </owl:Class>
     
 
@@ -322,6 +340,7 @@
     <owl:Class rdf:about="&oc-general;cat-0027">
         <rdfs:label xml:lang="en">Locus</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;cat-0024"/>
+        <oc-general:hasIcon rdf:resource="http://artiraq.org/static/oc/icons/locus-lot.jpg"/>
     </owl:Class>
     
 
@@ -331,6 +350,7 @@
     <owl:Class rdf:about="&oc-general;cat-0028">
         <rdfs:label xml:lang="en">Lot</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;cat-0024"/>
+        <oc-general:hasIcon rdf:resource="http://artiraq.org/static/oc/icons/locus-lot.jpg"/>
     </owl:Class>
     
 
@@ -340,6 +360,7 @@
     <owl:Class rdf:about="&oc-general;cat-0029">
         <rdfs:label xml:lang="en">Basket</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;cat-0024"/>
+        <oc-general:hasIcon rdf:resource="http://artiraq.org/static/oc/icons/locus-lot.jpg"/>
     </owl:Class>
     
 
@@ -349,6 +370,7 @@
     <owl:Class rdf:about="&oc-general;cat-0030">
         <rdfs:label xml:lang="en">Area</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;cat-0023"/>
+        <oc-general:hasIcon rdf:resource="http://artiraq.org/static/oc/icons/operation-area.jpg"/>
     </owl:Class>
     
 
@@ -358,6 +380,7 @@
     <owl:Class rdf:about="&oc-general;cat-0031">
         <rdfs:label xml:lang="en">Trench</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;cat-0023"/>
+        <oc-general:hasIcon rdf:resource="http://artiraq.org/static/oc/icons/ex-square.jpg"/>
     </owl:Class>
     
 
@@ -367,6 +390,7 @@
     <owl:Class rdf:about="&oc-general;cat-0032">
         <rdfs:label xml:lang="en">Operation</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;cat-0023"/>
+        <oc-general:hasIcon rdf:resource="http://artiraq.org/static/oc/icons/operation-area.jpg"/>
     </owl:Class>
     
 
@@ -376,6 +400,7 @@
     <owl:Class rdf:about="&oc-general;cat-0033">
         <rdfs:label xml:lang="en">Field Project</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;cat-0023"/>
+        <oc-general:hasIcon rdf:resource="http://artiraq.org/static/oc/icons/operation-area.jpg"/>
     </owl:Class>
     
 
@@ -385,6 +410,7 @@
     <owl:Class rdf:about="&oc-general;cat-0034">
         <rdfs:label xml:lang="en">Square</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;cat-0023"/>
+        <oc-general:hasIcon rdf:resource="http://artiraq.org/static/oc/icons/ex-square.jpg"/>
     </owl:Class>
     
 
@@ -394,6 +420,7 @@
     <owl:Class rdf:about="&oc-general;cat-0035">
         <rdfs:label xml:lang="en">Unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;cat-0024"/>
+        <oc-general:hasIcon rdf:resource="http://artiraq.org/static/oc/icons/ex-square.jpg"/>
     </owl:Class>
     
 
@@ -403,6 +430,7 @@
     <owl:Class rdf:about="&oc-general;cat-0036">
         <rdfs:label xml:lang="en">Sequence</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;cat-0024"/>
+        <oc-general:hasIcon rdf:resource="http://artiraq.org/static/oc/icons/sample.jpg"/>
     </owl:Class>
     
 
@@ -412,6 +440,7 @@
     <owl:Class rdf:about="&oc-general;cat-0037">
         <rdfs:label xml:lang="en">Human Subject</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;cat-0014"/>
+        <oc-general:hasIcon rdf:resource="http://artiraq.org/static/oc/icons/patient.jpg"/>
     </owl:Class>
     
 
@@ -421,6 +450,7 @@
     <owl:Class rdf:about="&oc-general;cat-0038">
         <rdfs:label xml:lang="en">Stratum</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;cat-0024"/>
+        <oc-general:hasIcon rdf:resource="http://artiraq.org/static/oc/icons/stratum.jpg"/>
     </owl:Class>
     
 
@@ -430,6 +460,7 @@
     <owl:Class rdf:about="&oc-general;cat-0039">
         <rdfs:label xml:lang="en">Phase</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;cat-0024"/>
+        <oc-general:hasIcon rdf:resource="http://artiraq.org/static/oc/icons/stratum.jpg"/>
     </owl:Class>
     
 
@@ -439,6 +470,7 @@
     <owl:Class rdf:about="&oc-general;cat-0040">
         <rdfs:label xml:lang="en">Hospital</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;cat-0020"/>
+        <oc-general:hasIcon rdf:resource="http://artiraq.org/static/oc/icons/patient.jpg"/>
     </owl:Class>
     
 
@@ -448,6 +480,7 @@
     <owl:Class rdf:about="&oc-general;cat-0041">
         <rdfs:label xml:lang="en">Mound</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;cat-0023"/>
+        <oc-general:hasIcon rdf:resource="http://artiraq.org/static/oc/icons/mound.jpg"/>
     </owl:Class>
     
 
@@ -457,6 +490,7 @@
     <owl:Class rdf:about="&oc-general;cat-0042">
         <rdfs:label xml:lang="en">Sculpture</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;cat-0008"/>
+        <oc-general:hasIcon rdf:resource="http://artiraq.org/static/oc/icons/arch-element.jpg"/>
     </owl:Class>
     
 
@@ -466,6 +500,7 @@
     <owl:Class rdf:about="&oc-general;cat-0043">
         <rdfs:label xml:lang="en">Sample</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;cat-0044"/>
+        <oc-general:hasIcon rdf:resource="http://artiraq.org/static/oc/icons/sample.jpg"/>
     </owl:Class>
     
 
@@ -475,6 +510,7 @@
     <owl:Class rdf:about="&oc-general;cat-0044">
         <rdfs:label xml:lang="en">Sample, Collection, or Aggregation</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;subjects"/>
+        <oc-general:hasIcon rdf:resource="http://artiraq.org/static/oc/icons/sample.jpg"/>
     </owl:Class>
     
 
@@ -484,6 +520,7 @@
     <owl:Class rdf:about="&oc-general;cat-0045">
         <rdfs:label xml:lang="en">Reference Collection</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;cat-0044"/>
+        <oc-general:hasIcon rdf:resource="http://artiraq.org/static/oc/icons/ref-collection.jpg"/>
     </owl:Class>
     
 
@@ -493,6 +530,7 @@
     <owl:Class rdf:about="&oc-general;cat-0046">
         <rdfs:label xml:lang="en">Region</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;cat-0020"/>
+        <oc-general:hasIcon rdf:resource="http://artiraq.org/static/oc/icons/region.jpg"/>
     </owl:Class>
     
 
