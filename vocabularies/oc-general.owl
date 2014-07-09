@@ -39,27 +39,29 @@
     // Annotation properties
     //
     ///////////////////////////////////////////////////////////////////////////////////////
-    
-    <owl:AnnotationProperty rdf:about="&skos;closeMatch"/>
-    
      -->
+
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/hasIcon -->
 
     <owl:AnnotationProperty rdf:about="&oc-general;hasIcon">
         <rdfs:label xml:lang="en">Has Icon</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="&foaf;depiction"/>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="&foaf;depiction"/>
     
 
 
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Datatypes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
+    <!-- http://www.w3.org/2004/02/skos/core#closeMatch -->
 
+    <owl:AnnotationProperty rdf:about="&skos;closeMatch"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/depiction -->
+
+    <owl:AnnotationProperty rdf:about="&foaf;depiction"/>
     
 
 
@@ -79,11 +81,9 @@
     <owl:ObjectProperty rdf:about="&oc-general;contains">
         <rdfs:comment rdf:datatype="&xsd;string">This property describes very general spatial or contextual &quot;containment&quot; relationships that describe how entities published by Open Context relate. In the sense defined here, containment relationships help organize entities into contextual relationships as they were observed during the process of discovery and description.</rdfs:comment>
         <rdfs:comment>Contains</rdfs:comment>
-        <rdfs:domain rdf:resource="&oc-general;subjects"/>
         <rdfs:range rdf:resource="&oc-general;subjects"/>
+        <rdfs:domain rdf:resource="&oc-general;subjects"/>
     </owl:ObjectProperty>
-    
-
     
 
 
@@ -141,6 +141,7 @@
     <owl:Class rdf:about="&oc-general;cat-0008">
         <rdfs:label>Object</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;subjects"/>
+        <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/object.jpg</oc-general:hasIcon>
     </owl:Class>
     
 
@@ -210,8 +211,8 @@
     <owl:Class rdf:about="&oc-general;cat-0015">
         <rdfs:label xml:lang="en">Animal Bone</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;cat-0014"/>
-        <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/animal-bone.jpg</oc-general:hasIcon>
         <rdfs:comment rdf:datatype="&xsd;string">Animal bones, usually of the type described by zooarchaeologists. These may or may not have evidence for human modification.</rdfs:comment>
+        <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/animal-bone.jpg</oc-general:hasIcon>
     </owl:Class>
     
 
@@ -221,8 +222,8 @@
     <owl:Class rdf:about="&oc-general;cat-0016">
         <rdfs:label xml:lang="en">Shell</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;cat-0014"/>
-        <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/shell.png</oc-general:hasIcon>
         <rdfs:comment rdf:datatype="&xsd;string">Mineral shell, usually from molluscs.</rdfs:comment>
+        <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/shell.png</oc-general:hasIcon>
     </owl:Class>
     
 
@@ -232,8 +233,8 @@
     <owl:Class rdf:about="&oc-general;cat-0017">
         <rdfs:label xml:lang="en">Non Diagnostic Bone</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;cat-0014"/>
-        <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/animal-bone.jpg</oc-general:hasIcon>
         <rdfs:comment rdf:datatype="&xsd;string">Bone fragments that do not have detailed description or identification.</rdfs:comment>
+        <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/animal-bone.jpg</oc-general:hasIcon>
     </owl:Class>
     
 
@@ -243,8 +244,8 @@
     <owl:Class rdf:about="&oc-general;cat-0018">
         <rdfs:label xml:lang="en">Human Bone</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;cat-0014"/>
-        <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/animal-bone.jpg</oc-general:hasIcon>
         <rdfs:comment rdf:datatype="&xsd;string">Bone remains of human beings.</rdfs:comment>
+        <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/animal-bone.jpg</oc-general:hasIcon>
     </owl:Class>
     
 
@@ -254,8 +255,8 @@
     <owl:Class rdf:about="&oc-general;cat-0019">
         <rdfs:label xml:lang="en">Plant remains</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;cat-0014"/>
-        <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/plant.jpg</oc-general:hasIcon>
         <rdfs:comment rdf:datatype="&xsd;string">Any sort of botanical remain</rdfs:comment>
+        <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/plant.jpg</oc-general:hasIcon>
     </owl:Class>
     
 
@@ -276,8 +277,8 @@
     <owl:Class rdf:about="&oc-general;cat-0021">
         <rdfs:label xml:lang="en">Survey Unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;cat-0020"/>
-        <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/operation-area.jpg</oc-general:hasIcon>
         <rdfs:subClassOf rdf:resource="&crm-eh;EHE0003_AreaOfInvestigation"/>
+        <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/operation-area.jpg</oc-general:hasIcon>
     </owl:Class>
     
 
@@ -286,8 +287,8 @@
 
     <owl:Class rdf:about="&oc-general;cat-0022">
         <rdfs:label xml:lang="en">Site</rdfs:label>
-        <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/site.jpg</oc-general:hasIcon>
         <rdfs:subClassOf rdf:resource="&oc-general;cat-0020"/>
+        <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/site.jpg</oc-general:hasIcon>
     </owl:Class>
     
 
@@ -297,8 +298,8 @@
     <owl:Class rdf:about="&oc-general;cat-0023">
         <rdfs:label xml:lang="en">Site Area</rdfs:label>
         <owl:equivalentClass rdf:resource="&crm-eh;EHE0004_SiteSubDivision"/>
-        <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/operation-area.jpg</oc-general:hasIcon>
         <rdfs:subClassOf rdf:resource="&oc-general;cat-0020"/>
+        <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/operation-area.jpg</oc-general:hasIcon>
     </owl:Class>
     
 
@@ -308,8 +309,8 @@
     <owl:Class rdf:about="&oc-general;cat-0024">
         <rdfs:label xml:lang="en">Context</rdfs:label>
         <owl:equivalentClass rdf:resource="&crm-eh;EHE0007_Context"/>
-        <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/locus-lot.jpg</oc-general:hasIcon>
         <rdfs:subClassOf rdf:resource="&oc-general;cat-0020"/>
+        <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/locus-lot.jpg</oc-general:hasIcon>
     </owl:Class>
     
 
@@ -535,11 +536,21 @@
     
 
 
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-0047 -->
+
+    <owl:Class rdf:about="&oc-general;cat-0047">
+        <rdfs:label xml:lang="en">Figurine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&oc-general;cat-0008"/>
+        <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/figurine.jpg</oc-general:hasIcon>
+    </owl:Class>
+    
+
+
     <!-- http://opencontext.org/vocabularies/oc-general/documents -->
 
     <owl:Class rdf:about="&oc-general;documents">
-        <rdfs:label xml:lang="en">Document</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&oc-general;items"/>
+        <rdfs:label xml:lang="en">Documents</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&oc-general;item"/>
         <rdfs:comment rdf:datatype="&xsd;string">These are textual documents that help make up a body of documentation for a given project or collection. They typically relate to and help describe subjects, people, or a project. They differ from media items in that they are not stored as outside binary files, but are simply plain or HTML text documents.</rdfs:comment>
     </owl:Class>
     
@@ -555,7 +566,7 @@
     
 
 
-    <!-- http://opencontext.org/vocabularies/oc-general/items -->
+    <!-- http://opencontext.org/vocabularies/oc-general/item -->
 
     <owl:Class rdf:about="&oc-general;item">
         <rdfs:label rdf:datatype="&rdfs;Literal">Open Context Items</rdfs:label>
@@ -584,6 +595,14 @@
     
 
 
+    <!-- http://opencontext.org/vocabularies/oc-general/person -->
+
+    <owl:Class rdf:about="&oc-general;person">
+        <rdfs:label rdf:datatype="&rdfs;Literal">Persons and Organizations</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://opencontext.org/vocabularies/oc-general/persons -->
 
     <owl:Class rdf:about="&oc-general;persons">
@@ -599,8 +618,8 @@
 
     <owl:Class rdf:about="&oc-general;predicates">
         <rdfs:label xml:lang="en">Predicates or properties</rdfs:label>
+        <owl:equivalentClass rdf:resource="&rdf;Property"/>
         <rdfs:subClassOf rdf:resource="&oc-general;item"/>
-        <owl:equivalentClass rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
         <rdfs:comment rdf:datatype="&xsd;string">Predicates / properteries describe subjects, people, media, etc. according to a (sometimes loosely, and informally defined) descriptive schemes created by data contributors / authors. Each predicate or property is unique within the context of a given project. Occationally, predicates will be organized into hierarchies using the SKOS or RDFS vocabularies.</rdfs:comment>
     </owl:Class>
     
@@ -631,7 +650,7 @@
     <owl:Class rdf:about="&oc-general;types">
         <rdfs:label xml:lang="en">Descriptive types</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;item"/>
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:subClassOf rdf:resource="&skos;Concept"/>
         <rdfs:comment rdf:datatype="&xsd;string">Types describe subjects, people, media, etc. according to a (sometimes loosely, and informally defined) controlled vocabulary created by data contributors / authors. Each descriptive type is unique within the context of a given project. Occationally, types will be organized into hierarchies using the SKOS or RDFS vocabularies.</rdfs:comment>
     </owl:Class>
     
@@ -661,6 +680,12 @@
     
 
 
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#Property -->
+
+    <owl:Class rdf:about="&rdf;Property"/>
+    
+
+
     <!-- http://xmlns.com/foaf/0.1/Agent -->
 
     <owl:Class rdf:about="&foaf;Agent"/>
@@ -668,5 +693,5 @@
 
 
 
-<!-- Generated by the OWL API (version 3.3.1957) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
 
