@@ -41,27 +41,43 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
-
-
-    <!-- http://opencontext.org/vocabularies/oc-general/hasIcon -->
-
+    <owl:AnnotationProperty rdf:about="&oc-general;location-precision-note">
+        <rdfs:label xml:lang="en">Location precision note</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">This property provides a verbal description or comment about the precision of the geospatial metadata provided for an item.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&rdfs;comment"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="&oc-general;reference-label">
+        <rdfs:label xml:lang="en">Reference label</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">This property labels an item that has geospatial or chronological metadata specified with the reference-uri property.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&rdfs;label"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="&oc-general;location-note">
+        <rdfs:label xml:lang="en">Location note</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">This property a verbal description of a geospatial feature associated with an item.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&rdfs;comment"/>
+    </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="&oc-general;hasIcon">
         <rdfs:label xml:lang="en">Has Icon</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="&foaf;depiction"/>
     </owl:AnnotationProperty>
-    
-
-
-    <!-- http://www.w3.org/2004/02/skos/core#closeMatch -->
-
     <owl:AnnotationProperty rdf:about="&skos;closeMatch"/>
+    <owl:AnnotationProperty rdf:about="&oc-general;obsNote">
+        <rdfs:label xml:lang="en">Observation note</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">This property a verbal description / comment about an observation event.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&rdfs;comment"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="&foaf;depiction"/>
     
 
 
-    <!-- http://xmlns.com/foaf/0.1/depiction -->
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
 
-    <owl:AnnotationProperty rdf:about="&foaf;depiction"/>
     
 
 
@@ -76,20 +92,201 @@
     
 
 
+    <!-- http://opencontext.org/vocabularies/oc-general/category -->
+
+    <owl:ObjectProperty rdf:about="&oc-general;category">
+        <rdfs:label xml:lang="en">Category</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">This is basically just the same as rdf:type. It&apos;s defined here as a bit of a hack to avoid JSON-LD validation problems AND making sure that the JSON-LD still works as GeoJSON (software consuming GeoJSON does not like lists of multiple &apos;types&apos;).</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://opencontext.org/vocabularies/oc-general/contains -->
 
     <owl:ObjectProperty rdf:about="&oc-general;contains">
+        <rdfs:label xml:lang="en">Contains</rdfs:label>
         <rdfs:comment rdf:datatype="&xsd;string">This property describes very general spatial or contextual &quot;containment&quot; relationships that describe how entities published by Open Context relate. In the sense defined here, containment relationships help organize entities into contextual relationships as they were observed during the process of discovery and description.</rdfs:comment>
-        <rdfs:comment>Contains</rdfs:comment>
+        <rdfs:domain rdf:resource="&oc-general;contents"/>
         <rdfs:range rdf:resource="&oc-general;subjects"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/has-contents -->
+
+    <owl:ObjectProperty rdf:about="&oc-general;has-contents">
+        <rdfs:label xml:lang="en">Has contents</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">This property indicates that an item contains child items in a containment hierarchy.</rdfs:comment>
+        <rdfs:range rdf:resource="&oc-general;contents"/>
         <rdfs:domain rdf:resource="&oc-general;subjects"/>
     </owl:ObjectProperty>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/has-context-path -->
+
+    <owl:ObjectProperty rdf:about="&oc-general;has-context-path">
+        <rdfs:label xml:lang="en">Has context path</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">This property indicates that an item has items that contain it in a containment hierarchy.</rdfs:comment>
+        <rdfs:range rdf:resource="&oc-general;contexts"/>
+        <rdfs:domain rdf:resource="&oc-general;subjects"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/has-linked-context-path -->
+
+    <owl:ObjectProperty rdf:about="&oc-general;has-linked-context-path">
+        <rdfs:label xml:lang="en">Has linked context path</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">This property indicates that an item is linked to a subjects item with a containment hierarchy.</rdfs:comment>
+        <rdfs:range rdf:resource="&oc-general;contexts"/>
+        <rdfs:domain rdf:resource="&oc-general;items"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/has-obs -->
+
+    <owl:ObjectProperty rdf:about="&oc-general;has-obs">
+        <rdfs:label xml:lang="en">Has observation</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">This property indicates that an item has an associated observation event.</rdfs:comment>
+        <rdfs:domain rdf:resource="&oc-general;items"/>
+        <rdfs:range rdf:resource="&oc-general;observations"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/has-path-items -->
+
+    <owl:ObjectProperty rdf:about="&oc-general;has-path-items">
+        <rdfs:label xml:lang="en">Has context path items</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">This property identifies members of a containment hierarchy.</rdfs:comment>
+        <rdfs:domain rdf:resource="&oc-general;contexts"/>
+        <rdfs:range rdf:resource="&oc-general;subjects"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/location-note -->
+
+    <owl:ObjectProperty rdf:about="&oc-general;location-note">
+        <rdfs:label xml:lang="en">Location note</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">This property a verbal description of a geospatial feature associated with an item.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/location-precision -->
+
+    <owl:ObjectProperty rdf:about="&oc-general;location-precision">
+        <rdfs:label xml:lang="en">Location precision</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">This property describes the precision of the geospatial metadata provided for an item as a &apos;zoom level&apos;. A zero means that the precision was not intentially reduced. A positive integer means an intentional reduction in precision to a given zoom level. Reduced precision means that the geospatial information has sensitivity / security issues.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/location-precision-note -->
+
+    <owl:ObjectProperty rdf:about="&oc-general;location-precision-note">
+        <rdfs:label xml:lang="en">Location precision note</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">This property provides a verbal description or comment about the precision of the geospatial metadata provided for an item.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/obsNote -->
+
+    <owl:ObjectProperty rdf:about="&oc-general;obsNote">
+        <rdfs:label xml:lang="en">Observation note</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">This property a verbal description / comment about an observation event.</rdfs:comment>
+        <rdfs:domain rdf:resource="&oc-general;observations"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/obsStatus -->
+
+    <owl:ObjectProperty rdf:about="&oc-general;obsStatus">
+        <rdfs:label xml:lang="en">Observation status</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">This property indicates if an observation is still &apos;active&apos; and valid, or if it is &apos;depricated&apos; and no longer valid.</rdfs:comment>
+        <rdfs:domain rdf:resource="&oc-general;observations"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/predType -->
+
+    <owl:ObjectProperty rdf:about="&oc-general;predType">
+        <rdfs:label xml:lang="en">Predicate type</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Indicates the type of predicate (a &apos;variable&apos; for descriptive properties) or a &apos;link&apos; to other Open Context media, subjects, persons, projects, or documents items.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&rdf;type"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/reference-label -->
+
+    <owl:ObjectProperty rdf:about="&oc-general;reference-label">
+        <rdfs:label xml:lang="en">Reference label</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">This property labels an item that has geospatial or chronological metadata specified with the reference-uri property.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/reference-type -->
+
+    <owl:ObjectProperty rdf:about="&oc-general;reference-type">
+        <rdfs:label xml:lang="en">Reference type</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">This property describes the source of geospatial or chronological metadata. If the source of the metadata was the item itself, the object of this property is &apos;specified&apos;. If the source of the metadata was some other item, the object of this property is &apos;inferred&apos;, since the geospatial or chronological information was inferred through containment relationships.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/reference-uri -->
+
+    <owl:ObjectProperty rdf:about="&oc-general;reference-uri">
+        <rdfs:label xml:lang="en">Reference URI</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">This property identifies an item that has geospatial or chronological metadata specified. This is useful, since many items have geospatial and chronological metadata not directly assigned, but provided through inference.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/identifier"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/slug -->
+
+    <owl:ObjectProperty rdf:about="&oc-general;slug">
+        <rdfs:label xml:lang="en">Slug</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">A secondary identifier for an item, used to make more human-readable URLs, so it&apos;s easier to understand and debug requests made with Web services / APIs.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/identifier"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/sourceID -->
+
+    <owl:ObjectProperty rdf:about="&oc-general;sourceID">
+        <rdfs:label xml:lang="en">Source ID</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Identifies the data source (usually an imported data table processed in creating a record in Open Context). This is mainly indicated for Open Context&apos;s internal administrative and management purposes, and likely does not have much use for outside users of data published by Open Context.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/identifier"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/identifier -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/dc/terms/identifier"/>
     
 
 
     <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#Property -->
 
     <owl:ObjectProperty rdf:about="&rdf;Property"/>
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#type -->
+
+    <owl:ObjectProperty rdf:about="&rdf;type"/>
     
 
 
@@ -131,7 +328,7 @@
     <!-- http://erlangen-crm.org/current/E39_Actor -->
 
     <owl:Class rdf:about="&cidoc-crm;E39_Actor">
-        <owl:equivalentClass rdf:resource="&oc-general;person"/>
+        <owl:equivalentClass rdf:resource="&oc-general;persons"/>
     </owl:Class>
     
 
@@ -546,12 +743,52 @@
     
 
 
+    <!-- http://opencontext.org/vocabularies/oc-general/contents -->
+
+    <owl:Class rdf:about="&oc-general;contents">
+        <rdfs:label rdf:datatype="&xsd;string">Contents</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&oc-general;item-parts"/>
+        <rdfs:comment rdf:datatype="&xsd;string">A content item has a list of child items contained in a hierarchy. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/contexts -->
+
+    <owl:Class rdf:about="&oc-general;contexts">
+        <rdfs:label rdf:datatype="&xsd;string">Contexts</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&oc-general;item-parts"/>
+        <rdfs:comment rdf:datatype="&xsd;string">A context has information situating an item in a hierarchy of other items that contain it. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/discovery-location -->
+
+    <owl:Class rdf:about="&oc-general;discovery-location">
+        <rdfs:label xml:lang="en">Discovery location</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&oc-general;item-event-types"/>
+        <rdfs:comment rdf:datatype="&xsd;string">The location for where an item was discovered or observed.</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://opencontext.org/vocabularies/oc-general/documents -->
 
     <owl:Class rdf:about="&oc-general;documents">
         <rdfs:label xml:lang="en">Documents</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&oc-general;item"/>
+        <rdfs:subClassOf rdf:resource="&oc-general;items"/>
         <rdfs:comment rdf:datatype="&xsd;string">These are textual documents that help make up a body of documentation for a given project or collection. They typically relate to and help describe subjects, people, or a project. They differ from media items in that they are not stored as outside binary files, but are simply plain or HTML text documents.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/formation-use-life -->
+
+    <owl:Class rdf:about="&oc-general;formation-use-life">
+        <rdfs:label xml:lang="en">Formation, use, or life</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&oc-general;item-event-types"/>
+        <rdfs:comment rdf:datatype="&xsd;string">The time span during which an item was formed, was used, or was alive.</rdfs:comment>
     </owl:Class>
     
 
@@ -566,11 +803,39 @@
     
 
 
-    <!-- http://opencontext.org/vocabularies/oc-general/item -->
+    <!-- http://opencontext.org/vocabularies/oc-general/item-event-types -->
 
-    <owl:Class rdf:about="&oc-general;item">
+    <owl:Class rdf:about="&oc-general;item-event-types">
+        <rdfs:label rdf:datatype="&rdfs;Literal">Item event types</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">GeoJSON-LD defines &apos;event-like&apos; features situated in space and time. Subclasses of Item event types provide additional information describing the event-like features in Open Context GeoJSON-LD documents.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/item-parts -->
+
+    <owl:Class rdf:about="&oc-general;item-parts">
+        <rdfs:label rdf:datatype="&rdfs;Literal">Item parts</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Parts of an item that bundle different kinds of relationships and descriptions.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/items -->
+
+    <owl:Class rdf:about="&oc-general;items">
         <rdfs:label rdf:datatype="&rdfs;Literal">Open Context Items</rdfs:label>
         <rdfs:comment rdf:datatype="&xsd;string">An information resource published by Open Context and assigned a URI for identification and retrieval.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/links -->
+
+    <owl:Class rdf:about="&oc-general;links">
+        <rdfs:label rdf:datatype="&xsd;string">Links</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&oc-general;predicates"/>
+        <rdfs:comment rdf:datatype="&xsd;string">A type of predicate used to assert some sort of relationship to other Open Context subjects, media, documents, projects, or persons items.</rdfs:comment>
     </owl:Class>
     
 
@@ -579,7 +844,7 @@
 
     <owl:Class rdf:about="&oc-general;media">
         <rdfs:label xml:lang="en">Media</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&oc-general;item"/>
+        <rdfs:subClassOf rdf:resource="&oc-general;items"/>
         <rdfs:comment rdf:datatype="&xsd;string">These are media files that help make up a body of documentation for a given project or collection. They typically relate to and help describe subjects, people, or a project. Examples include: image files, PDF documents, videos, 3-D scans, etc.</rdfs:comment>
     </owl:Class>
     
@@ -588,17 +853,10 @@
     <!-- http://opencontext.org/vocabularies/oc-general/observations -->
 
     <owl:Class rdf:about="&oc-general;observations">
-        <rdfs:label rdf:datatype="&xsd;string">Observation</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">Observations</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&oc-general;item-parts"/>
         <rdfs:comment rdf:datatype="&xsd;string">An observation is a bundle of descriptive assertions made about an entity published by Open Context. The bundle of observations should be made by some agent, but sometimes this is not going to be known. </rdfs:comment>
         <skos:closeMatch rdf:datatype="&xsd;anyURI">http://erlangen-crm.org/current/E13_Attribute_Assignment</skos:closeMatch>
-    </owl:Class>
-    
-
-
-    <!-- http://opencontext.org/vocabularies/oc-general/person -->
-
-    <owl:Class rdf:about="&oc-general;person">
-        <rdfs:label rdf:datatype="&rdfs;Literal">Persons and Organizations</rdfs:label>
     </owl:Class>
     
 
@@ -608,7 +866,7 @@
     <owl:Class rdf:about="&oc-general;persons">
         <rdfs:label xml:lang="en">Persons or Organizations</rdfs:label>
         <owl:equivalentClass rdf:resource="&foaf;Agent"/>
-        <rdfs:subClassOf rdf:resource="&oc-general;item"/>
+        <rdfs:subClassOf rdf:resource="&oc-general;items"/>
         <rdfs:comment rdf:datatype="&xsd;string">Persons and organizations represent the people and institutions that participated in a project. They are responsible for creating, editing, curating, analyzing, and reporting data published in Open Context.</rdfs:comment>
     </owl:Class>
     
@@ -619,7 +877,7 @@
     <owl:Class rdf:about="&oc-general;predicates">
         <rdfs:label xml:lang="en">Predicates or properties</rdfs:label>
         <owl:equivalentClass rdf:resource="&rdf;Property"/>
-        <rdfs:subClassOf rdf:resource="&oc-general;item"/>
+        <rdfs:subClassOf rdf:resource="&oc-general;items"/>
         <rdfs:comment rdf:datatype="&xsd;string">Predicates / properteries describe subjects, people, media, etc. according to a (sometimes loosely, and informally defined) descriptive schemes created by data contributors / authors. Each predicate or property is unique within the context of a given project. Occationally, predicates will be organized into hierarchies using the SKOS or RDFS vocabularies.</rdfs:comment>
     </owl:Class>
     
@@ -629,7 +887,7 @@
 
     <owl:Class rdf:about="&oc-general;projects">
         <rdfs:label xml:lang="en">Projects or Collections</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&oc-general;item"/>
+        <rdfs:subClassOf rdf:resource="&oc-general;items"/>
         <rdfs:comment rdf:datatype="&xsd;string">Projects represent a specific study or research effort to collect a body of documentation. They can be an archaeological excavation or survey, an ecological survey, a description of a museum collection, or even a public health study of disease incidences. All projects and collections must identify an institution or person responsible for collecting and publishing data.</rdfs:comment>
     </owl:Class>
     
@@ -639,7 +897,7 @@
 
     <owl:Class rdf:about="&oc-general;subjects">
         <rdfs:label xml:lang="en">Subjects</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&oc-general;item"/>
+        <rdfs:subClassOf rdf:resource="&oc-general;items"/>
         <rdfs:comment rdf:datatype="&xsd;string">The primary &quot;subjects&quot; of observations in Open Context. These are the primary entities of phenomena described by researchers.</rdfs:comment>
     </owl:Class>
     
@@ -649,9 +907,19 @@
 
     <owl:Class rdf:about="&oc-general;types">
         <rdfs:label xml:lang="en">Descriptive types</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&oc-general;item"/>
+        <rdfs:subClassOf rdf:resource="&oc-general;items"/>
         <rdfs:subClassOf rdf:resource="&skos;Concept"/>
         <rdfs:comment rdf:datatype="&xsd;string">Types describe subjects, people, media, etc. according to a (sometimes loosely, and informally defined) controlled vocabulary created by data contributors / authors. Each descriptive type is unique within the context of a given project. Occationally, types will be organized into hierarchies using the SKOS or RDFS vocabularies.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/variables -->
+
+    <owl:Class rdf:about="&oc-general;variables">
+        <rdfs:label rdf:datatype="&rdfs;Literal">Variables</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&oc-general;predicates"/>
+        <rdfs:comment rdf:datatype="&xsd;string">A type of predicate that is used to provide description to an item, rather than assert some sort of linking relationship to other items. </rdfs:comment>
     </owl:Class>
     
 
@@ -689,9 +957,90 @@
     <!-- http://xmlns.com/foaf/0.1/Agent -->
 
     <owl:Class rdf:about="&foaf;Agent"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://erlangen-crm.org/current/E63_Beginning_of_Existence -->
+
+    <owl:NamedIndividual rdf:about="&cidoc-crm;E63_Beginning_of_Existence"/>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/category -->
+
+    <owl:NamedIndividual rdf:about="&oc-general;category">
+        <rdfs:label xml:lang="en">Category</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">This is basically just the same as rdf:type. It&apos;s defined here as a bit of a hack to avoid JSON-LD validation problems AND making sure that the JSON-LD still works as GeoJSON (software consuming GeoJSON does not like lists of multiple &apos;types&apos;).</rdfs:comment>
+        <owl:sameAs rdf:resource="&rdf;type"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/formation-use-life -->
+
+    <owl:NamedIndividual rdf:about="&oc-general;formation-use-life">
+        <rdfs:label xml:lang="en">Formation, use, or life</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The time span during which an item was formed, was used, or was alive.</rdfs:comment>
+        <skos:related rdf:resource="&cidoc-crm;E63_Beginning_of_Existence"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/location-precision -->
+
+    <rdf:Description rdf:about="&oc-general;location-precision">
+        <rdfs:label xml:lang="en">Location precision</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">This property describes the precision of the geospatial metadata provided for an item as a &apos;zoom level&apos;. A zero means that the precision was not intentially reduced. A positive integer means an intentional reduction in precision to a given zoom level. Reduced precision means that the geospatial information has sensitivity / security issues.</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/location-precision-note -->
+
+    <owl:NamedIndividual rdf:about="&oc-general;location-precision-note">
+        <rdfs:label xml:lang="en">Location precision note</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">This property provides a verbal description or comment about the precision of the geospatial metadata provided for an item.</rdfs:comment>
+        <skos:related rdf:resource="&oc-general;location-precision"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/reference-label -->
+
+    <owl:NamedIndividual rdf:about="&oc-general;reference-label">
+        <rdfs:label xml:lang="en">Reference label</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">This property labels an item that has geospatial or chronological metadata specified with the reference-uri property.</rdfs:comment>
+        <skos:related rdf:resource="&oc-general;reference-uri"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/reference-uri -->
+
+    <rdf:Description rdf:about="&oc-general;reference-uri">
+        <rdfs:label xml:lang="en">Reference URI</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">This property identifies an item that has geospatial or chronological metadata specified. This is useful, since many items have geospatial and chronological metadata not directly assigned, but provided through inference.</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#type -->
+
+    <owl:NamedIndividual rdf:about="&rdf;type"/>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 3.3.1957) http://owlapi.sourceforge.net -->
 
