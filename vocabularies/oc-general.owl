@@ -251,6 +251,65 @@
     </owl:ObjectProperty>
     
 
+    
+    
+    <!-- http://opencontext.org/vocabularies/oc-general/category -->
+
+    <owl:ObjectProperty rdf:about="&oc-general;category">
+        <rdfs:label xml:lang="en">Category</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">This is basically just the same as rdf:type. It&apos;s defined here as a bit of a hack to avoid JSON-LD validation problems AND making sure that the JSON-LD still works as GeoJSON (software consuming GeoJSON does not like lists of multiple &apos;types&apos;).</rdfs:comment>
+        <owl:sameAs rdf:resource="&rdf;type"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/formation-use-life -->
+
+    <owl:Class rdf:about="&oc-general;formation-use-life">
+        <rdfs:label xml:lang="en">Formation, use, or life</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The time span during which an item was formed, was used, or was alive.</rdfs:comment>
+        <skos:related rdf:resource="&cidoc-crm;E63_Beginning_of_Existence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/location-precision -->
+
+    <owl:ObjectProperty rdf:about="&oc-general;location-precision">
+        <rdfs:label xml:lang="en">Location precision</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">This property describes the precision of the geospatial metadata provided for an item as a &apos;zoom level&apos;. A zero means that the precision was not intentially reduced. A positive integer means an intentional reduction in precision to a given zoom level. Reduced precision means that the geospatial information has sensitivity / security issues.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/location-precision-note -->
+
+    <owl:ObjectProperty rdf:about="&oc-general;location-precision-note">
+        <rdfs:label xml:lang="en">Location precision note</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">This property provides a verbal description or comment about the precision of the geospatial metadata provided for an item.</rdfs:comment>
+        <skos:related rdf:resource="&oc-general;location-precision"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/reference-label -->
+
+    <owl:ObjectProperty rdf:about="&oc-general;reference-label">
+        <rdfs:label xml:lang="en">Reference label</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">This property labels an item that has geospatial or chronological metadata specified with the reference-uri property.</rdfs:comment>
+        <skos:related rdf:resource="&oc-general;reference-uri"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/reference-uri -->
+
+    <owl:ObjectProperty rdf:about="&oc-general;reference-uri">
+        <rdfs:label xml:lang="en">Reference URI</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">This property identifies an item that has geospatial or chronological metadata specified. This is useful, since many items have geospatial and chronological metadata not directly assigned, but provided through inference.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+    
 
     <!-- http://opencontext.org/vocabularies/oc-general/slug -->
 
@@ -960,6 +1019,12 @@
     
 
 
+    <!-- http://erlangen-crm.org/current/E63_Beginning_of_Existence -->
+
+    <owl:Class rdf:about="&cidoc-crm;E63_Beginning_of_Existence"/>
+    
+
+    
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -968,76 +1033,8 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
 
 
-    <!-- http://erlangen-crm.org/current/E63_Beginning_of_Existence -->
-
-    <owl:NamedIndividual rdf:about="&cidoc-crm;E63_Beginning_of_Existence"/>
-    
-
-
-    <!-- http://opencontext.org/vocabularies/oc-general/category -->
-
-    <owl:NamedIndividual rdf:about="&oc-general;category">
-        <rdfs:label xml:lang="en">Category</rdfs:label>
-        <rdfs:comment rdf:datatype="&xsd;string">This is basically just the same as rdf:type. It&apos;s defined here as a bit of a hack to avoid JSON-LD validation problems AND making sure that the JSON-LD still works as GeoJSON (software consuming GeoJSON does not like lists of multiple &apos;types&apos;).</rdfs:comment>
-        <owl:sameAs rdf:resource="&rdf;type"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://opencontext.org/vocabularies/oc-general/formation-use-life -->
-
-    <owl:NamedIndividual rdf:about="&oc-general;formation-use-life">
-        <rdfs:label xml:lang="en">Formation, use, or life</rdfs:label>
-        <rdfs:comment rdf:datatype="&xsd;string">The time span during which an item was formed, was used, or was alive.</rdfs:comment>
-        <skos:related rdf:resource="&cidoc-crm;E63_Beginning_of_Existence"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://opencontext.org/vocabularies/oc-general/location-precision -->
-
-    <rdf:Description rdf:about="&oc-general;location-precision">
-        <rdfs:label xml:lang="en">Location precision</rdfs:label>
-        <rdfs:comment rdf:datatype="&xsd;string">This property describes the precision of the geospatial metadata provided for an item as a &apos;zoom level&apos;. A zero means that the precision was not intentially reduced. A positive integer means an intentional reduction in precision to a given zoom level. Reduced precision means that the geospatial information has sensitivity / security issues.</rdfs:comment>
-    </rdf:Description>
-    
-
-
-    <!-- http://opencontext.org/vocabularies/oc-general/location-precision-note -->
-
-    <owl:NamedIndividual rdf:about="&oc-general;location-precision-note">
-        <rdfs:label xml:lang="en">Location precision note</rdfs:label>
-        <rdfs:comment rdf:datatype="&xsd;string">This property provides a verbal description or comment about the precision of the geospatial metadata provided for an item.</rdfs:comment>
-        <skos:related rdf:resource="&oc-general;location-precision"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://opencontext.org/vocabularies/oc-general/reference-label -->
-
-    <owl:NamedIndividual rdf:about="&oc-general;reference-label">
-        <rdfs:label xml:lang="en">Reference label</rdfs:label>
-        <rdfs:comment rdf:datatype="&xsd;string">This property labels an item that has geospatial or chronological metadata specified with the reference-uri property.</rdfs:comment>
-        <skos:related rdf:resource="&oc-general;reference-uri"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://opencontext.org/vocabularies/oc-general/reference-uri -->
-
-    <rdf:Description rdf:about="&oc-general;reference-uri">
-        <rdfs:label xml:lang="en">Reference URI</rdfs:label>
-        <rdfs:comment rdf:datatype="&xsd;string">This property identifies an item that has geospatial or chronological metadata specified. This is useful, since many items have geospatial and chronological metadata not directly assigned, but provided through inference.</rdfs:comment>
-    </rdf:Description>
-    
-
-
-    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#type -->
-
-    <owl:NamedIndividual rdf:about="&rdf;type"/>
 </rdf:RDF>
 
 
