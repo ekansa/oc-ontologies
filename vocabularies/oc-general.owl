@@ -329,6 +329,33 @@
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/identifier"/>
     </owl:ObjectProperty>
     
+    
+    <!-- http://opencontext.org/vocabularies/oc-general/has-technique -->
+
+    <owl:ObjectProperty rdf:about="&oc-general;has-technique">
+        <rdfs:label xml:lang="en">Has technique</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Identifies the technique and / or analytic devises used to make a measurement or descriptive classification.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+    
+    <!-- http://opencontext.org/vocabularies/oc-general/coverage-geo -->
+
+    <owl:ObjectProperty rdf:about="&oc-general;coverage-geo">
+        <rdfs:label xml:lang="en">Coverage - Geographic</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Identifies a geographic entity that is topical for a given resource.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/coverage"/>
+    </owl:ObjectProperty>
+    
+    
+    <!-- http://opencontext.org/vocabularies/oc-general/coverage-period -->
+
+    <owl:ObjectProperty rdf:about="&oc-general;coverage-period">
+        <rdfs:label xml:lang="en">Coverage - Period</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Identifies a temporal entity that is topical for a given resource. The temporal entity
+        may or may not be situated in a given geographic region.
+        </rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/coverage"/>
+    </owl:ObjectProperty>
 
 
     <!-- http://purl.org/dc/terms/identifier -->
