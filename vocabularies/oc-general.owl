@@ -4,6 +4,7 @@
 <!DOCTYPE rdf:RDF [
     <!ENTITY crm-eh "http://purl.org/crmeh#" >
     <!ENTITY foaf "http://xmlns.com/foaf/0.1/" >
+    <!ENTITY bibo "http://purl.org/ontology/bibo/" >
     <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
     <!ENTITY cidoc-crm "http://erlangen-crm.org/current/" >
     <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
@@ -18,6 +19,7 @@
      xml:base="http://opencontext.org/vocabularies/oc-general"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:bibo="http://purl.org/ontology/bibo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -167,6 +169,15 @@
     
 
 
+    <!-- http://opencontext.org/vocabularies/oc-general/has-technique -->
+
+    <owl:ObjectProperty rdf:about="&oc-general;has-technique">
+        <rdfs:label xml:lang="en">Has technique</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Identifies the technique and / or analytic devises used to make a measurement or descriptive classification.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://opencontext.org/vocabularies/oc-general/location-note -->
 
     <owl:ObjectProperty rdf:about="&oc-general;location-note">
@@ -251,65 +262,6 @@
     </owl:ObjectProperty>
     
 
-    
-    
-    <!-- http://opencontext.org/vocabularies/oc-general/category -->
-
-    <owl:ObjectProperty rdf:about="&oc-general;category">
-        <rdfs:label xml:lang="en">Category</rdfs:label>
-        <rdfs:comment rdf:datatype="&xsd;string">This is basically just the same as rdf:type. It&apos;s defined here as a bit of a hack to avoid JSON-LD validation problems AND making sure that the JSON-LD still works as GeoJSON (software consuming GeoJSON does not like lists of multiple &apos;types&apos;).</rdfs:comment>
-        <owl:sameAs rdf:resource="&rdf;type"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://opencontext.org/vocabularies/oc-general/formation-use-life -->
-
-    <owl:Class rdf:about="&oc-general;formation-use-life">
-        <rdfs:label xml:lang="en">Formation, use, or life</rdfs:label>
-        <rdfs:comment rdf:datatype="&xsd;string">The time span during which an item was formed, was used, or was alive.</rdfs:comment>
-        <skos:related rdf:resource="&cidoc-crm;E63_Beginning_of_Existence"/>
-    </owl:Class>
-    
-
-
-    <!-- http://opencontext.org/vocabularies/oc-general/location-precision -->
-
-    <owl:ObjectProperty rdf:about="&oc-general;location-precision">
-        <rdfs:label xml:lang="en">Location precision</rdfs:label>
-        <rdfs:comment rdf:datatype="&xsd;string">This property describes the precision of the geospatial metadata provided for an item as a &apos;zoom level&apos;. A zero means that the precision was not intentially reduced. A positive integer means an intentional reduction in precision to a given zoom level. Reduced precision means that the geospatial information has sensitivity / security issues.</rdfs:comment>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://opencontext.org/vocabularies/oc-general/location-precision-note -->
-
-    <owl:ObjectProperty rdf:about="&oc-general;location-precision-note">
-        <rdfs:label xml:lang="en">Location precision note</rdfs:label>
-        <rdfs:comment rdf:datatype="&xsd;string">This property provides a verbal description or comment about the precision of the geospatial metadata provided for an item.</rdfs:comment>
-        <skos:related rdf:resource="&oc-general;location-precision"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://opencontext.org/vocabularies/oc-general/reference-label -->
-
-    <owl:ObjectProperty rdf:about="&oc-general;reference-label">
-        <rdfs:label xml:lang="en">Reference label</rdfs:label>
-        <rdfs:comment rdf:datatype="&xsd;string">This property labels an item that has geospatial or chronological metadata specified with the reference-uri property.</rdfs:comment>
-        <skos:related rdf:resource="&oc-general;reference-uri"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://opencontext.org/vocabularies/oc-general/reference-uri -->
-
-    <owl:ObjectProperty rdf:about="&oc-general;reference-uri">
-        <rdfs:label xml:lang="en">Reference URI</rdfs:label>
-        <rdfs:comment rdf:datatype="&xsd;string">This property identifies an item that has geospatial or chronological metadata specified. This is useful, since many items have geospatial and chronological metadata not directly assigned, but provided through inference.</rdfs:comment>
-    </owl:ObjectProperty>
-    
-    
 
     <!-- http://opencontext.org/vocabularies/oc-general/slug -->
 
@@ -329,38 +281,19 @@
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/identifier"/>
     </owl:ObjectProperty>
     
-    
-    <!-- http://opencontext.org/vocabularies/oc-general/has-technique -->
-
-    <owl:ObjectProperty rdf:about="&oc-general;has-technique">
-        <rdfs:label xml:lang="en">Has technique</rdfs:label>
-        <rdfs:comment rdf:datatype="&xsd;string">Identifies the technique and / or analytic devises used to make a measurement or descriptive classification.</rdfs:comment>
-    </owl:ObjectProperty>
-    
-    
-    <!-- http://opencontext.org/vocabularies/oc-general/coverage-geo -->
-
-    <owl:ObjectProperty rdf:about="&oc-general;coverage-geo">
-        <rdfs:label xml:lang="en">Coverage - Geographic</rdfs:label>
-        <rdfs:comment rdf:datatype="&xsd;string">Identifies a geographic entity that is topical for a given resource.</rdfs:comment>
-        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/coverage"/>
-    </owl:ObjectProperty>
-    
-    
-    <!-- http://opencontext.org/vocabularies/oc-general/coverage-period -->
-
-    <owl:ObjectProperty rdf:about="&oc-general;coverage-period">
-        <rdfs:label xml:lang="en">Coverage - Period</rdfs:label>
-        <rdfs:comment rdf:datatype="&xsd;string">Identifies a temporal entity that is topical for a given resource. The temporal entity
-        may or may not be situated in a given geographic region.
-        </rdfs:comment>
-        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/coverage"/>
-    </owl:ObjectProperty>
 
 
     <!-- http://purl.org/dc/terms/identifier -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/dc/terms/identifier"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/status -->
+
+    <owl:ObjectProperty rdf:about="&bibo;status">
+        <rdfs:label xml:lang="en">Status</rdfs:label>
+    </owl:ObjectProperty>
     
 
 
@@ -416,6 +349,12 @@
     <owl:Class rdf:about="&cidoc-crm;E39_Actor">
         <owl:equivalentClass rdf:resource="&oc-general;persons"/>
     </owl:Class>
+    
+
+
+    <!-- http://erlangen-crm.org/current/E63_Beginning_of_Existence -->
+
+    <owl:Class rdf:about="&cidoc-crm;E63_Beginning_of_Existence"/>
     
 
 
@@ -869,6 +808,75 @@
     
 
 
+    <!-- http://opencontext.org/vocabularies/oc-general/edit-level-0 -->
+
+    <owl:Class rdf:about="&oc-general;edit-level-0">
+        <rdfs:label rdf:datatype="&rdfs;Literal">In preparation, Forthcoming</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&bibo;status/forthcoming"/>
+        <rdfs:comment rdf:datatype="&xsd;string">The dataset is still in preparation and in a draft stage.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/edit-level-1 -->
+
+    <owl:Class rdf:about="&oc-general;edit-level-1">
+        <rdfs:label rdf:datatype="&rdfs;Literal">Demonstration, Minimal editorial acceptance</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&bibo;status/nonPeerReviewed"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Open Context&apos;s managing editors accepted a project&apos;s dataset even though it lacked important documentation and supplemental information. Primarily, these project datasets serve as demonstrations or proof-of-concept applications of Open Context, rather than for research purposes.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/edit-level-2 -->
+
+    <owl:Class rdf:about="&oc-general;edit-level-2">
+        <rdfs:label rdf:datatype="&rdfs;Literal">Minimal editorial acceptance</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&bibo;status/nonPeerReviewed"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Open Context&apos;s managing editors accepted a project&apos;s dataset even though it may lack important documentation and supplemental information. In some cases, the primary value of the project may be to serve instructional or public outreach goals, rather than research uses.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/edit-level-3 -->
+
+    <owl:Class rdf:about="&oc-general;edit-level-3">
+        <rdfs:label rdf:datatype="&rdfs;Literal">Managing editor reviewed</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&bibo;status/peerReviewed"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Open Context&apos;s managing editors closely reviewed and edited a project.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/edit-level-4 -->
+
+    <owl:Class rdf:about="&oc-general;edit-level-4">
+        <rdfs:label rdf:datatype="&rdfs;Literal">Editorial board reviewed</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&bibo;status/peerReviewed"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Open Context&apos;s managing editors and members of the Editorial Board reviewed the project.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/edit-level-5 -->
+
+    <owl:Class rdf:about="&oc-general;edit-level-5">
+        <rdfs:label rdf:datatype="&rdfs;Literal">Peer-reviewed</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&bibo;status/peerReviewed"/>
+        <rdfs:comment rdf:datatype="&xsd;string">In addition to seeing reviews and edits from the managing editor and the Editorial Board, at least two external experts in the subject area reviewed the project.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/editorial-status -->
+
+    <owl:Class rdf:about="&oc-general;editorial-status">
+        <rdfs:label rdf:datatype="&rdfs;Literal">Editorial status</rdfs:label>
+        <rdfs:comment rdf:datatype="&rdfs;Literal">Open Context indicates the editorial status of projects using a scale of one to five. Editorial status in inherited to every record belonging to a project. The editorial status applies to a project as a whole (not to individual records within a project).</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://opencontext.org/vocabularies/oc-general/formation-use-life -->
 
     <owl:Class rdf:about="&oc-general;formation-use-life">
@@ -1034,6 +1042,33 @@
     
 
 
+    <!-- http://purl.org/ontology/bibo/status/forthcoming -->
+
+    <owl:Class rdf:about="&bibo;status/forthcoming">
+        <rdfs:label rdf:datatype="&rdfs;Literal">Forthcoming</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&oc-general;editorial-status"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/status/nonPeerReviewed -->
+
+    <owl:Class rdf:about="&bibo;status/nonPeerReviewed">
+        <rdfs:label rdf:datatype="&rdfs;Literal">Non peer reviewed</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&oc-general;editorial-status"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/status/peerReviewed -->
+
+    <owl:Class rdf:about="&bibo;status/peerReviewed">
+        <rdfs:label rdf:datatype="&rdfs;Literal">Peer reviewed</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&oc-general;editorial-status"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#Property -->
 
     <owl:Class rdf:about="&rdf;Property"/>
@@ -1046,12 +1081,6 @@
     
 
 
-    <!-- http://erlangen-crm.org/current/E63_Beginning_of_Existence -->
-
-    <owl:Class rdf:about="&cidoc-crm;E63_Beginning_of_Existence"/>
-    
-
-    
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -1060,8 +1089,76 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
 
 
+    <!-- http://erlangen-crm.org/current/E63_Beginning_of_Existence -->
+
+    <owl:NamedIndividual rdf:about="&cidoc-crm;E63_Beginning_of_Existence"/>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/category -->
+
+    <owl:NamedIndividual rdf:about="&oc-general;category">
+        <rdfs:label xml:lang="en">Category</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">This is basically just the same as rdf:type. It&apos;s defined here as a bit of a hack to avoid JSON-LD validation problems AND making sure that the JSON-LD still works as GeoJSON (software consuming GeoJSON does not like lists of multiple &apos;types&apos;).</rdfs:comment>
+        <owl:sameAs rdf:resource="&rdf;type"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/formation-use-life -->
+
+    <owl:NamedIndividual rdf:about="&oc-general;formation-use-life">
+        <rdfs:label xml:lang="en">Formation, use, or life</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The time span during which an item was formed, was used, or was alive.</rdfs:comment>
+        <skos:related rdf:resource="&cidoc-crm;E63_Beginning_of_Existence"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/location-precision -->
+
+    <rdf:Description rdf:about="&oc-general;location-precision">
+        <rdfs:label xml:lang="en">Location precision</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">This property describes the precision of the geospatial metadata provided for an item as a &apos;zoom level&apos;. A zero means that the precision was not intentially reduced. A positive integer means an intentional reduction in precision to a given zoom level. Reduced precision means that the geospatial information has sensitivity / security issues.</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/location-precision-note -->
+
+    <owl:NamedIndividual rdf:about="&oc-general;location-precision-note">
+        <rdfs:label xml:lang="en">Location precision note</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">This property provides a verbal description or comment about the precision of the geospatial metadata provided for an item.</rdfs:comment>
+        <skos:related rdf:resource="&oc-general;location-precision"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/reference-label -->
+
+    <owl:NamedIndividual rdf:about="&oc-general;reference-label">
+        <rdfs:label xml:lang="en">Reference label</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">This property labels an item that has geospatial or chronological metadata specified with the reference-uri property.</rdfs:comment>
+        <skos:related rdf:resource="&oc-general;reference-uri"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://opencontext.org/vocabularies/oc-general/reference-uri -->
+
+    <rdf:Description rdf:about="&oc-general;reference-uri">
+        <rdfs:label xml:lang="en">Reference URI</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">This property identifies an item that has geospatial or chronological metadata specified. This is useful, since many items have geospatial and chronological metadata not directly assigned, but provided through inference.</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#type -->
+
+    <owl:NamedIndividual rdf:about="&rdf;type"/>
 </rdf:RDF>
 
 
