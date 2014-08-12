@@ -209,8 +209,17 @@
 
     <owl:ObjectProperty rdf:about="&oc-general;obsNote">
         <rdfs:label xml:lang="en">Observation note</rdfs:label>
-        <rdfs:comment rdf:datatype="&xsd;string">This property a verbal description / comment about an observation event.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">This property is a verbal description / comment about an observation event.</rdfs:comment>
         <rdfs:domain rdf:resource="&oc-general;observations"/>
+    </owl:ObjectProperty>
+    
+    
+    
+    <!-- http://opencontext.org/vocabularies/oc-general/has-note -->
+
+    <owl:ObjectProperty rdf:about="&oc-general;has-note">
+        <rdfs:label xml:lang="en">Has note</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">This property is a verbal description / comment about an Open Context item.</rdfs:comment>
     </owl:ObjectProperty>
     
 
