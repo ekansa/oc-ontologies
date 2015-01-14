@@ -332,7 +332,7 @@
     <!-- http://erlangen-crm.org/current/E20_Biological_Object -->
 
     <owl:Class rdf:about="&cidoc-crm;E20_Biological_Object">
-        <owl:equivalentClass rdf:resource="&oc-general;cat-0014"/>
+        <owl:equivalentClass rdf:resource="&oc-general;cat-bio-subj-ecofact"/>
     </owl:Class>
     
 
@@ -340,7 +340,7 @@
     <!-- http://erlangen-crm.org/current/E22_Man-Made_Object -->
 
     <owl:Class rdf:about="&cidoc-crm;E22_Man-Made_Object">
-        <owl:equivalentClass rdf:resource="&oc-general;cat-0008"/>
+        <owl:equivalentClass rdf:resource="&oc-general;cat-object"/>
     </owl:Class>
     
 
@@ -348,7 +348,7 @@
     <!-- http://erlangen-crm.org/current/E27_Site -->
 
     <owl:Class rdf:about="&cidoc-crm;E27_Site">
-        <owl:equivalentClass rdf:resource="&oc-general;cat-0022"/>
+        <owl:equivalentClass rdf:resource="&oc-general;cat-site"/>
     </owl:Class>
     
 
@@ -367,9 +367,9 @@
     
 
 
-    <!-- http://opencontext.org/vocabularies/oc-general/cat-0008 -->
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-object -->
 
-    <owl:Class rdf:about="&oc-general;cat-0008">
+    <owl:Class rdf:about="&oc-general;cat-object">
         <rdfs:label>Object</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;subjects"/>
         <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/object.jpg</oc-general:hasIcon>
@@ -377,59 +377,59 @@
     
 
 
-    <!-- http://opencontext.org/vocabularies/oc-general/cat-0009 -->
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-coin -->
 
-    <owl:Class rdf:about="&oc-general;cat-0009">
+    <owl:Class rdf:about="&oc-general;cat-coin">
         <rdfs:label xml:lang="en">Coin</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&oc-general;cat-0008"/>
+        <rdfs:subClassOf rdf:resource="&oc-general;cat-object"/>
         <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/coin.jpg</oc-general:hasIcon>
     </owl:Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/oc-general/cat-0010 -->
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-pottery -->
 
-    <owl:Class rdf:about="&oc-general;cat-0010">
+    <owl:Class rdf:about="&oc-general;cat-pottery">
         <rdfs:label xml:lang="en">Pottery</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&oc-general;cat-0008"/>
+        <rdfs:subClassOf rdf:resource="&oc-general;cat-object"/>
         <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/ceramic.jpg</oc-general:hasIcon>
     </owl:Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/oc-general/cat-0011 -->
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-glass -->
 
-    <owl:Class rdf:about="&oc-general;cat-0011">
+    <owl:Class rdf:about="&oc-general;cat-glass">
         <rdfs:label xml:lang="en">Glass</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&oc-general;cat-0008"/>
+        <rdfs:subClassOf rdf:resource="&oc-general;cat-object"/>
         <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/glass.jpg</oc-general:hasIcon>
     </owl:Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/oc-general/cat-0012 -->
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-groundstone -->
 
-    <owl:Class rdf:about="&oc-general;cat-0012">
+    <owl:Class rdf:about="&oc-general;cat-groundstone">
         <rdfs:label xml:lang="en">Groundstone</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&oc-general;cat-0008"/>
+        <rdfs:subClassOf rdf:resource="&oc-general;cat-object"/>
         <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/groundstone.png</oc-general:hasIcon>
     </owl:Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/oc-general/cat-0013 -->
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-arch-element -->
 
-    <owl:Class rdf:about="&oc-general;cat-0013">
+    <owl:Class rdf:about="&oc-general;cat-arch-element">
         <rdfs:label xml:lang="en">Architectural Element</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&oc-general;cat-0008"/>
+        <rdfs:subClassOf rdf:resource="&oc-general;cat-object"/>
         <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/arch-element-gen.jpg</oc-general:hasIcon>
     </owl:Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/oc-general/cat-0014 -->
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-bio-subj-ecofact -->
 
-    <owl:Class rdf:about="&oc-general;cat-0014">
+    <owl:Class rdf:about="&oc-general;cat-bio-subj-ecofact">
         <rdfs:label xml:lang="en">Biological subject, Ecofact</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;subjects"/>
         <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/population.jpg</oc-general:hasIcon>
@@ -437,64 +437,64 @@
     
 
 
-    <!-- http://opencontext.org/vocabularies/oc-general/cat-0015 -->
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-animal-bone -->
 
-    <owl:Class rdf:about="&oc-general;cat-0015">
+    <owl:Class rdf:about="&oc-general;cat-animal-bone">
         <rdfs:label xml:lang="en">Animal Bone</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&oc-general;cat-0014"/>
+        <rdfs:subClassOf rdf:resource="&oc-general;cat-bio-subj-ecofact"/>
         <rdfs:comment rdf:datatype="&xsd;string">Animal bones, usually of the type described by zooarchaeologists. These may or may not have evidence for human modification.</rdfs:comment>
         <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/animal-bone.jpg</oc-general:hasIcon>
     </owl:Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/oc-general/cat-0016 -->
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-shell -->
 
-    <owl:Class rdf:about="&oc-general;cat-0016">
+    <owl:Class rdf:about="&oc-general;cat-shell">
         <rdfs:label xml:lang="en">Shell</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&oc-general;cat-0014"/>
+        <rdfs:subClassOf rdf:resource="&oc-general;cat-bio-subj-ecofact"/>
         <rdfs:comment rdf:datatype="&xsd;string">Mineral shell, usually from molluscs.</rdfs:comment>
         <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/shell.png</oc-general:hasIcon>
     </owl:Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/oc-general/cat-0017 -->
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-non-diag-bone -->
 
-    <owl:Class rdf:about="&oc-general;cat-0017">
+    <owl:Class rdf:about="&oc-general;cat-non-diag-bone">
         <rdfs:label xml:lang="en">Non Diagnostic Bone</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&oc-general;cat-0014"/>
+        <rdfs:subClassOf rdf:resource="&oc-general;cat-bio-subj-ecofact"/>
         <rdfs:comment rdf:datatype="&xsd;string">Bone fragments that do not have detailed description or identification.</rdfs:comment>
         <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/animal-bone.jpg</oc-general:hasIcon>
     </owl:Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/oc-general/cat-0018 -->
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-human-bone -->
 
-    <owl:Class rdf:about="&oc-general;cat-0018">
+    <owl:Class rdf:about="&oc-general;cat-human-bone">
         <rdfs:label xml:lang="en">Human Bone</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&oc-general;cat-0014"/>
+        <rdfs:subClassOf rdf:resource="&oc-general;cat-bio-subj-ecofact"/>
         <rdfs:comment rdf:datatype="&xsd;string">Bone remains of human beings.</rdfs:comment>
         <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/animal-bone.jpg</oc-general:hasIcon>
     </owl:Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/oc-general/cat-0019 -->
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-plant-remains -->
 
-    <owl:Class rdf:about="&oc-general;cat-0019">
+    <owl:Class rdf:about="&oc-general;cat-plant-remains">
         <rdfs:label xml:lang="en">Plant remains</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&oc-general;cat-0014"/>
+        <rdfs:subClassOf rdf:resource="&oc-general;cat-bio-subj-ecofact"/>
         <rdfs:comment rdf:datatype="&xsd;string">Any sort of botanical remain</rdfs:comment>
         <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/plant.jpg</oc-general:hasIcon>
     </owl:Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/oc-general/cat-0020 -->
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-loc-or-context -->
 
-    <owl:Class rdf:about="&oc-general;cat-0020">
+    <owl:Class rdf:about="&oc-general;cat-loc-or-context">
         <rdfs:label xml:lang="en">Location or Context</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;subjects"/>
         <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/operation-area.jpg</oc-general:hasIcon>
@@ -503,243 +503,243 @@
     
 
 
-    <!-- http://opencontext.org/vocabularies/oc-general/cat-0021 -->
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-survey-unit -->
 
-    <owl:Class rdf:about="&oc-general;cat-0021">
+    <owl:Class rdf:about="&oc-general;cat-survey-unit">
         <rdfs:label xml:lang="en">Survey Unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&oc-general;cat-0020"/>
+        <rdfs:subClassOf rdf:resource="&oc-general;cat-loc-or-context"/>
         <rdfs:subClassOf rdf:resource="&crm-eh;EHE0003_AreaOfInvestigation"/>
         <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/operation-area.jpg</oc-general:hasIcon>
     </owl:Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/oc-general/cat-0022 -->
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-site -->
 
-    <owl:Class rdf:about="&oc-general;cat-0022">
+    <owl:Class rdf:about="&oc-general;cat-site">
         <rdfs:label xml:lang="en">Site</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&oc-general;cat-0020"/>
+        <rdfs:subClassOf rdf:resource="&oc-general;cat-loc-or-context"/>
         <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/site.jpg</oc-general:hasIcon>
     </owl:Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/oc-general/cat-0023 -->
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-site-area -->
 
-    <owl:Class rdf:about="&oc-general;cat-0023">
+    <owl:Class rdf:about="&oc-general;cat-site-area">
         <rdfs:label xml:lang="en">Site Area</rdfs:label>
         <owl:equivalentClass rdf:resource="&crm-eh;EHE0004_SiteSubDivision"/>
-        <rdfs:subClassOf rdf:resource="&oc-general;cat-0020"/>
+        <rdfs:subClassOf rdf:resource="&oc-general;cat-loc-or-context"/>
         <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/operation-area.jpg</oc-general:hasIcon>
     </owl:Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/oc-general/cat-0024 -->
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-context -->
 
-    <owl:Class rdf:about="&oc-general;cat-0024">
+    <owl:Class rdf:about="&oc-general;cat-context">
         <rdfs:label xml:lang="en">Context</rdfs:label>
         <owl:equivalentClass rdf:resource="&crm-eh;EHE0007_Context"/>
-        <rdfs:subClassOf rdf:resource="&oc-general;cat-0020"/>
+        <rdfs:subClassOf rdf:resource="&oc-general;cat-loc-or-context"/>
         <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/locus-lot.jpg</oc-general:hasIcon>
     </owl:Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/oc-general/cat-0025 -->
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-feature -->
 
-    <owl:Class rdf:about="&oc-general;cat-0025">
+    <owl:Class rdf:about="&oc-general;cat-feature">
         <rdfs:label xml:lang="en">Feature</rdfs:label>
         <owl:equivalentClass rdf:resource="&crm-eh;EHE0074_IdentifiedFeature"/>
-        <rdfs:subClassOf rdf:resource="&oc-general;cat-0020"/>
+        <rdfs:subClassOf rdf:resource="&oc-general;cat-loc-or-context"/>
         <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/feature.jpg</oc-general:hasIcon>
     </owl:Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/oc-general/cat-0026 -->
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-exc-unit -->
 
-    <owl:Class rdf:about="&oc-general;cat-0026">
+    <owl:Class rdf:about="&oc-general;cat-exc-unit">
         <rdfs:label xml:lang="en">Excavation Unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&oc-general;cat-0024"/>
+        <rdfs:subClassOf rdf:resource="&oc-general;cat-context"/>
         <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/ex-square.jpg</oc-general:hasIcon>
     </owl:Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/oc-general/cat-0027 -->
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-locus -->
 
-    <owl:Class rdf:about="&oc-general;cat-0027">
+    <owl:Class rdf:about="&oc-general;cat-locus">
         <rdfs:label xml:lang="en">Locus</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&oc-general;cat-0024"/>
+        <rdfs:subClassOf rdf:resource="&oc-general;cat-context"/>
         <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/locus-lot.jpg</oc-general:hasIcon>
     </owl:Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/oc-general/cat-0028 -->
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-lot -->
 
-    <owl:Class rdf:about="&oc-general;cat-0028">
+    <owl:Class rdf:about="&oc-general;cat-lot">
         <rdfs:label xml:lang="en">Lot</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&oc-general;cat-0024"/>
+        <rdfs:subClassOf rdf:resource="&oc-general;cat-context"/>
         <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/locus-lot.jpg</oc-general:hasIcon>
     </owl:Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/oc-general/cat-0029 -->
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-basket -->
 
-    <owl:Class rdf:about="&oc-general;cat-0029">
+    <owl:Class rdf:about="&oc-general;cat-basket">
         <rdfs:label xml:lang="en">Basket</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&oc-general;cat-0024"/>
+        <rdfs:subClassOf rdf:resource="&oc-general;cat-context"/>
         <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/locus-lot.jpg</oc-general:hasIcon>
     </owl:Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/oc-general/cat-0030 -->
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-area -->
 
-    <owl:Class rdf:about="&oc-general;cat-0030">
+    <owl:Class rdf:about="&oc-general;cat-area">
         <rdfs:label xml:lang="en">Area</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&oc-general;cat-0023"/>
+        <rdfs:subClassOf rdf:resource="&oc-general;cat-site-area"/>
         <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/operation-area.jpg</oc-general:hasIcon>
     </owl:Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/oc-general/cat-0031 -->
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-trench -->
 
-    <owl:Class rdf:about="&oc-general;cat-0031">
+    <owl:Class rdf:about="&oc-general;cat-trench">
         <rdfs:label xml:lang="en">Trench</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&oc-general;cat-0023"/>
+        <rdfs:subClassOf rdf:resource="&oc-general;cat-site-area"/>
         <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/ex-square.jpg</oc-general:hasIcon>
     </owl:Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/oc-general/cat-0032 -->
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-operation -->
 
-    <owl:Class rdf:about="&oc-general;cat-0032">
+    <owl:Class rdf:about="&oc-general;cat-operation">
         <rdfs:label xml:lang="en">Operation</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&oc-general;cat-0023"/>
+        <rdfs:subClassOf rdf:resource="&oc-general;cat-site-area"/>
         <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/operation-area.jpg</oc-general:hasIcon>
     </owl:Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/oc-general/cat-0033 -->
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-field-proj -->
 
-    <owl:Class rdf:about="&oc-general;cat-0033">
+    <owl:Class rdf:about="&oc-general;cat-field-proj">
         <rdfs:label xml:lang="en">Field Project</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&oc-general;cat-0023"/>
+        <rdfs:subClassOf rdf:resource="&oc-general;cat-site-area"/>
         <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/operation-area.jpg</oc-general:hasIcon>
     </owl:Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/oc-general/cat-0034 -->
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-square -->
 
-    <owl:Class rdf:about="&oc-general;cat-0034">
+    <owl:Class rdf:about="&oc-general;cat-square">
         <rdfs:label xml:lang="en">Square</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&oc-general;cat-0023"/>
+        <rdfs:subClassOf rdf:resource="&oc-general;cat-site-area"/>
         <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/ex-square.jpg</oc-general:hasIcon>
     </owl:Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/oc-general/cat-0035 -->
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-unit -->
 
-    <owl:Class rdf:about="&oc-general;cat-0035">
+    <owl:Class rdf:about="&oc-general;cat-unit">
         <rdfs:label xml:lang="en">Unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&oc-general;cat-0024"/>
+        <rdfs:subClassOf rdf:resource="&oc-general;cat-context"/>
         <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/ex-square.jpg</oc-general:hasIcon>
     </owl:Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/oc-general/cat-0036 -->
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-sequence -->
 
-    <owl:Class rdf:about="&oc-general;cat-0036">
+    <owl:Class rdf:about="&oc-general;cat-sequence">
         <rdfs:label xml:lang="en">Sequence</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&oc-general;cat-0024"/>
+        <rdfs:subClassOf rdf:resource="&oc-general;cat-context"/>
         <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/sample.jpg</oc-general:hasIcon>
     </owl:Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/oc-general/cat-0037 -->
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-human-subj -->
 
-    <owl:Class rdf:about="&oc-general;cat-0037">
+    <owl:Class rdf:about="&oc-general;cat-human-subj">
         <rdfs:label xml:lang="en">Human Subject</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&oc-general;cat-0014"/>
+        <rdfs:subClassOf rdf:resource="&oc-general;cat-bio-subj-ecofact"/>
         <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/patient.jpg</oc-general:hasIcon>
     </owl:Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/oc-general/cat-0038 -->
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-stratum -->
 
-    <owl:Class rdf:about="&oc-general;cat-0038">
+    <owl:Class rdf:about="&oc-general;cat-stratum">
         <rdfs:label xml:lang="en">Stratum</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&oc-general;cat-0024"/>
+        <rdfs:subClassOf rdf:resource="&oc-general;cat-context"/>
         <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/stratum.jpg</oc-general:hasIcon>
     </owl:Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/oc-general/cat-0039 -->
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-phase -->
 
-    <owl:Class rdf:about="&oc-general;cat-0039">
+    <owl:Class rdf:about="&oc-general;cat-phase">
         <rdfs:label xml:lang="en">Phase</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&oc-general;cat-0024"/>
+        <rdfs:subClassOf rdf:resource="&oc-general;cat-context"/>
         <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/stratum.jpg</oc-general:hasIcon>
     </owl:Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/oc-general/cat-0040 -->
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-hospital -->
 
-    <owl:Class rdf:about="&oc-general;cat-0040">
+    <owl:Class rdf:about="&oc-general;cat-hospital">
         <rdfs:label xml:lang="en">Hospital</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&oc-general;cat-0020"/>
+        <rdfs:subClassOf rdf:resource="&oc-general;cat-loc-or-context"/>
         <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/patient.jpg</oc-general:hasIcon>
     </owl:Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/oc-general/cat-0041 -->
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-mound -->
 
-    <owl:Class rdf:about="&oc-general;cat-0041">
+    <owl:Class rdf:about="&oc-general;cat-mound">
         <rdfs:label xml:lang="en">Mound</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&oc-general;cat-0023"/>
+        <rdfs:subClassOf rdf:resource="&oc-general;cat-site-area"/>
         <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/mound.jpg</oc-general:hasIcon>
     </owl:Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/oc-general/cat-0042 -->
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-sculpture -->
 
-    <owl:Class rdf:about="&oc-general;cat-0042">
+    <owl:Class rdf:about="&oc-general;cat-sculpture">
         <rdfs:label xml:lang="en">Sculpture</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&oc-general;cat-0008"/>
+        <rdfs:subClassOf rdf:resource="&oc-general;cat-object"/>
         <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/arch-element.jpg</oc-general:hasIcon>
     </owl:Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/oc-general/cat-0043 -->
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-sample -->
 
-    <owl:Class rdf:about="&oc-general;cat-0043">
+    <owl:Class rdf:about="&oc-general;cat-sample">
         <rdfs:label xml:lang="en">Sample</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&oc-general;cat-0044"/>
+        <rdfs:subClassOf rdf:resource="&oc-general;cat-sample-col"/>
         <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/sample.jpg</oc-general:hasIcon>
     </owl:Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/oc-general/cat-0044 -->
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-sample-col -->
 
-    <owl:Class rdf:about="&oc-general;cat-0044">
+    <owl:Class rdf:about="&oc-general;cat-sample-col">
         <rdfs:label xml:lang="en">Sample, Collection, or Aggregation</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;subjects"/>
         <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/sample.jpg</oc-general:hasIcon>
@@ -747,31 +747,31 @@
     
 
 
-    <!-- http://opencontext.org/vocabularies/oc-general/cat-0045 -->
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-ref-col -->
 
-    <owl:Class rdf:about="&oc-general;cat-0045">
+    <owl:Class rdf:about="&oc-general;cat-ref-col">
         <rdfs:label xml:lang="en">Reference Collection</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&oc-general;cat-0044"/>
+        <rdfs:subClassOf rdf:resource="&oc-general;cat-sample-col"/>
         <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/ref-collection.jpg</oc-general:hasIcon>
     </owl:Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/oc-general/cat-0046 -->
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-region -->
 
-    <owl:Class rdf:about="&oc-general;cat-0046">
+    <owl:Class rdf:about="&oc-general;cat-region">
         <rdfs:label xml:lang="en">Region</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&oc-general;cat-0020"/>
+        <rdfs:subClassOf rdf:resource="&oc-general;cat-loc-or-context"/>
         <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/region.jpg</oc-general:hasIcon>
     </owl:Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/oc-general/cat-0047 -->
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-figurine -->
 
-    <owl:Class rdf:about="&oc-general;cat-0047">
+    <owl:Class rdf:about="&oc-general;cat-figurine">
         <rdfs:label xml:lang="en">Figurine</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&oc-general;cat-0008"/>
+        <rdfs:subClassOf rdf:resource="&oc-general;cat-object"/>
         <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/figurine.jpg</oc-general:hasIcon>
     </owl:Class>
     
