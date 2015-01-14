@@ -717,7 +717,7 @@
 
     <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/astragalus-talus-meas">
         <rdfs:label rdf:datatype="&rdfs;Literal">astragalus (talus) measurement</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-(1976)-bone-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-bone-meas"/>
         <skos:related rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0002395</skos:related>
     </Class>
     
@@ -727,7 +727,7 @@
 
     <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/calcaneus-meas">
         <rdfs:label rdf:datatype="&rdfs;Literal">calcaneus measurement</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-(1976)-bone-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-bone-meas"/>
         <skos:related rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0001450</skos:related>
     </Class>
     
@@ -772,7 +772,7 @@ cannot be separated manually.</rdfs:comment>
 
     <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/femur-meas">
         <rdfs:label rdf:datatype="&rdfs;Literal">femur measurement</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-(1976)-bone-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-bone-meas"/>
         <skos:related rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0000981</skos:related>
     </Class>
     
@@ -792,15 +792,15 @@ cannot be separated manually.</rdfs:comment>
 
     <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/humerus-meas">
         <rdfs:label rdf:datatype="&rdfs;Literal">humerus measurement</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-(1976)-bone-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-bone-meas"/>
         <skos:related rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0000976</skos:related>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-(1976)-bone-meas -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-bone-meas -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-(1976)-bone-meas">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-bone-meas">
         <rdfs:label rdf:datatype="&rdfs;Literal">Von den Driesch (1976) Bone Measurement</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/anatomical-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">A length distance measure for an anatomic element, usuallly defined as the distance between two clearly identified anatomic structures. These measurements were defined by Von den Driesch (1976).</rdfs:comment>
@@ -812,7 +812,7 @@ cannot be separated manually.</rdfs:comment>
 
     <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/metapodial-meas">
         <rdfs:label rdf:datatype="&rdfs;Literal">metapodial measurement</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-(1976)-bone-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-bone-meas"/>
         <skos:related rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0003821</skos:related>
     </Class>
     
@@ -822,7 +822,7 @@ cannot be separated manually.</rdfs:comment>
 
     <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/pelvis-meas">
         <rdfs:label rdf:datatype="&rdfs;Literal">pelvis measurement</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-(1976)-bone-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-bone-meas"/>
         <skos:related rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0012179</skos:related>
     </Class>
     
@@ -832,7 +832,7 @@ cannot be separated manually.</rdfs:comment>
 
     <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/phalanx-1-meas">
         <rdfs:label rdf:datatype="&rdfs;Literal">phalanx 1 measurement</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-(1976)-bone-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-bone-meas"/>
         <skos:related rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0004302</skos:related>
     </Class>
     
@@ -842,7 +842,7 @@ cannot be separated manually.</rdfs:comment>
 
     <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/phalanx-2-meas">
         <rdfs:label rdf:datatype="&rdfs;Literal">phalanx 2 measurement</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-(1976)-bone-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-bone-meas"/>
         <skos:related rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0004301</skos:related>
     </Class>
     
@@ -852,7 +852,7 @@ cannot be separated manually.</rdfs:comment>
 
     <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/phalanx-3-meas">
         <rdfs:label rdf:datatype="&rdfs;Literal">phalanx 3 measurement</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-(1976)-bone-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-bone-meas"/>
         <skos:related rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0004300</skos:related>
     </Class>
     
@@ -895,7 +895,7 @@ cannot be separated manually.</rdfs:comment>
 
     <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/radius-meas">
         <rdfs:label rdf:datatype="&rdfs;Literal">radius measurement</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-(1976)-bone-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-bone-meas"/>
         <skos:related rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0001423</skos:related>
     </Class>
     
@@ -905,7 +905,7 @@ cannot be separated manually.</rdfs:comment>
 
     <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/scapula-meas">
         <rdfs:label rdf:datatype="&rdfs;Literal">scapula measurement</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-(1976)-bone-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-bone-meas"/>
         <skos:related rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0006849</skos:related>
     </Class>
     
@@ -915,7 +915,7 @@ cannot be separated manually.</rdfs:comment>
 
     <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/tarsal-meas">
         <rdfs:label rdf:datatype="&rdfs;Literal">tarsal measurement</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-(1976)-bone-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-bone-meas"/>
         <skos:related rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0001447</skos:related>
     </Class>
     
@@ -925,7 +925,7 @@ cannot be separated manually.</rdfs:comment>
 
     <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/tibia-meas">
         <rdfs:label rdf:datatype="&rdfs;Literal">tibia measurement</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-(1976)-bone-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-bone-meas"/>
         <skos:related rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0000979</skos:related>
     </Class>
     
@@ -935,7 +935,7 @@ cannot be separated manually.</rdfs:comment>
 
     <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/ulna-meas">
         <rdfs:label rdf:datatype="&rdfs;Literal">ulna measurement</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-(1976)-bone-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-bone-meas"/>
         <skos:related rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0001424</skos:related>
     </Class>
     
@@ -945,7 +945,7 @@ cannot be separated manually.</rdfs:comment>
 
     <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/tibiotarsus-meas">
         <rdfs:label rdf:datatype="&rdfs;Literal">tibiotarsus measurement</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-(1976)-bone-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-bone-meas"/>
         <skos:related rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0008194</skos:related>
     </Class>
     
@@ -975,7 +975,7 @@ cannot be separated manually.</rdfs:comment>
 
     <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/malleolus-meas">
         <rdfs:label rdf:datatype="&rdfs;Literal">malleolus measurement</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-(1976)-bone-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-bone-meas"/>
         <skos:related rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0012291</skos:related>
     </Class>
     
@@ -995,7 +995,7 @@ cannot be separated manually.</rdfs:comment>
 
     <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/axis-meas">
         <rdfs:label rdf:datatype="&rdfs;Literal">axis measurement</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-(1976)-bone-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-bone-meas"/>
         <skos:related rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0001093</skos:related>
     </Class>
     
@@ -1084,7 +1084,7 @@ cannot be separated manually.</rdfs:comment>
 
     <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/atlas-meas">
         <rdfs:label rdf:datatype="&rdfs;Literal">atlas measurement</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-(1976)-bone-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-bone-meas"/>
         <skos:related rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0001092</skos:related>
     </Class>
     
