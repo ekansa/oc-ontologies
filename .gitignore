@@ -3,3 +3,4 @@ $ cat .gitignore
 vocabularies/catalog-v001.xml
 
 vocabularies/catalog-v001.xml
+*.xml

@@ -76,7 +76,7 @@
         <rdfs:label rdf:datatype="&rdfs;Literal">Has fusion character</rdfs:label>
         <rdfs:comment rdf:datatype="&xsd;string">Has bone fusion characterization. Describes a bone fusion stage.</rdfs:comment>
         <rdfs:range rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0061"/>
-        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P2_has_type"/>
+        <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/current/P2_has_type"/>
     </ObjectProperty>
     
 
@@ -86,7 +86,7 @@
     <ObjectProperty rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0078">
         <rdfs:label rdf:datatype="&rdfs;Literal">Has physiological sex determination</rdfs:label>
         <rdfs:comment rdf:datatype="&xsd;string">Has an identication, with some degree of certainty, as to the physiological sex of an organism.</rdfs:comment>
-        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P2_has_type"/>
+        <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/current/P2_has_type"/>
     </ObjectProperty>
     
 
@@ -97,14 +97,14 @@
         <rdfs:label rdf:datatype="&rdfs;Literal">Has anatomical identification</rdfs:label>
         <rdfs:comment rdf:datatype="&xsd;string">Has an identification (with some degree of certainty and confidence) to a specific anatomical structure. For zooarchaeology, this usually means an identification to a bone element</rdfs:comment>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001062"/>
-        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P2_has_type"/>
+        <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/current/P2_has_type"/>
     </ObjectProperty>
     
 
 
-    <!-- http://www.cidoc-crm.org/cidoc-crm/P2_has_type -->
+    <!-- http://erlangen-crm.org/current/P2_has_type -->
 
-    <ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P2_has_type"/>
+    <ObjectProperty rdf:about="http://erlangen-crm.org/current/P2_has_type"/>
     
 
 
@@ -707,7 +707,7 @@
     <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0054">
         <rdfs:label rdf:datatype="&rdfs;Literal">Anatomical measurement</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000040"/>
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc_crm_v5.0.4_english_label.rdfs#E54.Dimension"/>
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/current/E54_Dimension"/>
         <rdfs:comment rdf:datatype="&xsd;string">A measurement of an anamical entity. In zooarchaeology, these are usually bone elements.</rdfs:comment>
     </Class>
     
@@ -1168,9 +1168,9 @@ cannot be separated manually.</rdfs:comment>
     
 
 
-    <!-- http://www.cidoc-crm.org/rdfs/cidoc_crm_v5.0.4_english_label.rdfs#E54.Dimension -->
+    <!-- http://erlangen-crm.org/current/E54_Dimension -->
 
-    <rdf:Description rdf:about="http://www.cidoc-crm.org/rdfs/cidoc_crm_v5.0.4_english_label.rdfs#E54.Dimension">
+    <rdf:Description rdf:about="http://erlangen-crm.org/current/E54_Dimension">
         <rdfs:label rdf:datatype="&rdfs;Literal">Dimension (E54)</rdfs:label>
         <rdfs:comment rdf:datatype="&xsd;string">Concept from the CIDOC-CRM</rdfs:comment>
     </rdf:Description>
