@@ -70,20 +70,20 @@
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0077 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/has-fusion-char -->
 
-    <ObjectProperty rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0077">
+    <ObjectProperty rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/has-fusion-char">
         <rdfs:label rdf:datatype="&rdfs;Literal">Has fusion character</rdfs:label>
         <rdfs:comment rdf:datatype="&xsd;string">Has bone fusion characterization. Describes a bone fusion stage.</rdfs:comment>
-        <rdfs:range rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0061"/>
+        <rdfs:range rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/fusion-characterization"/>
         <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/current/P2_has_type"/>
     </ObjectProperty>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0078 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/has-phys-sex-det -->
 
-    <ObjectProperty rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0078">
+    <ObjectProperty rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/has-phys-sex-det">
         <rdfs:label rdf:datatype="&rdfs;Literal">Has physiological sex determination</rdfs:label>
         <rdfs:comment rdf:datatype="&xsd;string">Has an identication, with some degree of certainty, as to the physiological sex of an organism.</rdfs:comment>
         <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/current/P2_has_type"/>
@@ -91,9 +91,9 @@
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0079 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/has-anat-id -->
 
-    <ObjectProperty rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0079">
+    <ObjectProperty rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/has-anat-id">
         <rdfs:label rdf:datatype="&rdfs;Literal">Has anatomical identification</rdfs:label>
         <rdfs:comment rdf:datatype="&xsd;string">Has an identification (with some degree of certainty and confidence) to a specific anatomical structure. For zooarchaeology, this usually means an identification to a bone element</rdfs:comment>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001062"/>
@@ -119,592 +119,592 @@
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0001 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/B -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0001">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/B">
         <rdfs:label rdf:datatype="&rdfs;Literal">B</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0064"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/metapodial-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Breadth of the middle of the diaphysis</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0002 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/BF -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0002">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/BF">
         <rdfs:label rdf:datatype="&rdfs;Literal">BF</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0068"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/phalanx-3-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Breadth of the Facies articularis</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0003 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/BFd -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0003">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/BFd">
         <rdfs:label rdf:datatype="&rdfs;Literal">BFd</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0055"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0066"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0072"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/astragalus-talus-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/phalanx-1-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/radius-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">(Greatest) breadth of the Facies articularis distalis. Measured in the same plane as Bd. Only in equids and ruminants.</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0004 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/BFp -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0004">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/BFp">
         <rdfs:label rdf:datatype="&rdfs;Literal">BFp</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0066"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0067"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0072"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/phalanx-1-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/phalanx-2-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/radius-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">(Greatest) breadth of the Facies articularis proximalis (humeral articular surface). Measured in the same plane as Bp. Ony in equids and ruminants.</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0005 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/BG -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0005">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/BG">
         <rdfs:label rdf:datatype="&rdfs;Literal">BG</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0073"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/scapula-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Breadth of the glenoid cavity - Greatest breadth of the glenoid angle.</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0006 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/BPC -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0006">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/BPC">
         <rdfs:label rdf:datatype="&rdfs;Literal">BPC</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0076"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/ulna-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">(Greatest) breadth across the coronoid process = greatest breadth of the proximal articular surface</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0007 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/BT -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0007">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/BT">
         <rdfs:label rdf:datatype="&rdfs;Literal">BT</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0062"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/humerus-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">(Greatest) breadth of the trochlea, only in equids and ruminants. The trochlea is measured in the middle from the cranial side including the outer borders of both the lateral and the medial condyle. (See: von den Driesch 1976: 76-77)</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0008 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/BTr -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0008">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/BTr">
         <rdfs:label rdf:datatype="&rdfs;Literal">BTr</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0060"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/femur-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">(Greatest) breadth of the region of the Trochanter tertius. Only in lagomorphs to be measred in parallel to the Bp!</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0009 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/Bd -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0009">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/Bd">
         <rdfs:label rdf:datatype="&rdfs;Literal">Bd</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0055"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0060"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0062"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0064"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0066"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0067"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0072"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0075"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/astragalus-talus-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/femur-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/humerus-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/metapodial-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/phalanx-1-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/phalanx-2-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/radius-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/tibia-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">(Greatest) breadth of the distal end (See: von den Driesch 1976: 76-77).</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0010 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/Bp -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0010">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/Bp">
         <rdfs:label rdf:datatype="&rdfs;Literal">Bp</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0060"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0062"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0064"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0066"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0067"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0072"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0075"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/femur-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/humerus-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/metapodial-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/phalanx-1-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/phalanx-2-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/radius-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/tibia-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">(Greatest) breadth of the proximal end. Not in canids or lago-morphs (See: von den Driesch 1976: 76-77).</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0011 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/CD -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0011">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/CD">
         <rdfs:label rdf:datatype="&rdfs;Literal">CD</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0060"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0064"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0072"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0075"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/femur-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/metapodial-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/radius-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/tibia-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">(Smallest) circumference of the diaphysis. In general only in horses, where this measurement serves well to denote proportions</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0012 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/DC -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0012">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/DC">
         <rdfs:label rdf:datatype="&rdfs;Literal">DC</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0060"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/femur-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">(Greatest) depth of the Caput femoris</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0013 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/DD -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0013">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/DD">
         <rdfs:label rdf:datatype="&rdfs;Literal">DD</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0064"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/metapodial-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">(Smallest) depth of the diaphysis</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0014 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/DHA -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0014">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/DHA">
         <rdfs:label rdf:datatype="&rdfs;Literal">DHA</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0073"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/scapula-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Diagonal height (see defintions for linear measurements in von den Driesch 1976:14) from the most distal point of the scapula to the thoracic angle.</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0015 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/DLS -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0015">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/DLS">
         <rdfs:label rdf:datatype="&rdfs;Literal">DLS</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0068"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/phalanx-3-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Greatest diagonal length of the sole</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0016 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/DPA -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0016">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/DPA">
         <rdfs:label rdf:datatype="&rdfs;Literal">DPA</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0076"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/ulna-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Depth across the Processus anconaeus. One measures the shortest distance from the Procesus anonaeus to the caudal border of the ulna.</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0017 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/Dd -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0017">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/Dd">
         <rdfs:label rdf:datatype="&rdfs;Literal">Dd</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0064"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0075"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/metapodial-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/tibia-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">(Greatest) depth of the distal end. Ususually measured only in equids and lagomorphs</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0018 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/Dl -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0018">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/Dl">
         <rdfs:label rdf:datatype="&rdfs;Literal">Dl</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0055"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/astragalus-talus-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Greatest depth of the lateral half</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0019 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/Dm -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0019">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/Dm">
         <rdfs:label rdf:datatype="&rdfs;Literal">Dm</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0055"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/astragalus-talus-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Greatest depth of the medial half</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0020 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/Dp -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0020">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/Dp">
         <rdfs:label rdf:datatype="&rdfs;Literal">Dp</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0062"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0064"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0066"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0067"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/humerus-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/metapodial-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/phalanx-1-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/phalanx-2-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Depth of the proximal end</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0021 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/GB -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0021">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/GB">
         <rdfs:label rdf:datatype="&rdfs;Literal">GB</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0055"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0056"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0068"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0074"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0095"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/astragalus-talus-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/calcaneus-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/phalanx-3-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/tarsal-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/atlas-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Greatest breadth</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0022 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/GBA -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0022">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/GBA">
         <rdfs:label rdf:datatype="&rdfs;Literal">GBA</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0065"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/pelvis-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Greatest breadth across the acetabula</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0023 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/GBTc -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0023">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/GBTc">
         <rdfs:label rdf:datatype="&rdfs;Literal">GBTc</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0065"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/pelvis-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Greatest breadth across the Tubera coxarum = greatest breadth across the lateral angle</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0024 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/GBTi -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0024">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/GBTi">
         <rdfs:label rdf:datatype="&rdfs;Literal">GBTi</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0065"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/pelvis-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Greatest breadth across the Tubera ischiadica</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0025 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/GH -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0025">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/GH">
         <rdfs:label rdf:datatype="&rdfs;Literal">GH</rdfs:label>
-        <equivalentClass rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0026"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0055"/>
+        <equivalentClass rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/GL"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/astragalus-talus-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Greatest height (= length).</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0026 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/GL -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0026">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/GL">
         <rdfs:label rdf:datatype="&rdfs;Literal">GL</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0056"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0060"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0062"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0064"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0065"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0066"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0067"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0068"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0072"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0075"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0076"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0095"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/calcaneus-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/femur-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/humerus-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/metapodial-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/pelvis-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/phalanx-1-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/phalanx-2-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/phalanx-3-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/radius-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/tibia-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/ulna-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/atlas-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Greatest Length (GL) as defined by von den Driesch (1976). This measure should not be used for all bone elements, since it can be ambiguous depending on the specifics of a given bone element&apos;s morphology.
 </rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0027 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/GLC -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0027">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/GLC">
         <rdfs:label rdf:datatype="&rdfs;Literal">GLC</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0060"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0062"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/femur-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/humerus-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Greatest Length from caput (head) (See: von den Driesch 1976: 76-77)</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0028 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/GLP -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0028">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/GLP">
         <rdfs:label rdf:datatype="&rdfs;Literal">GLP</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0073"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/scapula-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Greatest length of the Processus articularis (glenoid process)</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0029 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/GLl -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0029">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/GLl">
         <rdfs:label rdf:datatype="&rdfs;Literal">GLl</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0055"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0062"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0064"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/astragalus-talus-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/humerus-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/metapodial-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Greatest length of the lateral part (See: von den Driesch 1976: 76-77)</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0030 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/GLm -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0030">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/GLm">
         <rdfs:label rdf:datatype="&rdfs;Literal">GLm</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0055"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/astragalus-talus-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Greatest length of the medial half</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0031 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/GLpe -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0031">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/GLpe">
         <rdfs:label rdf:datatype="&rdfs;Literal">GLpe</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0066"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/phalanx-1-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Greatest length of the peripheral (abaxial) half. Most of the anterior first phalanges of Bos re formed in such a manner that the proximodorsal and the proximovolar prominent parts of the perupheral section of the proximal rticular surface can serve s fixed points for one of the callipers.</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0032 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/HP -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0032">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/HP">
         <rdfs:label rdf:datatype="&rdfs;Literal">HP</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0068"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/phalanx-3-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Height in the region of the extensor process (measuring box!)</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0033 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/HS -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0033">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/HS">
         <rdfs:label rdf:datatype="&rdfs;Literal">HS</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0073"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/scapula-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Height (see definitions of linear measurements von den Driesch 1976:14) along the spine</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0034 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/LA -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0034">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/LA">
         <rdfs:label rdf:datatype="&rdfs;Literal">LA</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0065"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/pelvis-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Length of the acetabulum including the lip.</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0035 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/LAR -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0035">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/LAR">
         <rdfs:label rdf:datatype="&rdfs;Literal">LAR</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0065"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/pelvis-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Length of the acetabulum on the rim</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0036 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/LF -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0036">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/LF">
         <rdfs:label rdf:datatype="&rdfs;Literal">LF</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0068"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/phalanx-3-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Length of the Facies articularis (articular surface)</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0037 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/LFo -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0037">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/LFo">
         <rdfs:label rdf:datatype="&rdfs;Literal">LFo</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0065"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/pelvis-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Inner length of the foramen obturatum</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0038 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/LG -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0038">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/LG">
         <rdfs:label rdf:datatype="&rdfs;Literal">LG</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0073"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/scapula-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Length of the glenoid cavity.</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0039 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/LO -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0039">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/LO">
         <rdfs:label rdf:datatype="&rdfs;Literal">LO</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0076"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/ulna-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Length of the olecranon. Only in ruminants</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0040 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/LS -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0040">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/LS">
         <rdfs:label rdf:datatype="&rdfs;Literal">LS</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0065"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/pelvis-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Length of the symphysis. Only measured when the two halves have fused.</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0041 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/Ld -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0041">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/Ld">
         <rdfs:label rdf:datatype="&rdfs;Literal">Ld</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0068"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0073"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/phalanx-3-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/scapula-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Length of the dorsal surface</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0042 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/LeP -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0042">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/LeP">
         <rdfs:label rdf:datatype="&rdfs;Literal">LeP</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0064"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/metapodial-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Length, excepting the plantar projection</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0043 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/Ll -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0043">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/Ll">
         <rdfs:label rdf:datatype="&rdfs;Literal">Ll</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0064"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0072"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0075"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/metapodial-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/radius-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/tibia-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Length of the lateral part</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0044 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/LmT -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0044">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/LmT">
         <rdfs:label rdf:datatype="&rdfs;Literal">LmT</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0055"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/astragalus-talus-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Length of the medial part of the Trochlea tali</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0045 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/MBS -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0045">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/MBS">
         <rdfs:label rdf:datatype="&rdfs;Literal">MBS</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0068"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/phalanx-3-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Middle breadth of the sole = breadth in the middle of the sole</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0046 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/PL -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0046">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/PL">
         <rdfs:label rdf:datatype="&rdfs;Literal">PL</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0072"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/radius-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Physiological length. Applies to horses, where one measures in the longitudinal axis of the bone from the proximal articular surface to the distal articular surfac.</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0047 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/SB -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0047">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/SB">
         <rdfs:label rdf:datatype="&rdfs;Literal">SB</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0065"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/pelvis-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Smallest breadth of the shaft of ilium</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0048 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/SBI -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0048">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/SBI">
         <rdfs:label rdf:datatype="&rdfs;Literal">SBI</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0065"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/pelvis-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Smallest breadth across the bodies of the ischia</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0049 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/SC -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0049">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/SC">
         <rdfs:label rdf:datatype="&rdfs;Literal">SC</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0065"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/pelvis-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Smallest circumference of the shaft of ilium</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0050 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/SD -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0050">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/SD">
         <rdfs:label rdf:datatype="&rdfs;Literal">SD</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0060"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0062"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0064"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0066"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0067"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0072"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0075"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/femur-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/humerus-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/metapodial-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/phalanx-1-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/phalanx-2-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/radius-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/tibia-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Smallest breadth of the diaphysis (See: von den Driesch 1976: 76-77)</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0051 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/SDO -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0051">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/SDO">
         <rdfs:label rdf:datatype="&rdfs;Literal">SDO</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0076"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/ulna-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Smallest depth of the olecranon. Cannot be accurately measured in bears.</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0052 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/SH -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0052">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/SH">
         <rdfs:label rdf:datatype="&rdfs;Literal">SH</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0065"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/pelvis-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Smallest height of the haft of ilium</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0053 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/SLC -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0053">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/SLC">
         <rdfs:label rdf:datatype="&rdfs;Literal">SLC</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0073"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/scapula-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Smallest length of the Collum scapulae (neck of the scapula).</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0054 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/anatomical-meas -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0054">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/anatomical-meas">
         <rdfs:label rdf:datatype="&rdfs;Literal">Anatomical measurement</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000040"/>
         <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/current/E54_Dimension"/>
@@ -713,53 +713,53 @@
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0055 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/astragalus-talus-meas -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0055">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/astragalus-talus-meas">
         <rdfs:label rdf:datatype="&rdfs;Literal">astragalus (talus) measurement</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0063"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-(1976)-bone-meas"/>
         <skos:related rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0002395</skos:related>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0056 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/calcaneus-meas -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0056">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/calcaneus-meas">
         <rdfs:label rdf:datatype="&rdfs;Literal">calcaneus measurement</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0063"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-(1976)-bone-meas"/>
         <skos:related rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0001450</skos:related>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0057 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/dist-epi-fused -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0057">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/dist-epi-fused">
         <rdfs:label rdf:datatype="&rdfs;Literal">Distal epiphysis fused</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0061"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/fusion-characterization"/>
         <rdfs:seeAlso rdf:datatype="&xsd;anyURI"> http://purl.obolibrary.org/obo/UBERON_0004379</rdfs:seeAlso>
         <rdfs:comment rdf:datatype="&xsd;string">The distal epiphysis is fully fused to the shaft, with no fusion line visible at the metaphysis.</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0058 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/dist-epi-unfused -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0058">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/dist-epi-unfused">
         <rdfs:label rdf:datatype="&rdfs;Literal">Distal epiphysis unfused</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0061"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/fusion-characterization"/>
         <rdfs:seeAlso rdf:datatype="&xsd;anyURI"> http://purl.obolibrary.org/obo/UBERON_0004379</rdfs:seeAlso>
         <rdfs:comment rdf:datatype="&xsd;string">The distal epiphysis is not fused to the shaft. The epiphysis and the shaft are completely separated. The specimen is either the unfused distal epiphysis, the unfused shaft, or portions of both that are not attached to each other.</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0059 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/dist-epi-fusing -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0059">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/dist-epi-fusing">
         <rdfs:label rdf:datatype="&rdfs;Literal">Distal epiphysis fusing</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0061"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/fusion-characterization"/>
         <rdfs:seeAlso rdf:datatype="&xsd;anyURI"> http://purl.obolibrary.org/obo/UBERON_0004379</rdfs:seeAlso>
         <rdfs:comment rdf:datatype="&xsd;string">The distal epiphysis is in the process of fusing. A fusion
 line is still visible at the metaphysis, but the epiphysis and the shaft
@@ -768,19 +768,19 @@ cannot be separated manually.</rdfs:comment>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0060 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/femur-meas -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0060">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/femur-meas">
         <rdfs:label rdf:datatype="&rdfs;Literal">femur measurement</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0063"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-(1976)-bone-meas"/>
         <skos:related rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0000981</skos:related>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0061 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/fusion-characterization -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0061">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/fusion-characterization">
         <rdfs:label rdf:datatype="&rdfs;Literal">Fusion characterization</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000051"/>
         <rdfs:comment rdf:datatype="&xsd;string">These classes are used to describe the epiphyseal charateristics of bone elements.</rdfs:comment>
@@ -788,355 +788,355 @@ cannot be separated manually.</rdfs:comment>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0062 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/humerus-meas -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0062">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/humerus-meas">
         <rdfs:label rdf:datatype="&rdfs;Literal">humerus measurement</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0063"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-(1976)-bone-meas"/>
         <skos:related rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0000976</skos:related>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0063 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-(1976)-bone-meas -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0063">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-(1976)-bone-meas">
         <rdfs:label rdf:datatype="&rdfs;Literal">Von den Driesch (1976) Bone Measurement</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0054"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/anatomical-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">A length distance measure for an anatomic element, usuallly defined as the distance between two clearly identified anatomic structures. These measurements were defined by Von den Driesch (1976).</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0064 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/metapodial-meas -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0064">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/metapodial-meas">
         <rdfs:label rdf:datatype="&rdfs;Literal">metapodial measurement</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0063"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-(1976)-bone-meas"/>
         <skos:related rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0003821</skos:related>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0065 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/pelvis-meas -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0065">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/pelvis-meas">
         <rdfs:label rdf:datatype="&rdfs;Literal">pelvis measurement</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0063"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-(1976)-bone-meas"/>
         <skos:related rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0012179</skos:related>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0066 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/phalanx-1-meas -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0066">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/phalanx-1-meas">
         <rdfs:label rdf:datatype="&rdfs;Literal">phalanx 1 measurement</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0063"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-(1976)-bone-meas"/>
         <skos:related rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0004302</skos:related>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0067 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/phalanx-2-meas -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0067">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/phalanx-2-meas">
         <rdfs:label rdf:datatype="&rdfs;Literal">phalanx 2 measurement</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0063"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-(1976)-bone-meas"/>
         <skos:related rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0004301</skos:related>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0068 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/phalanx-3-meas -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0068">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/phalanx-3-meas">
         <rdfs:label rdf:datatype="&rdfs;Literal">phalanx 3 measurement</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0063"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-(1976)-bone-meas"/>
         <skos:related rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0004300</skos:related>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0069 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/prox-epi-fused -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0069">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/prox-epi-fused">
         <rdfs:label rdf:datatype="&rdfs;Literal">Proximal epiphysis fused</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0061"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/fusion-characterization"/>
         <rdfs:comment rdf:datatype="&xsd;string">The proximal epiphysis is fully fused to the shaft, with no fusion line visible at the metaphysis.</rdfs:comment>
         <rdfs:seeAlso rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0004380</rdfs:seeAlso>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0070 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/prox-epi-unfused -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0070">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/prox-epi-unfused">
         <rdfs:label rdf:datatype="&rdfs;Literal">Proximal epiphysis unfused</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0061"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/fusion-characterization"/>
         <rdfs:comment rdf:datatype="&xsd;string">The proximal epiphysis is not fused to the shaft. The epiphysis and the shaft are completely separated. The specimen is either the unfused distal epiphysis, the unfused shaft, or portions of both that are not attached to each other.</rdfs:comment>
         <rdfs:seeAlso rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0004380</rdfs:seeAlso>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0071 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/prox-epi-fusing -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0071">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/prox-epi-fusing">
         <rdfs:label rdf:datatype="&rdfs;Literal">Proximal epiphysis fusing</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0061"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/fusion-characterization"/>
         <rdfs:comment rdf:datatype="&xsd;string">The proximal epiphysis is in the process of fusing. A fusion line is still visible at the metaphysis, but the epiphysis and the shaft cannot be separated manually.</rdfs:comment>
         <rdfs:seeAlso rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0004380</rdfs:seeAlso>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0072 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/radius-meas -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0072">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/radius-meas">
         <rdfs:label rdf:datatype="&rdfs;Literal">radius measurement</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0063"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-(1976)-bone-meas"/>
         <skos:related rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0001423</skos:related>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0073 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/scapula-meas -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0073">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/scapula-meas">
         <rdfs:label rdf:datatype="&rdfs;Literal">scapula measurement</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0063"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-(1976)-bone-meas"/>
         <skos:related rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0006849</skos:related>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0074 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/tarsal-meas -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0074">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/tarsal-meas">
         <rdfs:label rdf:datatype="&rdfs;Literal">tarsal measurement</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0063"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-(1976)-bone-meas"/>
         <skos:related rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0001447</skos:related>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0075 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/tibia-meas -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0075">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/tibia-meas">
         <rdfs:label rdf:datatype="&rdfs;Literal">tibia measurement</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0063"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-(1976)-bone-meas"/>
         <skos:related rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0000979</skos:related>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0076 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/ulna-meas -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0076">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/ulna-meas">
         <rdfs:label rdf:datatype="&rdfs;Literal">ulna measurement</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0063"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-(1976)-bone-meas"/>
         <skos:related rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0001424</skos:related>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0080 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/tibiotarsus-meas -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0080">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/tibiotarsus-meas">
         <rdfs:label rdf:datatype="&rdfs;Literal">tibiotarsus measurement</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0063"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-(1976)-bone-meas"/>
         <skos:related rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0008194</skos:related>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0081 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/Dip -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0081">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/Dip">
         <rdfs:label rdf:datatype="&rdfs;Literal">Dip</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0080"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/tibiotarsus-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Greatest diagonal of the proximal end: from the Condylus medialis femoralis to the Crista lateralis, even though in some species the distance from the Condylus medialis femoralis to the Crista tibia is greater. See pages 126-127.</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0082 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/Dic -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0082">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/Dic">
         <rdfs:label rdf:datatype="&rdfs;Literal">Dic</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0073"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/scapula-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Greatest cranial diagonal (for birds, see page: 115)</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0083 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/malleolus-meas -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0083">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/malleolus-meas">
         <rdfs:label rdf:datatype="&rdfs;Literal">malleolus measurement</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0063"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-(1976)-bone-meas"/>
         <skos:related rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0012291</skos:related>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0084 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/GD -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0084">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/GD">
         <rdfs:label rdf:datatype="&rdfs;Literal">GD</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0083"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/malleolus-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Greatest Depth</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0085 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/axis-meas -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0085">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/axis-meas">
         <rdfs:label rdf:datatype="&rdfs;Literal">axis measurement</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0063"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-(1976)-bone-meas"/>
         <skos:related rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0001093</skos:related>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0086 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/SBV -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0086">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/SBV">
         <rdfs:label rdf:datatype="&rdfs;Literal">SBV</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0085"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/axis-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Smallest breadth of the vertebra</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0087 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/other-meas -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0087">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/other-meas">
         <rdfs:label rdf:datatype="&rdfs;Literal">Other measurement</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0054"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/anatomical-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">This is currently a &quot;catch-all&quot; class for standard measurements not originally defined by Von den Driesch (1976).</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0088 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/HT -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0088">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/HT">
         <rdfs:label rdf:datatype="&rdfs;Literal">HT</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0062"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/humerus-meas"/>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0089 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/humerus-meas -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0089">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/humerus-meas">
         <rdfs:label rdf:datatype="&rdfs;Literal">humerus measurement</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0087"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/other-meas"/>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0090 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/HT -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0090">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/HT">
         <rdfs:label rdf:datatype="&rdfs;Literal">HT</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0089"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/humerus-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">(Greatest) Height of the trochlea</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0092 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/H -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0092">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/H">
         <rdfs:label rdf:datatype="&rdfs;Literal">H</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0085"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0095"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/axis-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/atlas-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">(Greatest) Height</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0093 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/LCDe -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0093">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/LCDe">
         <rdfs:label rdf:datatype="&rdfs;Literal">LCDe</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0085"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/axis-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Greatest length in the region of the corpus (body) including the dens</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0094 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/LAPa -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0094">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/LAPa">
         <rdfs:label rdf:datatype="&rdfs;Literal">LAPa</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0085"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/axis-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Greatest length of the arch including the Processus articulares caudales</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0095 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/atlas-meas -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0095">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/atlas-meas">
         <rdfs:label rdf:datatype="&rdfs;Literal">atlas measurement</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0063"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/von-den-driesch-(1976)-bone-meas"/>
         <skos:related rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/UBERON_0001092</skos:related>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0096 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/BFcr -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0096">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/BFcr">
         <rdfs:label rdf:datatype="&rdfs;Literal">BFcr</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0085"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0095"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/axis-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/atlas-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">(Greatest) breadth of the Facies articularis cranialis (cranial articular surface)</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0097 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/BFcd -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0097">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/BFcd">
         <rdfs:label rdf:datatype="&rdfs;Literal">BFcd</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0085"/>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0095"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/axis-meas"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/atlas-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">(Greatest) breadth of the Facies articularis caudalis (caudal articular surface)</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0098 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/LAd -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0098">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/LAd">
         <rdfs:label rdf:datatype="&rdfs;Literal">LAd</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0095"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/atlas-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Length of the Arcus dorsalis (dorsal arch), median. [Note: measured only in carnivores. Von den Driesch (1976): 67]</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0099 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/BPacd -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0099">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/BPacd">
         <rdfs:label rdf:datatype="&rdfs;Literal">BPacd</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0085"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/axis-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">(Greatest) breadth of the Processus articulares caudales</rdfs:comment>
     </Class>
     
 
 
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/zoo-0100 -->
+    <!-- http://opencontext.org/vocabularies/open-context-zooarch/BPtr -->
 
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0100">
+    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/BPtr">
         <rdfs:label rdf:datatype="&rdfs;Literal">BPtr</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0085"/>
+        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/axis-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">(Greatest) breadth across the Processus transversi</rdfs:comment>
     </Class>
     
