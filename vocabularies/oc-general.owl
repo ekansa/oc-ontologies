@@ -555,7 +555,26 @@
         <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/feature.jpg</oc-general:hasIcon>
     </owl:Class>
     
+    
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-structure -->
 
+    <owl:Class rdf:about="&oc-general;cat-structure">
+        <rdfs:label xml:lang="en">Structure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&oc-general;cat-loc-or-context"/>
+        <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/building-space.jpg</oc-general:hasIcon>
+        <rdfs:comment rdf:datatype="&xsd;string">A collection of features and contexts interpreted to represent a unit of architecture.</rdfs:comment>
+    </owl:Class>
+    
+    
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-feature -->
+
+    <owl:Class rdf:about="&oc-general;cat-space">
+        <rdfs:label xml:lang="en">Space</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&oc-general;cat-context"/>
+        <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/building-space.jpg</oc-general:hasIcon>
+        <rdfs:comment rdf:datatype="&xsd;string">A grouping of contexts interpreted to represent a unit of space (activity area, etc.), often infered by association with architectural features.</rdfs:comment>
+    </owl:Class>
+    
 
     <!-- http://opencontext.org/vocabularies/oc-general/cat-exc-unit -->
 
