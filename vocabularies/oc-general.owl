@@ -786,6 +786,18 @@
     
 
 
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-modification -->
+
+    <owl:Class rdf:about="&oc-general;cat-modification">
+        <rdfs:label xml:lang="en">Modification Feature</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&oc-general;subjects"/>
+        <rdfs:comment rdf:datatype="&xsd;string">An identified modification on another portable item (ecofact, artifact) interperated to result from human action.</rdfs:comment>
+        <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/modification-feature.jpg</oc-general:hasIcon>
+        <skos:closeMatch rdf:datatype="&xsd;anyURI">http://erlangen-crm.org/current/E25_Man-Made_Feature</skos:closeMatch>
+    </owl:Class>
+    
+
+
     <!-- http://opencontext.org/vocabularies/oc-general/cat-figurine -->
 
     <owl:Class rdf:about="&oc-general;cat-figurine">
@@ -794,6 +806,7 @@
         <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/figurine.jpg</oc-general:hasIcon>
     </owl:Class>
     
+
 
 
     <!-- http://opencontext.org/vocabularies/oc-general/contents -->
