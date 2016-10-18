@@ -566,7 +566,7 @@
     </owl:Class>
     
     
-    <!-- http://opencontext.org/vocabularies/oc-general/cat-feature -->
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-space -->
 
     <owl:Class rdf:about="&oc-general;cat-space">
         <rdfs:label xml:lang="en">Space</rdfs:label>
@@ -796,6 +796,16 @@
         <skos:closeMatch rdf:datatype="&xsd;anyURI">http://erlangen-crm.org/current/E25_Man-Made_Feature</skos:closeMatch>
     </owl:Class>
     
+    
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-stela -->
+
+    <owl:Class rdf:about="&oc-general;cat-stela">
+        <rdfs:label xml:lang="en">stela</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&oc-general;feature"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Upright stone slab, may be a commemorative marker with or without decorations and texts.</rdfs:comment>
+        <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/stela.jpg</oc-general:hasIcon>
+        <skos:closeMatch rdf:datatype="&xsd;anyURI">http://vocab.getty.edu/aat/300007023</skos:closeMatch>
+    </owl:Class>
 
 
     <!-- http://opencontext.org/vocabularies/oc-general/cat-figurine -->
