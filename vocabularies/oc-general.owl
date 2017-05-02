@@ -954,6 +954,14 @@
         <rdfs:comment rdf:datatype="&xsd;string">A binary file (PDF, Word, etc.) that may contain text and other media along with stylistic layout information.</rdfs:comment>
     </owl:Class>
     
+    
+    <!-- http://opencontext.org/vocabularies/oc-general/3d-model -->
+
+    <owl:Class rdf:about="&oc-general;3d-model">
+        <rdfs:label rdf:datatype="&xsd;anyURI">3D Model</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&oc-general;media"/>
+        <rdfs:comment rdf:datatype="&xsd;string">A mathematical representation of the three-dimensional surfaces of objects or features. These may include image files used as textures.</rdfs:comment>
+    </owl:Class>
 
 
     <!-- http://opencontext.org/vocabularies/oc-general/item-event-types -->
