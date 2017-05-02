@@ -945,6 +945,15 @@
         <rdfs:comment rdf:datatype="&xsd;string">A representation including: photographs, drawings, or other two dimensional images </rdfs:comment>
     </owl:Class>
     
+   
+    <!-- http://opencontext.org/vocabularies/oc-general/document-file -->
+
+    <owl:Class rdf:about="&oc-general;document-file">
+        <rdfs:label rdf:datatype="&xsd;anyURI">Document File</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&oc-general;media"/>
+        <rdfs:comment rdf:datatype="&xsd;string">A binary file (PDF, Word, etc.) that may contain text and other media along with stylistic layout information.</rdfs:comment>
+    </owl:Class>
+    
 
 
     <!-- http://opencontext.org/vocabularies/oc-general/item-event-types -->
