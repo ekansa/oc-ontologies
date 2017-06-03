@@ -966,7 +966,7 @@
     
    <!-- http://opencontext.org/vocabularies/oc-general/gis-vector-file -->
 
-    <owl:Class rdf:about="&oc-general;gis-file">
+    <owl:Class rdf:about="&oc-general;gis-vector-file">
         <rdfs:label rdf:datatype="&xsd;anyURI">GIS Vector File</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;media"/>
         <rdfs:comment rdf:datatype="&xsd;string">A file in a format designed for representing geographical features, typically along with some non-spatial attributes.</rdfs:comment>
