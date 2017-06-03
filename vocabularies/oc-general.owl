@@ -962,6 +962,15 @@
         <rdfs:subClassOf rdf:resource="&oc-general;media"/>
         <rdfs:comment rdf:datatype="&xsd;string">A mathematical representation of the three-dimensional surfaces of objects or features. These may include image files used as textures.</rdfs:comment>
     </owl:Class>
+    
+    
+   <!-- http://opencontext.org/vocabularies/oc-general/gis-vector-file -->
+
+    <owl:Class rdf:about="&oc-general;gis-file">
+        <rdfs:label rdf:datatype="&xsd;anyURI">GIS Vector File</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&oc-general;media"/>
+        <rdfs:comment rdf:datatype="&xsd;string">A file in a format designed for representing geographical features, typically along with some non-spatial attributes.</rdfs:comment>
+    </owl:Class>
 
 
     <!-- http://opencontext.org/vocabularies/oc-general/item-event-types -->
