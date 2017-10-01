@@ -475,7 +475,7 @@
         <rdfs:label xml:lang="en">Human Bone</rdfs:label>
         <rdfs:subClassOf rdf:resource="&oc-general;cat-bio-subj-ecofact"/>
         <rdfs:comment rdf:datatype="&xsd;string">Bone remains of human beings.</rdfs:comment>
-        <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/animal-bone.jpg</oc-general:hasIcon>
+        <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/human-bone.jpg</oc-general:hasIcon>
     </owl:Class>
     
 
