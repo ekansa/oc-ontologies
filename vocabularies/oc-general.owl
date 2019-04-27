@@ -753,6 +753,36 @@
         <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/sample.jpg</oc-general:hasIcon>
     </owl:Class>
     
+    
+    
+   <!-- http://opencontext.org/vocabularies/oc-general/cat-bulk-ceramic -->
+
+    <owl:Class rdf:about="&oc-general;cat-bulk-ceramic">
+        <rdfs:label xml:lang="en">Bulk Ceramic</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&oc-general;cat-sample-col"/>
+        <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/sample.jpg</oc-general:hasIcon>
+    </owl:Class>
+    
+    
+    
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-bulk-bone -->
+
+    <owl:Class rdf:about="&oc-general;cat-bulk-bone">
+        <rdfs:label xml:lang="en">Bulk Bone/rdfs:label>
+        <rdfs:subClassOf rdf:resource="&oc-general;cat-sample-col"/>
+        <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/sample.jpg</oc-general:hasIcon>
+    </owl:Class>
+    
+    
+    <!-- http://opencontext.org/vocabularies/oc-general/cat-bulk-lithic -->
+
+    <owl:Class rdf:about="&oc-general;cat-bulk-lithic">
+        <rdfs:label xml:lang="en">Bulk Lithic/rdfs:label>
+        <rdfs:subClassOf rdf:resource="&oc-general;cat-sample-col"/>
+        <oc-general:hasIcon rdf:datatype="&xsd;anyURI">http://artiraq.org/static/oc/icons/sample.jpg</oc-general:hasIcon>
+    </owl:Class>
+    
+    
 
 
     <!-- http://opencontext.org/vocabularies/oc-general/cat-sample-col -->
