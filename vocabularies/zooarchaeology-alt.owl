@@ -10,6 +10,7 @@
     <!ENTITY skos "http://www.w3.org/2004/02/skos/core#" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY cidoc-crm "http://erlangen-crm.org/current/">
 ]>
 
 
@@ -22,6 +23,7 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xhv="http://www.w3.org/1999/xhtml/vocab#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:cidoc-crm="http://erlangen-crm.org/current/"
      xmlns:cc="http://creativecommons.org/ns#">
     <Ontology rdf:about="http://opencontext.org/vocabularies/open-context-zooarch">
         <rdfs:label>Open Context Zooarchaeology Annotations</rdfs:label>
@@ -125,6 +127,7 @@
         <rdfs:label rdf:datatype="&rdfs;Literal">B</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/metapodial-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Breadth of the middle of the diaphysis</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -135,6 +138,7 @@
         <rdfs:label rdf:datatype="&rdfs;Literal">BF</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/phalanx-3-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Breadth of the Facies articularis</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -147,6 +151,7 @@
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/phalanx-1-meas"/>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/radius-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">(Greatest) breadth of the Facies articularis distalis. Measured in the same plane as Bd. Only in equids and ruminants.</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -159,6 +164,7 @@
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/phalanx-2-meas"/>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/radius-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">(Greatest) breadth of the Facies articularis proximalis (humeral articular surface). Measured in the same plane as Bp. Ony in equids and ruminants.</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -169,6 +175,7 @@
         <rdfs:label rdf:datatype="&rdfs;Literal">BG</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/scapula-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Breadth of the glenoid cavity - Greatest breadth of the glenoid angle.</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -179,6 +186,7 @@
         <rdfs:label rdf:datatype="&rdfs;Literal">BPC</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/ulna-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">(Greatest) breadth across the coronoid process = greatest breadth of the proximal articular surface</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -189,6 +197,7 @@
         <rdfs:label rdf:datatype="&rdfs;Literal">BT</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/humerus-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">(Greatest) breadth of the trochlea, only in equids and ruminants. The trochlea is measured in the middle from the cranial side including the outer borders of both the lateral and the medial condyle. (See: von den Driesch 1976: 76-77)</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -199,6 +208,7 @@
         <rdfs:label rdf:datatype="&rdfs;Literal">BTr</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/femur-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">(Greatest) breadth of the region of the Trochanter tertius. Only in lagomorphs to be measred in parallel to the Bp!</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -216,6 +226,7 @@
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/radius-meas"/>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/tibia-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">(Greatest) breadth of the distal end (See: von den Driesch 1976: 76-77).</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -232,6 +243,7 @@
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/radius-meas"/>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/tibia-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">(Greatest) breadth of the proximal end. Not in canids or lago-morphs (See: von den Driesch 1976: 76-77).</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -245,6 +257,7 @@
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/radius-meas"/>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/tibia-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">(Smallest) circumference of the diaphysis. In general only in horses, where this measurement serves well to denote proportions</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -255,6 +268,7 @@
         <rdfs:label rdf:datatype="&rdfs;Literal">DC</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/femur-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">(Greatest) depth of the Caput femoris</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -265,6 +279,7 @@
         <rdfs:label rdf:datatype="&rdfs;Literal">DD</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/metapodial-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">(Smallest) depth of the diaphysis</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -275,6 +290,7 @@
         <rdfs:label rdf:datatype="&rdfs;Literal">DHA</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/scapula-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Diagonal height (see defintions for linear measurements in von den Driesch 1976:14) from the most distal point of the scapula to the thoracic angle.</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -285,6 +301,7 @@
         <rdfs:label rdf:datatype="&rdfs;Literal">DLS</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/phalanx-3-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Greatest diagonal length of the sole</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -295,6 +312,7 @@
         <rdfs:label rdf:datatype="&rdfs;Literal">DPA</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/ulna-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Depth across the Processus anconaeus. One measures the shortest distance from the Procesus anonaeus to the caudal border of the ulna.</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -306,6 +324,7 @@
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/metapodial-meas"/>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/tibia-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">(Greatest) depth of the distal end. Ususually measured only in equids and lagomorphs</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -316,6 +335,7 @@
         <rdfs:label rdf:datatype="&rdfs;Literal">Dl</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/astragalus-talus-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Greatest depth of the lateral half</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -326,6 +346,7 @@
         <rdfs:label rdf:datatype="&rdfs;Literal">Dm</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/astragalus-talus-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Greatest depth of the medial half</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -339,6 +360,7 @@
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/phalanx-1-meas"/>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/phalanx-2-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Depth of the proximal end</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -353,6 +375,7 @@
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/tarsal-meas"/>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/atlas-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Greatest breadth</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -363,6 +386,7 @@
         <rdfs:label rdf:datatype="&rdfs;Literal">GBA</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/pelvis-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Greatest breadth across the acetabula</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -373,6 +397,7 @@
         <rdfs:label rdf:datatype="&rdfs;Literal">GBTc</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/pelvis-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Greatest breadth across the Tubera coxarum = greatest breadth across the lateral angle</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -394,6 +419,7 @@
         <equivalentClass rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/GL"/>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/astragalus-talus-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Greatest height (= length).</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -416,6 +442,7 @@
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/atlas-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Greatest Length (GL) as defined by von den Driesch (1976). This measure should not be used for all bone elements, since it can be ambiguous depending on the specifics of a given bone element&apos;s morphology.
 </rdfs:comment>
+<cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -427,6 +454,7 @@
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/femur-meas"/>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/humerus-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Greatest Length from caput (head) (See: von den Driesch 1976: 76-77)</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -437,6 +465,7 @@
         <rdfs:label rdf:datatype="&rdfs;Literal">GLP</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/scapula-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Greatest length of the Processus articularis (glenoid process)</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -449,6 +478,7 @@
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/humerus-meas"/>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/metapodial-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Greatest length of the lateral part (See: von den Driesch 1976: 76-77)</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -459,6 +489,7 @@
         <rdfs:label rdf:datatype="&rdfs;Literal">GLm</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/astragalus-talus-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Greatest length of the medial half</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -469,6 +500,7 @@
         <rdfs:label rdf:datatype="&rdfs;Literal">GLpe</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/phalanx-1-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Greatest length of the peripheral (abaxial) half. Most of the anterior first phalanges of Bos re formed in such a manner that the proximodorsal and the proximovolar prominent parts of the perupheral section of the proximal rticular surface can serve s fixed points for one of the callipers.</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -479,6 +511,7 @@
         <rdfs:label rdf:datatype="&rdfs;Literal">HP</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/phalanx-3-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Height in the region of the extensor process (measuring box!)</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -489,6 +522,7 @@
         <rdfs:label rdf:datatype="&rdfs;Literal">HS</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/scapula-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Height (see definitions of linear measurements von den Driesch 1976:14) along the spine</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -499,6 +533,7 @@
         <rdfs:label rdf:datatype="&rdfs;Literal">LA</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/pelvis-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Length of the acetabulum including the lip.</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -509,6 +544,7 @@
         <rdfs:label rdf:datatype="&rdfs;Literal">LAR</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/pelvis-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Length of the acetabulum on the rim</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -519,6 +555,7 @@
         <rdfs:label rdf:datatype="&rdfs;Literal">LF</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/phalanx-3-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Length of the Facies articularis (articular surface)</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -529,6 +566,7 @@
         <rdfs:label rdf:datatype="&rdfs;Literal">LFo</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/pelvis-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Inner length of the foramen obturatum</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -539,6 +577,7 @@
         <rdfs:label rdf:datatype="&rdfs;Literal">LG</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/scapula-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Length of the glenoid cavity.</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -549,6 +588,7 @@
         <rdfs:label rdf:datatype="&rdfs;Literal">LO</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/ulna-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Length of the olecranon. Only in ruminants</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -559,6 +599,7 @@
         <rdfs:label rdf:datatype="&rdfs;Literal">LS</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/pelvis-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Length of the symphysis. Only measured when the two halves have fused.</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -570,6 +611,7 @@
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/phalanx-3-meas"/>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/scapula-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Length of the dorsal surface</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -580,6 +622,7 @@
         <rdfs:label rdf:datatype="&rdfs;Literal">LeP</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/metapodial-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Length, excepting the plantar projection</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -592,6 +635,7 @@
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/radius-meas"/>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/tibia-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Length of the lateral part</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -602,6 +646,7 @@
         <rdfs:label rdf:datatype="&rdfs;Literal">LmT</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/astragalus-talus-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Length of the medial part of the Trochlea tali</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -612,6 +657,7 @@
         <rdfs:label rdf:datatype="&rdfs;Literal">MBS</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/phalanx-3-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Middle breadth of the sole = breadth in the middle of the sole</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -622,6 +668,7 @@
         <rdfs:label rdf:datatype="&rdfs;Literal">PL</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/radius-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Physiological length. Applies to horses, where one measures in the longitudinal axis of the bone from the proximal articular surface to the distal articular surfac.</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -632,6 +679,7 @@
         <rdfs:label rdf:datatype="&rdfs;Literal">SB</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/pelvis-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Smallest breadth of the shaft of ilium</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -642,6 +690,7 @@
         <rdfs:label rdf:datatype="&rdfs;Literal">SBI</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/pelvis-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Smallest breadth across the bodies of the ischia</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -652,6 +701,7 @@
         <rdfs:label rdf:datatype="&rdfs;Literal">SC</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/pelvis-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Smallest circumference of the shaft of ilium</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -668,6 +718,7 @@
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/radius-meas"/>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/tibia-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Smallest breadth of the diaphysis (See: von den Driesch 1976: 76-77)</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -678,6 +729,7 @@
         <rdfs:label rdf:datatype="&rdfs;Literal">SDO</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/ulna-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Smallest depth of the olecranon. Cannot be accurately measured in bears.</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -688,6 +740,7 @@
         <rdfs:label rdf:datatype="&rdfs;Literal">SH</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/pelvis-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Smallest height of the haft of ilium</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -698,6 +751,7 @@
         <rdfs:label rdf:datatype="&rdfs;Literal">SLC</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/scapula-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Smallest length of the Collum scapulae (neck of the scapula).</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -957,6 +1011,7 @@ cannot be separated manually.</rdfs:comment>
         <rdfs:label rdf:datatype="&rdfs;Literal">Dip</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/tibiotarsus-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Greatest diagonal of the proximal end: from the Condylus medialis femoralis to the Crista lateralis, even though in some species the distance from the Condylus medialis femoralis to the Crista tibia is greater. See pages 126-127.</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -967,6 +1022,7 @@ cannot be separated manually.</rdfs:comment>
         <rdfs:label rdf:datatype="&rdfs;Literal">Dic</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/scapula-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Greatest cranial diagonal (for birds, see page: 115)</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -987,6 +1043,7 @@ cannot be separated manually.</rdfs:comment>
         <rdfs:label rdf:datatype="&rdfs;Literal">GD</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/malleolus-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Greatest Depth</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -1007,6 +1064,7 @@ cannot be separated manually.</rdfs:comment>
         <rdfs:label rdf:datatype="&rdfs;Literal">SBV</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/axis-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Smallest breadth of the vertebra</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -1017,15 +1075,6 @@ cannot be separated manually.</rdfs:comment>
         <rdfs:label rdf:datatype="&rdfs;Literal">Other measurement</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/anatomical-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">This is currently a &quot;catch-all&quot; class for standard measurements not originally defined by Von den Driesch (1976).</rdfs:comment>
-    </Class>
-    
-
-
-    <!-- http://opencontext.org/vocabularies/open-context-zooarch/HT -->
-
-    <Class rdf:about="http://opencontext.org/vocabularies/open-context-zooarch/HT">
-        <rdfs:label rdf:datatype="&rdfs;Literal">HT</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/humerus-meas"/>
     </Class>
     
 
@@ -1045,6 +1094,7 @@ cannot be separated manually.</rdfs:comment>
         <rdfs:label rdf:datatype="&rdfs;Literal">HT</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/humerus-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">(Greatest) Height of the trochlea</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -1056,6 +1106,7 @@ cannot be separated manually.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/axis-meas"/>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/atlas-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">(Greatest) Height</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -1076,6 +1127,7 @@ cannot be separated manually.</rdfs:comment>
         <rdfs:label rdf:datatype="&rdfs;Literal">LAPa</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/axis-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">Greatest length of the arch including the Processus articulares caudales</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -1097,6 +1149,7 @@ cannot be separated manually.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/axis-meas"/>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/atlas-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">(Greatest) breadth of the Facies articularis cranialis (cranial articular surface)</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -1108,6 +1161,7 @@ cannot be separated manually.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/axis-meas"/>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/atlas-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">(Greatest) breadth of the Facies articularis caudalis (caudal articular surface)</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -1128,6 +1182,7 @@ cannot be separated manually.</rdfs:comment>
         <rdfs:label rdf:datatype="&rdfs;Literal">BPacd</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/axis-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">(Greatest) breadth of the Processus articulares caudales</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
@@ -1138,6 +1193,7 @@ cannot be separated manually.</rdfs:comment>
         <rdfs:label rdf:datatype="&rdfs;Literal">BPtr</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://opencontext.org/vocabularies/open-context-zooarch/axis-meas"/>
         <rdfs:comment rdf:datatype="&xsd;string">(Greatest) breadth across the Processus transversi</rdfs:comment>
+        <cidoc-crm:P91_has_unit rdf:resource="https://www.wikidata.org/wiki/Q174789"/>
     </Class>
     
 
