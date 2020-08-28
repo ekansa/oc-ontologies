@@ -3,7 +3,7 @@
 
 <!DOCTYPE rdf:RDF [
     <!ENTITY crm-eh "http://purl.org/crmeh#" >
-    <!ENTITY foaf "http://xmlns.com/foaf/spec/" >
+    <!ENTITY foaf "http://xmlns.com/foaf/0.1/" >
     <!ENTITY bibo "http://purl.org/ontology/bibo/" >
     <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
     <!ENTITY cidoc-crm "http://erlangen-crm.org/current/" >
@@ -18,7 +18,7 @@
 <rdf:RDF xmlns="http://opencontext.org/vocabularies/oc-general#"
      xml:base="http://opencontext.org/vocabularies/oc-general"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:foaf="http://xmlns.com/foaf/spec/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:bibo="http://purl.org/ontology/bibo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
